@@ -1,0 +1,12 @@
+{
+    "GRIT": {
+        "display_name": "Grit",
+        "rules_text": "",
+        "ranked": true
+    },
+    "JUMP_UP": {
+        "display_name": "Jump Up",
+        "rules_text": "",
+        "ranked": false
+    }
+}

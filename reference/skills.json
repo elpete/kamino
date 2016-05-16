@@ -1,0 +1,26 @@
+{
+    "ASTROGATION": {
+        "display_name": "Astrogation",
+        "category": "GENERAL"
+        "characteristic": "INTELLECT",
+        "rules_text": ""
+    },
+    "RANGED_LIGHT": {
+        "display_name": "Ranged - Light",
+        "category": "COMBAT"
+        "characteristic": "AGILITY",
+        "rules_text": ""
+    },
+    "OUTER_RIM": {
+        "display_name": "Outer Rim",
+        "category": "KNOWLEDGE"
+        "characteristic": "INTELLECT",
+        "rules_text": ""
+    },
+    "MY_CUSTOM_SKILL": {
+        "display_name": "My Custom Skill",
+        "category": "CUSTOM"
+        "characteristic": "CUNNING",
+        "rules_text": ""
+    }
+}

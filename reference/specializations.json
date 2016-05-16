@@ -1,0 +1,28 @@
+{
+    "ASSASIN": {
+        "career": "BOUNTY_HUNTER",
+        "career_skills": [
+            "MELEE",
+            "RANGED_HEAVY",
+            "SKULLDUGGERY",
+            "STEALTH"
+        ],
+        "talents": {
+            "ASSASIN_T1": {
+                "talent_key": "GRIT"
+                "prerequisites": [],
+                "cost": 5
+            },
+            "ASSASIN_T5": {
+                "talent_key": "PRECISE_AIM",
+                "prerequisites": ["T1", "T6", "T9"],
+                "cost": 10
+            },
+            "ASSASIN_T6": {
+                "talent_key": "JUMP_UP",
+                "prerequisites": ["T2", "ASSASIN_T5", "T7", "T10"],
+                "cost": 10
+            }
+        }
+    }
+}

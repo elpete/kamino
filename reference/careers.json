@@ -1,0 +1,20 @@
+{
+    "BOUNTY_HUNTER": {
+        "display_name": "Bounty Hunter",
+        "career_skills": [
+            "ATHLETICS",
+            "BRAWL",
+            "PERCEPTION",
+            "PILOTING_PLANETARY",
+            "PILOTING_SPACE",
+            "RANGED_HEAVY",
+            "STREETWISE",
+            "VIGILENCE"
+        ],
+         "specializations": [
+            "ASSASIN",
+            "GADGETEER",
+            "SURVIVALIST"
+         ]
+    }
+}

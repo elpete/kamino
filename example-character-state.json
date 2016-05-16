@@ -1,0 +1,39 @@
+{
+    "name": "",
+    "species": "HUMAN",
+    "career": "",
+    "characteristics": {
+        "BRAWN": 2,
+        "AGILITY": 2,
+        "INTELLECT": 2,
+        "CUNNING": 2,
+        "WILLPOWER": 2,
+        "PRESENCE": 2
+    },
+    "specializations" : [],
+    "skills": {
+        // var rank = character.skills[skill] || 0
+        "COOL": 2,
+        "PERCEPTION": 1    
+    },
+    // need some way to referene which talent tree skill this is
+    "talents": {
+        "LETHAL_BLOWS": [ // the length of the array represents the number of ranks
+            "ASSASIN_T2",
+            "ASSASIN_T11",
+            "ASSASIN_T16"
+        ],
+        "JUMP_UP": [
+            "ASSASIN_T6"
+        ],
+        "QUICK_STRIKE": [
+            "ASSASIN_T7"
+        ],
+        "QUICK_DRAW": [
+            "ASSASIN_T8"
+        ],
+        "ANATOMY_LESSONS": [
+            "ASSASIN_T12"
+        ]
+    }
+}

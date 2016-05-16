@@ -1,0 +1,15 @@
+{
+    "HUMAN": {
+        "display_name": "Human",
+        "starting_characteristics": {
+            "BRAWN": 2,
+            "AGILITY": 2,
+            "INTELLECT": 2,
+            "CUNNING": 2,
+            "WILLPOWER": 2,
+            "PRESENCE": 2
+        }
+    },
+    "RODIAN": {},
+    "BOTHAN": {},
+}
