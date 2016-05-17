@@ -1,4 +1,64 @@
 {
+    "BOTHAN": {
+        "display_name": "Bothan",
+        "starting_characteristics": {
+            "BRAWN": 1,
+            "AGILITY": 2,
+            "INTELLECT": 2,
+            "CUNNING": 3,
+            "WILLPOWER": 2,
+            "PRESENCE": 2
+        },
+        "base_wound_threshold": 10,
+        "base_strain_threshold": 11,
+        "starting_xp": 100,
+        "special_abilities_text": ""
+    },
+    "CEREAN": {
+        "display_name": "Cerean",
+        "starting_characteristics": {
+            "BRAWN": 2,
+            "AGILITY": 1,
+            "INTELLECT": 3,
+            "CUNNING": 2,
+            "WILLPOWER": 2,
+            "PRESENCE": 2 
+        },
+        "base_wound_threshold": 10,
+        "base_strain_threshold": 13,
+        "starting_xp": 90,
+        "special_abilities_text": ""
+    },
+    "DROID": {
+        "display_name": "Droid",
+        "starting_characteristics": {
+            "BRAWN": 1,
+            "AGILITY": 1,
+            "INTELLECT": 1,
+            "CUNNING": 1,
+            "WILLPOWER": 1,
+            "PRESENCE": 1
+        },
+        "base_wound_threshold": 10,
+        "base_strain_threshold": 10,
+        "starting_xp": 175,
+        "special_abilities_text": ""
+    },    
+    "GAND": {
+        "display_name": "Gand",
+        "starting_characteristics": {
+            "BRAWN": 2,
+            "AGILITY": 2,
+            "INTELLECT": 2,
+            "CUNNING": 2,
+            "WILLPOWER": 3,
+            "PRESENCE": 1
+        },
+        "base_wound_threshold": 10,
+        "base_strain_threshold": 10,
+        "starting_xp": 100,
+        "special_abilities_text": ""
+    },
     "HUMAN": {
         "display_name": "Human",
         "starting_characteristics": {
@@ -8,8 +68,145 @@
             "CUNNING": 2,
             "WILLPOWER": 2,
             "PRESENCE": 2
-        }
+        },
+        "base_wound_threshold": 10,
+        "base_strain_threshold": 10,
+        "starting_xp": 110,
+        "special_abilities_text": ""
     },
-    "RODIAN": {},
-    "BOTHAN": {},
+    "KEL_DOR": {
+        "display_name": "Kel Dor",
+        "starting_characteristics": {
+            "BRAWN": 1,
+            "AGILITY": 2,
+            "INTELLECT": 2,
+            "CUNNING": 2,
+            "WILLPOWER": 3,
+            "PRESENCE": 2
+        },
+        "base_wound_threshold": 10,
+        "base_strain_threshold": 10,
+        "starting_xp": 100,
+        "special_abilities_text": ""
+    },
+    "MIRIALAN": {
+        "display_name": "Mirialan",
+        "starting_characteristics": {
+            "BRAWN": 2,
+            "AGILITY": 3,
+            "INTELLECT": 2,
+            "CUNNING": 1,
+            "WILLPOWER": 2,
+            "PRESENCE": 2
+        },
+        "base_wound_threshold": 11,
+        "base_strain_threshold": 10,
+        "starting_xp": 100,
+        "special_abilities_text": ""
+    },
+    "NAUTOLAN": {
+        "display_name": "Nautolan",
+        "starting_characteristics": {
+            "BRAWN": 3,
+            "AGILITY": 2,
+            "INTELLECT": 2,
+            "CUNNING": 2,
+            "WILLPOWER": 1,
+            "PRESENCE": 2
+        },
+        "base_wound_threshold": 11,
+        "base_strain_threshold": 9,
+        "starting_xp": 100,
+        "special_abilities_text": ""
+    },
+    "RODIAN": {
+        "display_name": "Rodian",
+        "starting_characteristics": {
+            "BRAWN": 2,
+            "AGILITY": 3,
+            "INTELLECT": 2,
+            "CUNNING": 2,
+            "WILLPOWER": 1,
+            "PRESENCE": 2
+        },
+        "base_wound_threshold": 10,
+        "base_strain_threshold": 10,
+        "starting_xp": 100,
+        "special_abilities_text": ""
+    },
+    "TOGRUTA": {
+        "display_name": "Togruta",
+        "starting_characteristics": {
+            "BRAWN": 1,
+            "AGILITY": 2,
+            "INTELLECT": 2,
+            "CUNNING": 3,
+            "WILLPOWER": 3,
+            "PRESENCE": 3
+        },
+        "base_wound_threshold": 10,
+        "base_strain_threshold": 10,
+        "starting_xp": 100,
+        "special_abilities_text": ""
+    },
+    "TRANDOSHAN": {
+        "display_name": "Trandoshan",
+        "starting_characteristics": {
+            "BRAWN": 3,
+            "AGILITY": 1,
+            "INTELLECT": 2,
+            "CUNNING": 2,
+            "WILLPOWER": 2,
+            "PRESENCE": 2
+        },
+        "base_wound_threshold": 12,
+        "base_strain_threshold": 9,
+        "starting_xp": 90,
+        "special_abilities_text": ""
+    },
+        "TWILEK": {
+        "display_name": "Twi'lek",
+        "starting_characteristics": {
+            "BRAWN": 1,
+            "AGILITY": 2,
+            "INTELLECT": 2,
+            "CUNNING": 2,
+            "WILLPOWER": 2,
+            "PRESENCE": 3
+        },
+        "base_wound_threshold": 10,
+        "base_strain_threshold": 11,
+        "starting_xp": 100,
+        "special_abilities_text": ""
+    },
+        "WOOKIE": {
+        "display_name": "Wookie",
+        "starting_characteristics": {
+            "BRAWN": 3,
+            "AGILITY": 2,
+            "INTELLECT": 2,
+            "CUNNING": 2,
+            "WILLPOWER": 1,
+            "PRESENCE": 2
+        },
+        "base_wound_threshold": 14,
+        "base_strain_threshold": 8,
+        "starting_xp": 90,
+        "special_abilities_text": ""
+    },
+    "ZABRAK": {
+        "display_name": "Zabrak",
+        "starting_characteristics": {
+            "BRAWN": 2,
+            "AGILITY": 2,
+            "INTELLECT": 2,
+            "CUNNING": 2,
+            "WILLPOWER": 3,
+            "PRESENCE": 1 
+        },
+        "base_wound_threshold": 10,
+        "base_strain_threshold": 10,
+        "starting_xp": 100,
+        "special_abilities_text": ""
+    }
 }
