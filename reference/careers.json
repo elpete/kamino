@@ -11,12 +11,12 @@
             "STREETWISE",
             "VIGILANCE"
         ],
-         "specializations": [
+        "specializations": [
             "ASSASIN",
             "GADGETEER",
             "SURVIVALIST"
-         ],
-         "force_rating": 0
+        ],
+        "force_rating": 0
     },
     "CONSULAR": {
         "display_name": "Consular",
@@ -28,12 +28,12 @@
             "LEADERSHIP",
             "NEGOTIATION"
         ],
-         "specializations": [
+        "specializations": [
             "HEALER",
             "NIMAN_DISCIPLE",
             "SAGE"
-         ],
-         "force_rating": 1
+        ],
+        "force_rating": 1
     },
     "GUARIDIAN": {
         "display_name": "Gaudian",
@@ -45,12 +45,12 @@
             "RESILIENCE",
             "VIGILANCE"
         ],
-         "specializations": [
+        "specializations": [
             "PEACEKEEPER",
             "PROTECTOR",
             "SORESU_DEFENDER"
-         ],
-         "force_rating": 1
+        ],
+        "force_rating": 1
     },
     "MYSTIC": {
         "display_name": "Mystic",
@@ -62,12 +62,12 @@
             "PERCEPTION",
             "VIGILANCE"
         ],
-         "specializations": [
+        "specializations": [
             "ADVISOR",
             "MAKASHI_DUELIST",
             "SEER"
-         ],
-         "force_rating": 1
+        ],
+        "force_rating": 1
     },
     "SEEKER": {
         "display_name": "Seeker",
@@ -79,12 +79,12 @@
             "SURVIAL",
             "VIGILANCE"
         ],
-         "specializations": [
+        "specializations": [
             "ATARU_STRIKER",
             "HUNTER",
             "PATHFINDER"
-         ],
-         "force_rating": 1
+        ],
+        "force_rating": 1
     },
     "SENTINEL": {
         "display_name": "Sentinel",
@@ -96,12 +96,12 @@
             "SKULDUGGERY",
             "STEALTH"
         ],
-         "specializations": [
+        "specializations": [
             "ARTISAN",
             "SHADOW",
             "SHIEN_EXPERT"
-         ],
-         "force_rating": 1
+        ],
+        "force_rating": 1
     },
     "WARRIOR": {
         "display_name": "Warrior",
@@ -113,12 +113,12 @@
             "PERCEPTION",
             "SURVIAL"
         ],
-         "specializations": [
+        "specializations": [
             "AGGRESSOR",
             "SHII_CHO_KNIGHT",
             "STARFIGHTER_ACE"
-         ],
-         "force_rating": 1
+        ],
+        "force_rating": 1
     },
 
 }
