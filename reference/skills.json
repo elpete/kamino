@@ -1,26 +1,212 @@
 {
     "ASTROGATION": {
         "display_name": "Astrogation",
-        "category": "GENERAL"
         "characteristic": "INTELLECT",
+        "type": "GENERAL",
         "rules_text": ""
     },
-    "RANGED_LIGHT": {
-        "display_name": "Ranged - Light",
-        "category": "COMBAT"
+    "ATHLETICS": {
+        "display_name": "Athletics",
+        "characteristic": "BRAWN",
+        "type": "GENERAL",
+        "rules_text": ""
+    },
+    "BRAWL": {
+        "display_name": "Brawl",
+        "characteristic": "BRAWN",
+        "type": "COMBAT",
+        "rules_text": ""
+    },
+    "CHARM": {
+        "display_name": "Charm",
+        "characteristic": "CUNNING",
+        "type": "GENERAL",
+        "rules_text": ""
+    },
+    "COERCION": {
+        "display_name": "Coercion",
+        "characteristic": "WILLPOWER",
+        "type": "GENERAL",
+        "rules_text": ""
+    },
+    "COMPUTERS": {
+        "display_name": "Computers",
+        "characteristic": "INTELLECT",
+        "type": "GENERAL",
+        "rules_text": ""
+    },
+    "COOL": {
+        "display_name": "Cool",
+        "characteristic": "PRESENCE",
+        "type": "GENERAL",
+        "rules_text": ""
+    },
+    "COORDINATION": {
+        "display_name": "Coordination",
         "characteristic": "AGILITY",
+        "type": "GENERAL",
+        "rules_text": ""
+    },
+    "CORE_WORLDS": {
+        "display_name": "Core Worlds",
+        "characteristic": "INTELLECT",
+        "type": "KNOWLEDGE",
+        "rules_text": ""
+    },
+    "DECEPTION": {
+        "display_name": "Deception",
+        "characteristic": "CUNNING",
+        "type": "GENERAL",
+        "rules_text": ""
+    },
+    "DISCIPLINE": {
+        "display_name": "Discipline",
+        "characteristic": "WILLPOWER",
+        "type": "GENERAL",
+        "rules_text": ""
+    },
+    "EDUCATION": {
+        "display_name": "Education",
+        "characteristic": "INTELLECT",
+        "type": "KNOWLEDGE",
+        "rules_text": ""
+    },
+    "GUNNERY": {
+        "display_name": "Gunnery",
+        "characteristic": "AGILITY",
+        "type": "COMBAT",
+        "rules_text": ""
+    },
+    "LEADERSHIP": {
+        "display_name": "Leadership",
+        "characteristic": "PRESENCE",
+        "type": "GENERAL",
+        "rules_text": ""
+    },
+    "LIGHTSABER": {
+        "display_name": "Lightsaber",
+        "characteristic": "BRAWN",
+        "type": "COMBAT",
+        "rules_text": ""
+    },
+    "LORE": {
+        "display_name": "Lore",
+        "characteristic": "INTELLECT",
+        "type": "KNOWLEDGE",
+        "rules_text": ""
+    },
+    "MECHANICS": {
+        "display_name": "Mechanics",
+        "characteristic": "INTELLECT",
+        "type": "GENERAL",
+        "rules_text": ""
+    },
+    "MEDICINE": {
+        "display_name": "Medicine",
+        "characteristic": "INTELLECT",
+        "type": "GENERAL",
+        "rules_text": ""
+    },
+    "MELEE": {
+        "display_name": "Melee",
+        "characteristic": "BRAWN",
+        "type": "COMBAT",
+        "rules_text": ""
+    },
+    "NEGOTIATION": {
+        "display_name": "Negotiation",
+        "characteristic": "PRESENCE",
+        "type": "GENERAL",
         "rules_text": ""
     },
     "OUTER_RIM": {
         "display_name": "Outer Rim",
-        "category": "KNOWLEDGE"
         "characteristic": "INTELLECT",
+        "type": "KNOWLEDGE",
+        "rules_text": ""
+    },
+    "PERCEPTION": {
+        "display_name": "Perception",
+        "characteristic": "CUNNING",
+        "type": "GENERAL",
+        "rules_text": ""
+    },
+    "PILOTING_PLANETARY": {
+        "display_name": "Piloting (Planetary)",
+        "characteristic": "AGILITY",
+        "type": "GENERAL",
+        "rules_text": ""
+    },
+    "PILOTING_SPACE": {
+        "display_name": "Piloting (Space)",
+        "characteristic": "AGILITY",
+        "type": "GENERAL",
+        "rules_text": ""
+    },
+    "RANGED_HEAVY": {
+        "display_name": "Ranged (Heavy)",
+        "characteristic": "AGILITY",
+        "type": "COMBAT",
+        "rules_text": ""
+    },
+    "RANGED_LIGHT": {
+        "display_name": "Ranged (Light)",
+        "characteristic": "AGILITY",
+        "type": "COMBAT",
+        "rules_text": ""
+    },
+    "RESILIENCE": {
+        "display_name": "Resilience",
+        "characteristic": "BRAWN",
+        "type": "GENERAL",
+        "rules_text": ""
+    },
+    "SKULDUGGERY": {
+        "display_name": "Skulduggery",
+        "characteristic": "CUNNING",
+        "type": "GENERAL",
+        "rules_text": ""
+    },
+    "STEALTH": {
+        "display_name": "Stealth",
+        "characteristic": "AGILITY",
+        "type": "GENERAL",
+        "rules_text": ""
+    },
+    "STREETWISE": {
+        "display_name": "Streetwise",
+        "characteristic": "CUNNING",
+        "type": "GENERAL",
+        "rules_text": ""
+    },
+    "SURVIVAL": {
+        "display_name": "Survival",
+        "characteristic": "CUNNING",
+        "type": "GENERAL",
+        "rules_text": ""
+    },
+    "UNDERWORLD": {
+        "display_name": "Underworld",
+        "characteristic": "INTELLECT",
+        "type": "KNOWLEDGE",
+        "rules_text": ""
+    },
+    "VIGILANCE": {
+        "display_name": "Vigilance",
+        "characteristic": "WILLPOWER",
+        "type": "GENERAL",
+        "rules_text": ""
+    },
+    "XENOLOGY": {
+        "display_name": "Xenology",
+        "characteristic": "INTELLECT",
+        "type": "KNOWLEDGE",
         "rules_text": ""
     },
     "MY_CUSTOM_SKILL": {
         "display_name": "My Custom Skill",
-        "category": "CUSTOM"
         "characteristic": "CUNNING",
+        "type": "CUSTOM",
         "rules_text": ""
     }
 }
