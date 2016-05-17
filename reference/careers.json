@@ -9,12 +9,116 @@
             "PILOTING_SPACE",
             "RANGED_HEAVY",
             "STREETWISE",
-            "VIGILENCE"
+            "VIGILANCE"
         ],
          "specializations": [
             "ASSASIN",
             "GADGETEER",
             "SURVIVALIST"
-         ]
-    }
+         ],
+         "force_rating": 0
+    },
+    "CONSULAR": {
+        "display_name": "Consular",
+        "career_skills": [
+            "COOL",
+            "DISCIPLINE",
+            "EDUCATION",
+            "LORE",
+            "LEADERSHIP",
+            "NEGOTIATION"
+        ],
+         "specializations": [
+            "HEALER",
+            "NIMAN_DISCIPLE",
+            "SAGE"
+         ],
+         "force_rating": 1
+    },
+    "GUARIDIAN": {
+        "display_name": "Gaudian",
+        "career_skills": [
+            "BRAWL",
+            "COOL",
+            "DISCIPLINE",
+            "MELEE",
+            "RESILIENCE",
+            "VIGILANCE"
+        ],
+         "specializations": [
+            "PEACEKEEPER",
+            "PROTECTOR",
+            "SORESU_DEFENDER"
+         ],
+         "force_rating": 1
+    },
+    "MYSTIC": {
+        "display_name": "Mystic",
+        "career_skills": [
+            "CHARM",
+            "COERCION",
+            "LORE",
+            "OUTER_RIM",
+            "PERCEPTION",
+            "VIGILANCE"
+        ],
+         "specializations": [
+            "ADVISOR",
+            "MAKASHI_DUELIST",
+            "SEER"
+         ],
+         "force_rating": 1
+    },
+    "SEEKER": {
+        "display_name": "Seeker",
+        "career_skills": [
+            "XENOLOGY",
+            "PILOTING_PLANETARY",
+            "PILOTING_SPACE",
+            "RANGED_HEAVY",
+            "SURVIAL",
+            "VIGILANCE"
+        ],
+         "specializations": [
+            "ATARU_STRIKER",
+            "HUNTER",
+            "PATHFINDER"
+         ],
+         "force_rating": 1
+    },
+    "SENTINEL": {
+        "display_name": "Sentinel",
+        "career_skills": [
+            "COMPUTERS",
+            "DECEPTION",
+            "CORE_WORLDS",
+            "PERCEPTION",
+            "SKULDUGGERY",
+            "STEALTH"
+        ],
+         "specializations": [
+            "ARTISAN",
+            "SHADOW",
+            "SHIEN_EXPERT"
+         ],
+         "force_rating": 1
+    },
+    "WARRIOR": {
+        "display_name": "Warrior",
+        "career_skills": [
+            "ATHLETICS",
+            "BRAWL",
+            "COOL",
+            "MELEE",
+            "PERCEPTION",
+            "SURVIAL"
+        ],
+         "specializations": [
+            "AGGRESSOR",
+            "SHII_CHO_KNIGHT",
+            "STARFIGHTER_ACE"
+         ],
+         "force_rating": 1
+    },
+
 }
