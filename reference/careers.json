@@ -18,6 +18,25 @@
         ],
         "force_rating": 0
     },
+    "COLONIST": {
+        "display_name": "Colonist",
+        "career_skills": [
+            "CHARM",
+            "DECEPTION",
+            "CORE_WORLDS",
+            "EDUCATION",
+            "LORE",
+            "LEADERSHIP",
+            "NEGOTIATION",
+            "STREETWISE"
+        ],
+        "specializations": [
+            "DOCTOR",
+            "POLITICO",
+            "SCHOLAR"
+        ],
+        "force_rating": 0
+    },
     "CONSULAR": {
         "display_name": "Consular",
         "career_skills": [
@@ -35,6 +54,25 @@
         ],
         "force_rating": 1
     },
+    "EXPLORER": {
+        "display_name": "Exlporer",
+        "career_skills": [
+            "ASTROGATON",
+            "COOL",
+            "LORE",
+            "OUTER_RIM",
+            "XENOLOGY",
+            "PERCEPTION",
+            "PILOTING_SPACE",
+            "SURVIAL"
+        ],
+        "specializations": [
+            "FRINGER",
+            "SCOUT",
+            "TRADER"
+        ],
+        "force_rating": 0
+    },
     "GUARIDIAN": {
         "display_name": "Gaudian",
         "career_skills": [
@@ -51,6 +89,25 @@
             "SORESU_DEFENDER"
         ],
         "force_rating": 1
+    },
+    "HIRED_GUN": {
+        "display_name": "Hired Gun",
+        "career_skills": [
+            "ATHLETICS",
+            "BRAWL",
+            "DISCIPLINE",
+            "MELEE",
+            "PILOTING_PLANETARY",
+            "RANGED_LIGHT",
+            "RESILIENCE",
+            "VIGILANCE"
+        ],
+        "specializations": [
+            "BODYGUARD",
+            "MARAUDER",
+            "MERCENARY_SOLDIER"
+        ],
+        "force_rating": 0
     },
     "MYSTIC": {
         "display_name": "Mystic",
@@ -102,6 +159,44 @@
             "SHIEN_EXPERT"
         ],
         "force_rating": 1
+    },
+    "SMUGGLER": {
+        "display_name": "Smuggler",
+        "career_skills": [
+            "COORDINATION",
+            "DECEPTION",
+            "UNDERWORLD",
+            "PERCEPTION",
+            "PILOTING_SPACE",
+            "SKULDUGGERY",
+            "STREETWISE",
+            "VIGILANCE"
+        ],
+        "specializations": [
+            "PILOT",
+            "SCOUNDREL",
+            "THIEF"
+        ],
+        "force_rating": 0
+    },
+    "TECHNICIAN": {
+        "display_name": "Technician",
+        "career_skills": [
+            "ASTROGATON",
+            "COMPUTERS",
+            "COORDINATION",
+            "DISCIPLINE",
+            "OUTER_RIM",
+            "MECHANICS",
+            "PERCEPTION",
+            "PILOTING_PLANETARY"
+        ],
+        "specializations": [
+            "MECHANIC",
+            "OUTLAW_TECH",
+            "SLICER"
+        ],
+        "force_rating": 0
     },
     "WARRIOR": {
         "display_name": "Warrior",
