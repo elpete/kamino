@@ -1,77 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Star Wars RPG - Character Generator</title>
-
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
-    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
-
-</head>
-<body>
-
-	<nav class="navbar navbar-default">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <a class="navbar-brand" href="#">
-	        <!-- <img alt="Brand" src="./images/triumph.png"> -->
-	      </a>
-	    </div>
-	  </div>
-	</nav>
-
-	<div class="col-sm-12" style="border">
-		<form class="form-horizontal">
-		  <div class="form-group">
-		    <label for="characterName" class="col-sm-2 control-label">Name</label>
-		    <div class="col-sm-6">
-		      <input class="form-control" id="characterName" placeholder="Pick a Character Name">
-		    </div>
-		  </div>
-		  <div class="form-group">
-		    <label for="characterSpecies" class="col-sm-2 control-label">Species</label>
-		    <div class="col-sm-6">
-		      <select class="form-control" id="characterSpecies">
-		      	<!-- <option>-</option> -->
-		      	<option>Bothan</option>
-		      	<option>Human</option>
-		      	<option>Droid</option>
-		      </select>
-		    </div>
-		  </div>
-		  <div class="form-group">
-		    <div class="col-sm-offset-2 col-sm-10">
-		      <button class="btn btn-primary" id="start">Start</button>
-		    </div>
-		  </div>
-		</form>
-
-		<p id="character"></p>
-
-		<div class="well well-lg col-sm-offset-2 col-sm-6" style="text-align:center">
-			<div class="row">
-				<div class="col-sm-2">Brawn</div>
-				<div class="col-sm-2">Agility</div>
-				<div class="col-sm-2">Intellect</div>
-				<div class="col-sm-2">Cunning</div>
-				<div class="col-sm-2">Willpower</div>
-				<div class="col-sm-2">Presence</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-2" id="brawnValue" ></div>
-				<div class="col-sm-2" id="agilityValue"></div>
-				<div class="col-sm-2" id="intellectValue"></div>
-				<div class="col-sm-2" id="cunningValue"></div>
-				<div class="col-sm-2" id="willpowerValue"></div>
-				<div class="col-sm-2" id="presenceValue"></div>
-			</div>
-		</div>
-	</div>
-
-<script>window.$ = window.jQuery = require('./js/jquery.min.js');</script>
-<script src="./js/script.js"></script>
-</body>
+  <script src="./dist/bundle.js"></script>
 </html>
