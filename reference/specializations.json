@@ -9,7 +9,7 @@
         ],
         "talents": {
             "ASSASIN_T1": {
-                "talent_key": "GRIT"
+                "talent_key": "GRIT",
                 "prerequisites": [],
                 "cost": 5
             },
