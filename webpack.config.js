@@ -1,3 +1,5 @@
+var webpack = require('webpack')
+
 module.exports = {
     entry: './src/app.js',
     output: {
@@ -15,5 +17,11 @@ module.exports = {
                 loader: 'babel'
             }
         ]
-    }
+    },
+    devtool: 'cheap-module-eval-source-map',
+    plugins: [
+        new webpack.DefinePlugin({
+            'process.env.NODE_ENV': JSON.stringify('development')
+        })
+    ]
 }
