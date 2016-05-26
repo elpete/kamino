@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 
 import species from '../../reference/species.json'
 
-export default class SpeciesSelection extends Component {
+export default class Kamino extends Component {
     
     constructor(props) {
         super(props)
@@ -25,7 +25,7 @@ export default class SpeciesSelection extends Component {
         ));
 
         return (
-            <div>
+            <div className='well col-md-12'>
 
                 <form>
                     <div className='form-group'>

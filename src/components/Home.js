@@ -6,8 +6,7 @@ export default class Home extends Component {
     render() {
         return (
             <div>
-                Home
-                <Link to='/species'>Start</Link>
+                <Link className='btn btn-primary' to='/species'>Begin the Cloning Process</Link>
             </div>
         )
     }

@@ -4,6 +4,7 @@ import {history} from '../store'
 
 import App from '../components/App'
 import Home from '../components/Home'
+import Kamino from '../components/Kamino'
 import SpeciesSelection from '../components/SpeciesSelection'
 
 const routes = (
@@ -11,6 +12,7 @@ const routes = (
         <Route path="/" component={App}>
             <IndexRoute component={Home} />
             <Route path="/species" component={SpeciesSelection} />
+
         </Route>
     </Router>
 )
