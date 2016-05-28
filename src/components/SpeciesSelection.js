@@ -25,8 +25,7 @@ export default class SpeciesSelection extends Component {
         ));
 
         return (
-            <div>
-
+            <div className='well'>
                 <form>
                     <div className='form-group'>
                         <label>To begin, please select a Species. <em>(For your convience, we have set the default species to 'Human'.)</em></label>
@@ -35,7 +34,7 @@ export default class SpeciesSelection extends Component {
                         </select>
                     </div>
                     <div className='form-group'>
-                        <label>Here are the characteristics for a {thisSpecies.display_name}.</label>
+                        <label>Here are the starting characteristics for a {thisSpecies.display_name}.</label>
 
                         <table className='table table-bordered table-condensed'>
                             <thead>
@@ -62,8 +61,6 @@ export default class SpeciesSelection extends Component {
                     </div>
                     <button className="btn btn-success">Confirm</button>
                 </form>
-
-
             </div>
         )
     }
