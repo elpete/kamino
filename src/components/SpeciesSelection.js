@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 
+import {Link} from 'react-router'
+
 import species from '../../reference/species.json'
 
 export default class SpeciesSelection extends Component {
@@ -25,12 +27,16 @@ export default class SpeciesSelection extends Component {
         ));
 
         return (
+            
             <div className='well'>
                 <form>
                     <div className='form-group'>
                         <label>To begin, please select a Species. <em>(For your convience, we have set the default species to 'Human'.)</em></label>
-                        <select className='form-control'onChange={this._selectSpecies.bind(this)} value={this.state.selectedSpecies}>
-                            {options}
+                        <select 
+                            className='form-control'
+                            onChange={this._selectSpecies.bind(this)} 
+                            value={this.state.selectedSpecies}>
+                                {options}
                         </select>
                     </div>
                     <div className='form-group'>
@@ -59,7 +65,7 @@ export default class SpeciesSelection extends Component {
                             </tbody>
                         </table>
                     </div>
-                    <button className="btn btn-success">Confirm</button>
+                    <Link className="btn btn-success" to='/career'>Confirm</Link>
                 </form>
             </div>
         )

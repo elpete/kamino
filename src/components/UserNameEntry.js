@@ -18,9 +18,9 @@ export default class UserNameEntry extends Component {
                 <form>
                     <div className='form-group'>
                         <label>By what name should we refer to you during your visit to our facilities?</label>
-                        <input></input>
+                        <input className='form-control'></input>
                     </div>
-                    <Link className='btn btn-primary' to='/species'>Contine to Species Selection</Link>
+                    <Link className='btn btn-success' to='/species'>Contine to Species Selection</Link>
                 </form>
             </div>
         )
