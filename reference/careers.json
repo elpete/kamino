@@ -57,14 +57,14 @@
     "EXPLORER": {
         "display_name": "Exlporer",
         "career_skills": [
-            "ASTROGATON",
+            "ASTROGATION",
             "COOL",
             "LORE",
             "OUTER_RIM",
             "XENOLOGY",
             "PERCEPTION",
             "PILOTING_SPACE",
-            "SURVIAL"
+            "SURVIVAL"
         ],
         "specializations": [
             "FRINGER",
@@ -74,7 +74,7 @@
         "force_rating": 0
     },
     "GUARIDIAN": {
-        "display_name": "Gaudian",
+        "display_name": "Gaurdian",
         "career_skills": [
             "BRAWL",
             "COOL",
@@ -133,7 +133,7 @@
             "PILOTING_PLANETARY",
             "PILOTING_SPACE",
             "RANGED_HEAVY",
-            "SURVIAL",
+            "SURVIVAL",
             "VIGILANCE"
         ],
         "specializations": [
@@ -182,7 +182,7 @@
     "TECHNICIAN": {
         "display_name": "Technician",
         "career_skills": [
-            "ASTROGATON",
+            "ASTROGATION",
             "COMPUTERS",
             "COORDINATION",
             "DISCIPLINE",
@@ -206,7 +206,7 @@
             "COOL",
             "MELEE",
             "PERCEPTION",
-            "SURVIAL"
+            "SURVIVAL"
         ],
         "specializations": [
             "AGGRESSOR",
@@ -214,6 +214,5 @@
             "STARFIGHTER_ACE"
         ],
         "force_rating": 1
-    },
-
+    }
 }
