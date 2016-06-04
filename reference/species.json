@@ -43,7 +43,22 @@
         "base_strain_threshold": 10,
         "starting_xp": 175,
         "special_abilities_text": ""
-    },    
+    },
+    "FALLEEN": {
+        "display_name": "Falleen",
+        "starting_characteristics": {
+            "BRAWN": 1,
+            "AGILITY": 2,
+            "INTELLECT": 2,
+            "CUNNING": 2,
+            "WILLPOWER": 2,
+            "PRESENCE": 3
+        },
+        "base_wound_threshold": 10,
+        "base_strain_threshold": 12,
+        "starting_xp": 90,
+        "special_abilities_text": ""
+    },
     "GAND": {
         "display_name": "Gand",
         "starting_characteristics": {
@@ -56,6 +71,21 @@
         },
         "base_wound_threshold": 10,
         "base_strain_threshold": 10,
+        "starting_xp": 100,
+        "special_abilities_text": ""
+    },
+    "GOTAL": {
+        "display_name": "Gotal",
+        "starting_characteristics": {
+            "BRAWN": 2,
+            "AGILITY": 2,
+            "INTELLECT": 2,
+            "CUNNING": 3,
+            "WILLPOWER": 2,
+            "PRESENCE": 1
+        },
+        "base_wound_threshold": 9,
+        "base_strain_threshold": 8,
         "starting_xp": 100,
         "special_abilities_text": ""
     },
@@ -119,6 +149,21 @@
         "starting_xp": 100,
         "special_abilities_text": ""
     },
+    "QUARREN": {
+        "display_name": "Quarren",
+        "starting_characteristics": {
+            "BRAWN": 2,
+            "AGILITY": 2,
+            "INTELLECT": 1,
+            "CUNNING": 2,
+            "WILLPOWER": 3,
+            "PRESENCE": 2
+        },
+        "base_wound_threshold": 10,
+        "base_strain_threshold": 8,
+        "starting_xp": 95,
+        "special_abilities_text": ""
+    },
     "RODIAN": {
         "display_name": "Rodian",
         "starting_characteristics": {
@@ -164,7 +209,7 @@
         "starting_xp": 90,
         "special_abilities_text": ""
     },
-        "TWILEK": {
+    "TWILEK": {
         "display_name": "Twi'lek",
         "starting_characteristics": {
             "BRAWN": 1,
@@ -179,7 +224,7 @@
         "starting_xp": 100,
         "special_abilities_text": ""
     },
-        "WOOKIE": {
+    "WOOKIE": {
         "display_name": "Wookie",
         "starting_characteristics": {
             "BRAWN": 3,
