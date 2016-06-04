@@ -1,4 +1,55 @@
 {
+    "ADVISOR": {
+        "display_name": "Advisor",
+        "career": "MYSTIC",
+        "career_skills": [
+            "CHARM",
+            "DECEPTION",
+            "NEGOTIATION",
+            "STREETWISE"
+        ],
+        "talents": {
+            "{ADVISOR_T1": {
+                "talent_key": "PLAUSIBLE_DENIABILITY",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "AGGRESSOR": {
+        "display_name": "Aggressor",
+        "career": "WARRIOR",
+        "career_skills": [
+            "COERCION",
+            "RANGED_LIGHT",
+            "STREETWISE",
+            "UNDERWORLD"
+        ],
+        "talents": {
+            "{AGGRESSOR_T1": {
+                "talent_key": "INTIMIDATING",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "ARTISAN": {
+        "display_name": "Artisan",
+        "career": "SENTINEL",
+        "career_skills": [
+            "ASTROGATION",
+            "COMMAND",
+            "EDUCATION",
+            "MECHANICS"
+        ],
+        "talents": {
+            "{ARTISAN_T1": {
+                "talent_key": "SOLID_REPAIRS",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
     "ASSASIN": {
         "display_name": "Assassin",
         "career": "BOUNTY_HUNTER",
@@ -26,137 +77,18 @@
             }
         }
     },
-    "GADGETEER": {
-        "display_name": "Gadgeteer",
-        "career": "BOUNTY_HUNTER",
+    "ATARU_STRIKER": {
+        "display_name": "Ataru Striker",
+        "career": "SEEKER",
         "career_skills": [
-            "BRAWL",
-            "COERCION",
-            "MECHANICS",
-            "RANGED_LIGHT"
-        ],
-        "talents": {
-            "GADGETEER_T1": {
-                "talent_key": "BRACE",
-                "prerequisites":[],
-                "cost": 5
-            }
-        }
-    },
-    "SURVIALIST": {
-        "display_name": "Survivalist",
-        "career": "BOUNTY_HUNTER",
-        "career_skills": [
-            "PERCEPTION",
-            "RESILIENCE",
-            "SURVIAL",
-            "XENOLOGY"
-        ],
-        "talents": {
-            "SURVIALIST_T1": {
-                "talent_key": "FORAGER",
-                "prerequisites":[],
-                "cost": 5
-            }
-        }
-    },
-    "DOCTOR": {
-        "display_name": "Doctor",
-        "career": "COLONIST",
-        "career_skills": [
-            "COOL",
-            "EDUCATION",
-            "MEDICINE",
-            "RESILIENCE"
-        ],
-        "talents": {
-            "DOCTOR_T1": {
-                "talent_key": "SURGEON",
-                "prerequisites":[],
-                "cost": 5
-            }
-        }
-    },
-    "POLITICO": {
-        "display_name": "Politco",
-        "career": "COLONIST",
-        "career_skills": [
-            "CHARM",
-            "COERCION",
-            "DECEPTION",
-            "CORE_WORLDS"
-        ],
-        "talents": {
-            "{POLITICO_T1": {
-                "talent_key": "KILL_WITH_KINDNESS",
-                "prerequisites":[],
-                "cost": 5
-            }
-        }
-    },
-    "SCHOLAR": {
-        "display_name": "Scholar",
-        "career": "COLONIST",
-        "career_skills": [
-            "OUTER_RIM",
-            "UNDERWORLD",
-            "XENOLOGY",
+            "ATHLECTICS",
+            "COORDINATION",
+            "LIGHTSABER",
             "PERCEPTION"
         ],
         "talents": {
-            "{SCHOLAR_T1": {
-                "talent_key": "RESPECTED_SCHOLAR",
-                "prerequisites":[],
-                "cost": 5
-            }
-        }
-    },
-    "FRINGER": {
-        "display_name": "Fringer",
-        "career": "EXPLORER",
-        "career_skills": [
-            "ASTROGATION",
-            "COORDINATION",
-            "NEGOTIATION",
-            "STREET_SMARTSTWISE"
-        ],
-        "talents": {
-            "{FRINGER_T1": {
-                "talent_key": "GALAXY_MAPPER",
-                "prerequisites":[],
-                "cost": 5
-            }
-        }
-    },
-    "SCOUT": {
-        "display_name": "Scout",
-        "career": "EXPLORER",
-        "career_skills": [
-            "ATHLECTICS",
-            "MEDICINE",
-            "PILOTING_PLANETARY",
-            "SURVIVAL"
-        ],
-        "talents": {
-            "{SCOUT_T1": {
-                "talent_key": "RAPID_RECOVERY",
-                "prerequisites":[],
-                "cost": 5
-            }
-        }
-    },
-    "TRADER": {
-        "display_name": "Trader",
-        "career": "EXPLORER",
-        "career_skills": [
-            "DECEPTION",
-            "CORE_WORLDS",
-            "UNDERWORLD",
-            "NEGOTIATION"
-        ],
-        "talents": {
-            "{TRADER_T1": {
-                "talent_key": "KNOW_SOMEBODY",
+            "{ATARU_STRIKER_T1": {
+                "talent_key": "CONDITIONED",
                 "prerequisites":[],
                 "cost": 5
             }
@@ -179,142 +111,6 @@
             }
         }
     },
-    "MARAUDER": {
-        "display_name": "Marauder",
-        "career": "HIRED_GUN",
-        "career_skills": [
-            "COERCION",
-            "MELEE",
-            "RESILIENCE",
-            "SURVIVAL"
-        ],
-        "talents": {
-            "{MARAUDER_T1": {
-                "talent_key": "TOUGHENED",
-                "prerequisites":[],
-                "cost": 5
-            }
-        }
-    },
-    "MERCENARY_SOLDIER": {
-        "display_name": "Mercenary Soldier",
-        "career": "HIRED_GUN",
-        "career_skills": [
-            "DISCIPLINE",
-            "GUNNERY",
-            "LEADERSHIP",
-            "RANGED_HEAVY"
-        ],
-        "talents": {
-            "{MERCENARY_SOLDIER_T1": {
-                "talent_key": "COMMAND",
-                "prerequisites":[],
-                "cost": 5
-            }
-        }
-    },
-    "PILOT": {
-        "display_name": "Pilot",
-        "career": "SMUGGLER",
-        "career_skills": [
-            "ASTROGATION",
-            "GUNNERY",
-            "PILOTING_PLANETARY",
-            "PILOTING_SPACE"
-        ],
-        "talents": {
-            "{PILOT_T1": {
-                "talent_key": "FULL_THROTTLE",
-                "prerequisites":[],
-                "cost": 5
-            }
-        }
-    },
-    "SCOUNDREL": {
-        "display_name": "Scoundrel",
-        "career": "SMUGGLER",
-        "career_skills": [
-            "CHARM",
-            "COOL",
-            "DECEPTION",
-            "RANGED_LIGHT"
-        ],
-        "talents": {
-            "{SCOUNDREL_T1": {
-                "talent_key": "BLACK_MARKET_CONTACTS",
-                "prerequisites":[],
-                "cost": 5
-            }
-        }
-    },
-    "THIEF": {
-        "display_name": "Thief",
-        "career": "SMUGGLER",
-        "career_skills": [
-            "COMPUTERS",
-            "SKULLDUGGERY",
-            "STEALTH",
-            "VIGILANCE"
-        ],
-        "talents": {
-            "{THIEF_T1": {
-                "talent_key": "STREET_SMARTS",
-                "prerequisites":[],
-                "cost": 5
-            }
-        }
-    },
-    "MECHANIC": {
-        "display_name": "Mechanic",
-        "career": "TECHNICIAN",
-        "career_skills": [
-            "BRAWL",
-            "MECHANICS",
-            "PILOTING_SPACE",
-            "SKULLDUGGERY"
-        ],
-        "talents": {
-            "{MECHANIC_T1": {
-                "talent_key": "GEARHEAD",
-                "prerequisites":[],
-                "cost": 5
-            }
-        }
-    },
-    "OUTLAW_TECH": {
-        "display_name": "Outlaw Tech",
-        "career": "TECHNICIAN",
-        "career_skills": [
-            "EDUCATION",
-            "UNDERWORLD",
-            "MECHANICS",
-            "STREETWISE"
-        ],
-        "talents": {
-            "{OUTLAW_TECH_T1": {
-                "talent_key": "TINKERER",
-                "prerequisites":[],
-                "cost": 5
-            }
-        }
-    },
-    "SLICER": {
-        "display_name": "Slicer",
-        "career": "TECHNICIAN",
-        "career_skills": [
-            "COMPUTERS",
-            "EDUCATION",
-            "UNDERWORLD",
-            "STEALTH"
-        ],
-        "talents": {
-            "{SLICER_T1": {
-                "talent_key": "CODEBREAKER",
-                "prerequisites":[],
-                "cost": 5
-            }
-        }
-    },
     "CHARMER": {
         "display_name": "Charmer",
         "career": "SMUGGLER",
@@ -327,6 +123,57 @@
         "talents": {
             "{CHARMER_T1": {
                 "talent_key": "SMOOTH_TALKER",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "DOCTOR": {
+        "display_name": "Doctor",
+        "career": "COLONIST",
+        "career_skills": [
+            "COOL",
+            "EDUCATION",
+            "MEDICINE",
+            "RESILIENCE"
+        ],
+        "talents": {
+            "DOCTOR_T1": {
+                "talent_key": "SURGEON",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "FRINGER": {
+        "display_name": "Fringer",
+        "career": "EXPLORER",
+        "career_skills": [
+            "ASTROGATION",
+            "COORDINATION",
+            "NEGOTIATION",
+            "STREETWISE"
+        ],
+        "talents": {
+            "{FRINGER_T1": {
+                "talent_key": "GALAXY_MAPPER",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "GADGETEER": {
+        "display_name": "Gadgeteer",
+        "career": "BOUNTY_HUNTER",
+        "career_skills": [
+            "BRAWL",
+            "COERCION",
+            "MECHANICS",
+            "RANGED_LIGHT"
+        ],
+        "talents": {
+            "GADGETEER_T1": {
+                "talent_key": "BRACE",
                 "prerequisites":[],
                 "cost": 5
             }
@@ -366,5 +213,463 @@
             }
         }
     },
-
+    "HEALER": {
+        "display_name": "Healer",
+        "career": "CONSULAR",
+        "career_skills": [
+            "DISCIPLINE",
+            "EDUCATION",
+            "MEDICINE",
+            "XENOLOGY"
+        ],
+        "talents": {
+            "{HEALER_T1": {
+                "talent_key": "SURGEON",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "HUNTER": {
+        "display_name": "Hunter",
+        "career": "SEEKER",
+        "career_skills": [
+            "COORDINATION",
+            "RANGED_HEAVY",
+            "STEALTH",
+            "VIGILANCE"
+        ],
+        "talents": {
+            "{HUNTER_T1": {
+                "talent_key": "RAPID_RECOVERY",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "MAKASHI_DEULIST": {
+        "display_name": "Makashi Deulist",
+        "career": "MYSTIC",
+        "career_skills": [
+            "CHARM",
+            "COOL",
+            "COORDINATION",
+            "LIGHTSABER"
+        ],
+        "talents": {
+            "{MAKASHI_DEULIST_T1": {
+                "talent_key": "GRIT",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "MARAUDER": {
+        "display_name": "Marauder",
+        "career": "HIRED_GUN",
+        "career_skills": [
+            "COERCION",
+            "MELEE",
+            "RESILIENCE",
+            "SURVIVAL"
+        ],
+        "talents": {
+            "{MARAUDER_T1": {
+                "talent_key": "TOUGHENED",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "MECHANIC": {
+        "display_name": "Mechanic",
+        "career": "TECHNICIAN",
+        "career_skills": [
+            "BRAWL",
+            "MECHANICS",
+            "PILOTING_SPACE",
+            "SKULLDUGGERY"
+        ],
+        "talents": {
+            "{MECHANIC_T1": {
+                "talent_key": "GEARHEAD",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "MERCENARY_SOLDIER": {
+        "display_name": "Mercenary Soldier",
+        "career": "HIRED_GUN",
+        "career_skills": [
+            "DISCIPLINE",
+            "GUNNERY",
+            "LEADERSHIP",
+            "RANGED_HEAVY"
+        ],
+        "talents": {
+            "{MERCENARY_SOLDIER_T1": {
+                "talent_key": "COMMAND",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "NIMAN_DISCIPLE": {
+        "display_name": "Niman Disciple",
+        "career": "CONSULAR",
+        "career_skills": [
+            "DISCIPLINE",
+            "LEADERSHIP",
+            "LIGHTSABER",
+            "NEGOTIATION"
+        ],
+        "talents": {
+            "{NIMAN_DISCIPLE_T1": {
+                "talent_key": "PARRY",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "OUTLAW_TECH": {
+        "display_name": "Outlaw Tech",
+        "career": "TECHNICIAN",
+        "career_skills": [
+            "EDUCATION",
+            "MECHANICS",
+            "STREETWISE",
+            "UNDERWORLD"
+        ],
+        "talents": {
+            "{OUTLAW_TECH_T1": {
+                "talent_key": "TINKERER",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "PATHFINDER": {
+        "display_name": "Pathfinder",
+        "career": "SEEKER",
+        "career_skills": [
+            "MEDICINE",
+            "RANGED_LIGHT",
+            "RESILIENCE",
+            "SURVIVAL"
+        ],
+        "talents": {
+            "{PATHFINDER_T1": {
+                "talent_key": "GRIT",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "PEACEKEEPER": {
+        "display_name": "Peacekeeper",
+        "career": "GUARDIAN",
+        "career_skills": [
+            "DISCIPLINE",
+            "LEADERSHIP",
+            "PERCEPTION",
+            "PILOTING_PLANETARY"
+        ],
+        "talents": {
+            "{PEACEKEEPER_T1": {
+                "talent_key": "COMMAND",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "PILOT": {
+        "display_name": "Pilot",
+        "career": "SMUGGLER",
+        "career_skills": [
+            "ASTROGATION",
+            "GUNNERY",
+            "PILOTING_PLANETARY",
+            "PILOTING_SPACE"
+        ],
+        "talents": {
+            "{PILOT_T1": {
+                "talent_key": "FULL_THROTTLE",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "POLITICO": {
+        "display_name": "Politco",
+        "career": "COLONIST",
+        "career_skills": [
+            "CHARM",
+            "COERCION",
+            "CORE_WORLDS",
+            "DECEPTION"
+        ],
+        "talents": {
+            "{POLITICO_T1": {
+                "talent_key": "KILL_WITH_KINDNESS",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "PROTECTOR": {
+        "display_name": "Protector",
+        "career": "GUARDIAN",
+        "career_skills": [
+            "ATHLECTICS",
+            "MEDICINE",
+            "RANGED_LIGHT",
+            "RESILIENCE"
+        ],
+        "talents": {
+            "{PROTECTOR_T1": {
+                "talent_key": "TOUGHENED",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "SAGE": {
+        "display_name": "Sage",
+        "career": "CONSULAR",
+        "career_skills": [
+            "ASTROGATION",
+            "CHARM",
+            "COOL",
+            "LORE"
+        ],
+        "talents": {
+            "{SAGE_T1": {
+                "talent_key": "GRIT",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "SCHOLAR": {
+        "display_name": "Scholar",
+        "career": "COLONIST",
+        "career_skills": [
+            "OUTER_RIM",
+            "PERCEPTION",
+            "UNDERWORLD",
+            "XENOLOGY"
+        ],
+        "talents": {
+            "{SCHOLAR_T1": {
+                "talent_key": "RESPECTED_SCHOLAR",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "SCOUNDREL": {
+        "display_name": "Scoundrel",
+        "career": "SMUGGLER",
+        "career_skills": [
+            "CHARM",
+            "COOL",
+            "DECEPTION",
+            "RANGED_LIGHT"
+        ],
+        "talents": {
+            "{SCOUNDREL_T1": {
+                "talent_key": "BLACK_MARKET_CONTACTS",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "SCOUT": {
+        "display_name": "Scout",
+        "career": "EXPLORER",
+        "career_skills": [
+            "ATHLECTICS",
+            "MEDICINE",
+            "PILOTING_PLANETARY",
+            "SURVIVAL"
+        ],
+        "talents": {
+            "{SCOUT_T1": {
+                "talent_key": "RAPID_RECOVERY",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "SEER": {
+        "display_name": "Seer",
+        "career": "MYSTIC",
+        "career_skills": [
+            "DISCIPLINE",
+            "LORE",
+            "SURVIVAL",
+            "VIGILANCE"
+        ],
+        "talents": {
+            "{SEER_T1": {
+                "talent_key": "FORAGER",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "SHADOW": {
+        "display_name": "Shadow",
+        "career": "SENTINEL",
+        "career_skills": [
+            "SKULLDUGGERY",
+            "STEALTH",
+            "STREETWISE",
+            "UNDERWORLD"
+        ],
+        "talents": {
+            "{SHADOW_T1": {
+                "talent_key": "SLEIGHT_OF_HAND",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "SHIEN_EXPERT": {
+        "display_name": "Shien Expert",
+        "career": "SENTINEL",
+        "career_skills": [
+            "ATHLECTICS",
+            "LIGHTSABER",
+            "RESILIENCE",
+            "SKULLDUGGERY"
+        ],
+        "talents": {
+            "{SHIEN_EXPERT_T1": {
+                "talent_key": "SIDE_STEP",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "SHI_CHO_KNIGHT": {
+        "display_name": "Shi-Cho Knight",
+        "career": "WARRIOR",
+        "career_skills": [
+            "ATHLECTICS",
+            "COORDINATION",
+            "LIGHTSABER",
+            "MELEE"
+        ],
+        "talents": {
+            "{SHI_CHO_KNIGHT_T1": {
+                "talent_key": "PARRY",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "SLICER": {
+        "display_name": "Slicer",
+        "career": "TECHNICIAN",
+        "career_skills": [
+            "COMPUTERS",
+            "EDUCATION",
+            "STEALTH",
+            "UNDERWORLD"
+        ],
+        "talents": {
+            "{SLICER_T1": {
+                "talent_key": "CODEBREAKER",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "SORESU_DEFENDER": {
+        "display_name": "Soresu Defender",
+        "career": "GUARDIAN",
+        "career_skills": [
+            "DISCIPLINE",
+            "LIGHTSABER",
+            "LORE",
+            "VIGILANCE"
+        ],
+        "talents": {
+            "{SORESU_DEFENDER_T1": {
+                "talent_key": "PARRY",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "STARFIGHTER_ACE": {
+        "display_name": "Starfigher Ace",
+        "career": "WARRIOR",
+        "career_skills": [
+            "ASTROGATION",
+            "GUNNERY",
+            "MECHANICS",
+            "PILOTING_SPACE"
+        ],
+        "talents": {
+            "{STARFIGHTER_ACE_T1": {
+                "talent_key": "GRIT",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "SURVIALIST": {
+        "display_name": "Survivalist",
+        "career": "BOUNTY_HUNTER",
+        "career_skills": [
+            "PERCEPTION",
+            "RESILIENCE",
+            "SURVIAL",
+            "XENOLOGY"
+        ],
+        "talents": {
+            "SURVIALIST_T1": {
+                "talent_key": "FORAGER",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "THIEF": {
+        "display_name": "Thief",
+        "career": "SMUGGLER",
+        "career_skills": [
+            "COMPUTERS",
+            "SKULLDUGGERY",
+            "STEALTH",
+            "VIGILANCE"
+        ],
+        "talents": {
+            "{THIEF_T1": {
+                "talent_key": "STREET_SMARTS",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "TRADER": {
+        "display_name": "Trader",
+        "career": "EXPLORER",
+        "career_skills": [
+            "CORE_WORLDS",
+            "DECEPTION",
+            "NEGOTIATION",
+            "UNDERWORLD"
+        ],
+        "talents": {
+            "{TRADER_T1": {
+                "talent_key": "KNOW_SOMEBODY",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    }
 }
