@@ -150,7 +150,7 @@
             "DECEPTION",
             "CORE_WORLDS",
             "PERCEPTION",
-            "SKULDUGGERY",
+            "SKULLDUGGERY",
             "STEALTH"
         ],
         "specializations": [
@@ -168,11 +168,14 @@
             "UNDERWORLD",
             "PERCEPTION",
             "PILOTING_SPACE",
-            "SKULDUGGERY",
+            "SKULLDUGGERY",
             "STREETWISE",
             "VIGILANCE"
         ],
         "specializations": [
+            "CHARMER",
+            "GAMBLER",
+            "GUNSLINGER",
             "PILOT",
             "SCOUNDREL",
             "THIEF"
@@ -210,7 +213,7 @@
         ],
         "specializations": [
             "AGGRESSOR",
-            "SHII_CHO_KNIGHT",
+            "SHI_CHO_KNIGHT",
             "STARFIGHTER_ACE"
         ],
         "force_rating": 1

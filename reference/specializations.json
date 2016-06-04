@@ -38,7 +38,7 @@
         "career": "SENTINEL",
         "career_skills": [
             "ASTROGATION",
-            "COMMAND",
+            "COMPUTERS",
             "EDUCATION",
             "MECHANICS"
         ],
@@ -81,7 +81,7 @@
         "display_name": "Ataru Striker",
         "career": "SEEKER",
         "career_skills": [
-            "ATHLECTICS",
+            "ATHLETICS",
             "COORDINATION",
             "LIGHTSABER",
             "PERCEPTION"
@@ -94,7 +94,7 @@
             }
         }
     },
-    "BODYGAURD": {
+    "BODYGUARD": {
         "display_name": "Bodyguard",
         "career": "HIRED_GUN",
         "career_skills": [
@@ -247,7 +247,7 @@
             }
         }
     },
-    "MAKASHI_DEULIST": {
+    "MAKASHI_DUELIST": {
         "display_name": "Makashi Deulist",
         "career": "MYSTIC",
         "career_skills": [
@@ -421,7 +421,7 @@
         "display_name": "Protector",
         "career": "GUARDIAN",
         "career_skills": [
-            "ATHLECTICS",
+            "ATHLETICS",
             "MEDICINE",
             "RANGED_LIGHT",
             "RESILIENCE"
@@ -489,7 +489,7 @@
         "display_name": "Scout",
         "career": "EXPLORER",
         "career_skills": [
-            "ATHLECTICS",
+            "ATHLETICS",
             "MEDICINE",
             "PILOTING_PLANETARY",
             "SURVIVAL"
@@ -540,7 +540,7 @@
         "display_name": "Shien Expert",
         "career": "SENTINEL",
         "career_skills": [
-            "ATHLECTICS",
+            "ATHLETICS",
             "LIGHTSABER",
             "RESILIENCE",
             "SKULLDUGGERY"
@@ -557,7 +557,7 @@
         "display_name": "Shi-Cho Knight",
         "career": "WARRIOR",
         "career_skills": [
-            "ATHLECTICS",
+            "ATHLETICS",
             "COORDINATION",
             "LIGHTSABER",
             "MELEE"
@@ -627,7 +627,7 @@
         "career_skills": [
             "PERCEPTION",
             "RESILIENCE",
-            "SURVIAL",
+            "SURVIVAL",
             "XENOLOGY"
         ],
         "talents": {

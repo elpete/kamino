@@ -35,7 +35,6 @@ export default class SpecializationView extends Component {
                     <ul>
                         {specializationSkills}
                     </ul>
-
                 </div>
             </div>
 
