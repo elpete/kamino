@@ -161,8 +161,8 @@
         "type": "GENERAL",
         "rules_text": ""
     },
-    "SKULDUGGERY": {
-        "display_name": "Skulduggery",
+    "SKULLDUGGERY": {
+        "display_name": "Skullduggery",
         "characteristic": "CUNNING",
         "type": "GENERAL",
         "rules_text": ""

@@ -8,7 +8,6 @@ import Kamino 			from '../components/Kamino'
 import UserNameEntry 	from '../components/UserNameEntry'
 import SpeciesSelection	from '../components/SpeciesSelection'
 import CareerSelection 	from '../components/CareerSelection'
-import CareerView 		from '../components/CareerView'
 
 const routes = (
     <Router history={history}>
@@ -17,7 +16,6 @@ const routes = (
             <Route path="/user" component={UserNameEntry} />
             <Route path="/species" component={SpeciesSelection} />
             <Route path="/career" component={CareerSelection} />
-            	<Route path="/view" component={CareerView} />
         </Route>
     </Router>
 )

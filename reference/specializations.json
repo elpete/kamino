@@ -51,7 +51,7 @@
         }
     },
     "ASSASIN": {
-        "display_name": "Assassin",
+        "display_name": "Assasin",
         "career": "BOUNTY_HUNTER",
         "career_skills": [
             "MELEE",
@@ -621,7 +621,7 @@
             }
         }
     },
-    "SURVIALIST": {
+    "SURVIVALIST": {
         "display_name": "Survivalist",
         "career": "BOUNTY_HUNTER",
         "career_skills": [
@@ -631,7 +631,7 @@
             "XENOLOGY"
         ],
         "talents": {
-            "SURVIALIST_T1": {
+            "SURVIVALIST_T1": {
                 "talent_key": "FORAGER",
                 "prerequisites":[],
                 "cost": 5

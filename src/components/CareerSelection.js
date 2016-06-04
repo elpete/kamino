@@ -13,8 +13,8 @@ export default class CareerSelection extends Component {
 	constructor(props) {
 	    super(props)
 	    this.state = {
-	        selectedCareer: 'BOUNTY_HUNTER',
-	        selectedSpecialization:'ASSASSIN'
+	        selectedCareer: 'BOUNTY_HUNTER'
+
 	    }
 	}
 
@@ -22,10 +22,7 @@ export default class CareerSelection extends Component {
 	    this.setState({ selectedCareer: e.target.value })
 	}
 
-	_selectSpecialization(e){
-		this.setState({ selectedSpecialization: e})
-		console.log(this.state.selectedSpecialization)
-	}
+
 
 
     render() {
