@@ -13,20 +13,25 @@ export default class CareerSelection extends Component {
 	constructor(props) {
 	    super(props)
 	    this.state = {
-	        selectedCareer: 'BOUNTY_HUNTER'
-
+	        selectedCareer: 'BOUNTY_HUNTER',
+            selectedSpecialization: null
 	    }
+
+        this._handleSpecializationChange = this._handleSpecializationChange.bind(this);
 	}
 
 	_selectCareer(e) {
-	    this.setState({ selectedCareer: e.target.value })
+	    this.setState({
+            selectedCareer: e.target.value,
+            selectedSpecialization: null
+        });
 	}
 
-
-
+    _handleSpecializationChange(selectedSpecialization) {
+        this.setState({ selectedSpecialization });
+    }
 
     render() {
-
 
     	const options = Object.keys(careers).map(key => (
     	    <option value={key} key={key}>
@@ -47,7 +52,11 @@ export default class CareerSelection extends Component {
                         </select>
                     </div>
                 </form>
-                <CareerView id={this.state.selectedCareer}/>
+                <CareerView
+                    id={this.state.selectedCareer}
+                    selectedSpecialization={this.state.selectedSpecialization}
+                    onSpecializationChange={this._handleSpecializationChange}
+                />
             </div>
         )
     }

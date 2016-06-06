@@ -12,13 +12,6 @@ export default class CareerView extends Component {
 
 	constructor(props) {
 	    super(props)
-	    this.state = {
-	        selectedSpecialization:'ASSASIN'
-	    }
-	}
-
-	_selectSpecialization(key){
-		this.setState({ selectedSpecialization: key})
 	}
 
     render() {
@@ -31,10 +24,14 @@ export default class CareerView extends Component {
             <li key={key}>{skills[key].display_name}    <sup><em>[{skills[key].characteristic}]</em></sup></li>
         ));
 
+        const specializationView = this.props.selectedSpecialization
+            ? <SpecializationView specializationId={this.props.selectedSpecialization} />
+            : null;
+
         const careerSpecializations = careers[careerId].specializations.map(key=> (
         	<li 
         		key={key}
-        		onClick={this._selectSpecialization.bind(this, key)} 
+        		onClick={this.props.onSpecializationChange.bind(null, key)} 
         		className='btn btn-info'>{specializations[key].display_name}
         	</li>
         ));
@@ -55,7 +52,7 @@ export default class CareerView extends Component {
             				{careerSpecializations}
             			</ul>
                 	</div>
-            		<SpecializationView specializationId={this.state.selectedSpecialization}/>
+            		{specializationView}
 	            </div>
             </div>
 

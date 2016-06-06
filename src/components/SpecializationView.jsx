@@ -9,11 +9,13 @@ import skills from '../../reference/skills.json'
 export default class SpecializationView extends Component {
 
 	constructor(props) {
-	    super(props)
-	    this.state = {
-	        
-	    }
+	    super(props);
 	}
+
+    _handleClick(e){
+        console.log(this.props);
+        // this.props.onLabelClick(this.props.specializationId);
+    }
 
     render() {
 
@@ -23,10 +25,8 @@ export default class SpecializationView extends Component {
 
 
          const specializationSkills = specializations[specializationId].career_skills.map(key => (
-            <li key={key}>{skills[key].display_name} <sup><em>[{skills[key].characteristic}]</em></sup></li>
+            <li key={key} onClick={this._handleClick}>{skills[key].display_name} <sup><em>[{skills[key].characteristic}]</em></sup></li>
         ));
-
-
 
         return (
         	<div>
