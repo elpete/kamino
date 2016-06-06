@@ -13,7 +13,7 @@ export default class SpeciesSelection extends Component {
         }
     }
 
-    _selectSpecies(e) {
+    selectSpecies(e) {
         this.setState({ selectedSpecies: e.target.value })
     }
 
@@ -34,7 +34,7 @@ export default class SpeciesSelection extends Component {
                         <label>To begin, please select a Species. <em>(For your convience, we have set the default species to 'Human'.)</em></label>
                         <select 
                             className='form-control'
-                            onChange={this._selectSpecies.bind(this)} 
+                            onChange={this.selectSpecies.bind(this)} 
                             value={this.state.selectedSpecies}>
                                 {options}
                         </select>

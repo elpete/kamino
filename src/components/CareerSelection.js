@@ -17,7 +17,7 @@ export default class CareerSelection extends Component {
             selectedSpecialization: null
 	    }
 
-        this._handleSpecializationChange = this._handleSpecializationChange.bind(this);
+        this.handleSpecializationChange = this.handleSpecializationChange.bind(this);
 	}
 
 	_selectCareer(e) {
@@ -27,7 +27,7 @@ export default class CareerSelection extends Component {
         });
 	}
 
-    _handleSpecializationChange(selectedSpecialization) {
+    handleSpecializationChange(selectedSpecialization) {
         this.setState({ selectedSpecialization });
     }
 
@@ -55,7 +55,7 @@ export default class CareerSelection extends Component {
                 <CareerView
                     id={this.state.selectedCareer}
                     selectedSpecialization={this.state.selectedSpecialization}
-                    onSpecializationChange={this._handleSpecializationChange}
+                    onSpecializationChange={this.handleSpecializationChange}
                 />
             </div>
         )
