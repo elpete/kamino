@@ -20,7 +20,7 @@ export default class CareerSelection extends Component {
         this.handleSpecializationChange = this.handleSpecializationChange.bind(this);
 	}
 
-	_selectCareer(e) {
+	selectCareer(e) {
 	    this.setState({
             selectedCareer: e.target.value,
             selectedSpecialization: null
@@ -46,7 +46,7 @@ export default class CareerSelection extends Component {
                         <label>Select a Career</label>
                         <select 
                             className='form-control'
-                            onChange={this._selectCareer.bind(this)} 
+                            onChange={this.selectCareer.bind(this)} 
                             value={this.state.selectedCareer}>
                                 {options}
                         </select>
