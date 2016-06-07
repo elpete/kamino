@@ -1,11 +1,7 @@
-import {createStore, combineReducers, applyMiddleware, compose} from 'redux'
+import {createStore, applyMiddleware, compose} from 'redux'
 import {persistState} from 'redux-devtools'
-// import rootReducer from '../reducers'
+import rootReducer from '../reducers/index'
 import DevTools from '../containers/DevTools'
-
-const reducers = combineReducers({
-
-})
 
 const enhancers = compose(
     DevTools.instrument(),
@@ -19,11 +15,11 @@ function getDebugSessionKey() {
 }
 
 export default function configureStore(initialState) {
-    const store = createStore(reducers, initialState, enhancers)
+    const store = createStore(rootReducer, initialState, enhancers)
 
     if (module.hot) {
-        module.hot.accept('../reducers', () =>
-            store.replaceReducer(require('../reducers').default)
+        module.hot.accept('../reducers/index', () =>
+            store.replaceReducer(require('../reducers/index').default)
         )
     }
 

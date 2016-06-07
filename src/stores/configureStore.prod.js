@@ -1,12 +1,8 @@
 import { createStore, applyMiddleware, compose } from 'redux'
-// import rootReducer from '../reducers'
-
-const reducers = combineReducers({
-
-})
+import rootReducer from '../reducers/index'
 
 const enhancers = compose()
 
 export default function configureStore(initialState) {
-    return createStore(reducers, initialState, enhancers)
+    return createStore(rootReducer, initialState, enhancers)
 }
