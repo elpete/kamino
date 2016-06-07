@@ -1,11 +1,10 @@
 import {createStore, combineReducers, applyMiddleware, compose} from 'redux'
 import {persistState} from 'redux-devtools'
-import {routerReducer} from 'react-router-redux'
 // import rootReducer from '../reducers'
 import DevTools from '../containers/DevTools'
 
 const reducers = combineReducers({
-    routing: routerReducer
+
 })
 
 const enhancers = compose(

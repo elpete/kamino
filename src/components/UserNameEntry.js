@@ -1,26 +1,20 @@
 import React, {Component} from 'react'
-
-import {Link} from 'react-router'
+import {hashHistory} from 'react-router'
 
 export default class UserNameEntry extends Component {
-
-	constructor(props) {
-	    super(props)
-	    this.state = {
-	        userName: 'Syfo Dias'
-	    }
-	}
+    handleSubmit(e) {
+        hashHistory.push('/species')
+    }
 
     render() {
-
         return (
             <div className='well'>
-                <form>
+                <form onSubmit={this.handleSubmit}>
                     <div className='form-group'>
                         <label>By what name should we refer to you during your visit to our facilities?</label>
-                        <input className='form-control'></input>
+                        <input type='text' className='form-control' ref={input => { if (input) input.focus() }} />
                     </div>
-                    <Link className='btn btn-success' to='/species'>Contine to Species Selection</Link>
+                    <button type='submit' className='btn btn-success'>Contine to Species Selection</button>
                 </form>
             </div>
         )
