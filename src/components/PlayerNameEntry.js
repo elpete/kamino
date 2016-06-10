@@ -5,7 +5,7 @@ import {hashHistory} from 'react-router'
 import {getPlayerName} from '../reducers/index'
 import {changePlayerName} from '../actions/actions'
 
-class UserNameEntry extends Component {
+class PlayerNameEntry extends Component {
     componentDidMount() {
         this.nameInput.focus()
     }
@@ -42,4 +42,4 @@ function mapStateToProps(state) {
     };
 }
 
-export default connect(mapStateToProps, { changePlayerName })(UserNameEntry)
+export default connect(mapStateToProps, { changePlayerName })(PlayerNameEntry)
