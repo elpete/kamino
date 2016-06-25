@@ -1,24 +1,30 @@
 import React, {Component} from 'react'
+import {connect} from 'react-redux'
+import {hashHistory} from 'react-router'
 
-import {Link} from 'react-router'
+import {getPlayerName} from '../reducers/index'
+import {getCharacterSpecies} from '../reducers/index'
+import {changeCharacterSpecies} from '../actions/actions'
 
 import species from '../../reference/species.json'
 
-export default class SpeciesSelection extends Component {
-    
-    constructor(props) {
-        super(props)
-        this.state = {
-            selectedSpecies: 'HUMAN'
-        }
+class SpeciesSelection extends Component {
+    componentDidMount() {
+        this.speciesSelect.focus()
     }
 
-    selectSpecies(e) {
-        this.setState({ selectedSpecies: e.target.value })
+    handleChange(e) {
+        this.props.changeCharacterSpecies(this.speciesSelect.value);
+    }
+
+    handleSubmit(e) {
+        e.preventDefault();
+        this.props.changeCharacterSpecies(this.speciesSelect.value);
+        hashHistory.push('/career');
     }
 
     render() {
-        const thisSpecies = species[this.state.selectedSpecies]
+        const currentSpecies = this.props.characterSpecies
 
         const options = Object.keys(species).map(key => (
             <option value={key} key={key}>
@@ -29,18 +35,19 @@ export default class SpeciesSelection extends Component {
         return (
             
             <div className='well'>
-                <form>
+                <form onSubmit={this.handleSubmit.bind(this)}>
                     <div className='form-group'>
-                        <label>To begin, please select a Species. <em>(For your convience, we have set the default species to 'Human'.)</em></label>
+                        <label>Please select a Species.</label>
                         <select 
                             className='form-control'
-                            onChange={this.selectSpecies.bind(this)} 
-                            value={this.state.selectedSpecies}>
+                            ref={select => this.speciesSelect = select}
+                            onChange={this.handleChange.bind(this)} 
+                            value={currentSpecies}>
                                 {options}
                         </select>
                     </div>
                     <div className='form-group'>
-                        <label>Here are the starting characteristics for a {thisSpecies.display_name}.</label>
+                        <label>Here are the starting characteristics for a {species[currentSpecies].display_name}.</label>
 
                         <table className='table table-bordered table-condensed'>
                             <thead>
@@ -55,19 +62,27 @@ export default class SpeciesSelection extends Component {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>{thisSpecies.starting_characteristics.BRAWN}</td>
-                                    <td>{thisSpecies.starting_characteristics.AGILITY}</td>
-                                    <td>{thisSpecies.starting_characteristics.INTELLECT}</td>
-                                    <td>{thisSpecies.starting_characteristics.CUNNING}</td>
-                                    <td>{thisSpecies.starting_characteristics.WILLPOWER}</td>
-                                    <td>{thisSpecies.starting_characteristics.PRESENCE}</td>
+                                    <td>{species[currentSpecies].starting_characteristics.BRAWN}</td>
+                                    <td>{species[currentSpecies].starting_characteristics.AGILITY}</td>
+                                    <td>{species[currentSpecies].starting_characteristics.INTELLECT}</td>
+                                    <td>{species[currentSpecies].starting_characteristics.CUNNING}</td>
+                                    <td>{species[currentSpecies].starting_characteristics.WILLPOWER}</td>
+                                    <td>{species[currentSpecies].starting_characteristics.PRESENCE}</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-                    <Link className="btn btn-success" to='/career'>Confirm</Link>
+                    <button type='submit' className='btn btn-success'> Continue to Career Selections</button>
                 </form>
             </div>
         )
     }
 }
+
+function mapStateToProps(state) {
+    return {
+        characterSpecies: getCharacterSpecies(state)
+    };
+}
+
+export default connect(mapStateToProps, { changeCharacterSpecies })(SpeciesSelection)

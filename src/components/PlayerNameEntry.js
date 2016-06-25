@@ -13,7 +13,7 @@ class PlayerNameEntry extends Component {
     handleSubmit(e) {
         e.preventDefault();
         this.props.changePlayerName(this.nameInput.value);
-        hashHistory.push('/species')
+        hashHistory.push('/species');
     }
 
     render() {

@@ -3,6 +3,7 @@ import {connect} from 'react-redux'
 import {Link} from 'react-router'
 
 import {getPlayerName} from '../reducers/index'
+import {getCharacterName} from '../reducers/index'
 
 class App extends Component {
     render() {
@@ -33,7 +34,8 @@ class App extends Component {
 
 function mapStateToProps(state, ownProps) {
   return {
-    playerName: getPlayerName(state)
+    playerName: getPlayerName(state),
+    characterName: getCharacterName(state)
   }
 }
 
