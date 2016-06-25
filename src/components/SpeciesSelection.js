@@ -26,7 +26,7 @@ class SpeciesSelection extends Component {
     render() {
         const currentSpecies = this.props.characterSpecies
 
-        const options = Object.keys(species).map(key => (
+        const speciesOptions = Object.keys(species).map(key => (
             <option value={key} key={key}>
                 {species[key].display_name}
             </option>
@@ -43,7 +43,7 @@ class SpeciesSelection extends Component {
                             ref={select => this.speciesSelect = select}
                             onChange={this.handleChange.bind(this)} 
                             value={currentSpecies}>
-                                {options}
+                                {speciesOptions}
                         </select>
                     </div>
                     <div className='form-group'>
