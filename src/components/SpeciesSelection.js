@@ -2,7 +2,6 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {hashHistory} from 'react-router'
 
-import {getPlayerName} from '../reducers/index'
 import {getCharacterSpecies} from '../reducers/index'
 import {changeCharacterSpecies} from '../actions/actions'
 
