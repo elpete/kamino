@@ -14,10 +14,10 @@ export function getPlayerName(state) {
     return fromPlayer.getPlayerName(state.player)
 }
 
-export function getCharacterName(state) {
-	return fromCharacter.getCharacterName(state.character)
-}
-
-export function getCharacterSpecies(state) {
-	return fromCharacter.getCharacterSpecies(state.character)
+export function getCharacter(state){
+	return {
+		"name":fromCharacter.getName(state.character),
+		"species":fromCharacter.getSpecies(state.character),
+		"characteristics": fromCharacter.getCharacteristics(state.character)
+	}
 }

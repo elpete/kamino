@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {hashHistory} from 'react-router'
 
-import {getCharacterSpecies} from '../reducers/index'
+import {getCharacter} from '../reducers/index'
 import {changeCharacterSpecies} from '../actions/actions'
 
 import species from '../../reference/species.json'
@@ -10,6 +10,7 @@ import species from '../../reference/species.json'
 class SpeciesSelection extends Component {
     componentDidMount() {
         this.speciesSelect.focus()
+        console.log(this.props.character)
     }
 
     handleChange(e) {
@@ -23,7 +24,7 @@ class SpeciesSelection extends Component {
     }
 
     render() {
-        const currentSpecies = this.props.characterSpecies
+        const currentSpecies = this.props.character.species
 
         const speciesOptions = Object.keys(species).map(key => (
             <option value={key} key={key}>
@@ -80,7 +81,7 @@ class SpeciesSelection extends Component {
 
 function mapStateToProps(state) {
     return {
-        characterSpecies: getCharacterSpecies(state)
+        character: getCharacter(state)
     };
 }
 

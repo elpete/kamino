@@ -34,8 +34,7 @@ class App extends Component {
 
 function mapStateToProps(state, ownProps) {
   return {
-    playerName: getPlayerName(state),
-    characterName: getCharacterName(state)
+    playerName: getPlayerName(state)
   }
 }
 
