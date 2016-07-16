@@ -18,6 +18,6 @@ export function getCharacter(state){
 	return {
 		"name":fromCharacter.getName(state.character),
 		"species":fromCharacter.getSpecies(state.character),
-		"characteristics": fromCharacter.getCharacteristics(state.character)
+		// "characteristics": fromCharacter.getCharacteristics(state.character)
 	}
 }

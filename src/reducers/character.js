@@ -42,8 +42,8 @@ export function getSpecies(state) {
 	return state.species
 }
 
-export function getCharacteristics(state) {
-	return {
-		"brawn": fromCharacteristics.getBrawn(state.characteristics)
-	}
-}
+// export function getCharacteristics(state) {
+// 	return {
+// 		"brawn": fromCharacteristics.getBrawn(state.characteristics)
+// 	}
+// }
