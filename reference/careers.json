@@ -16,6 +16,7 @@
             "GADGETEER",
             "SURVIVALIST"
         ],
+        "description": "The name says it all: this is hunter who seeks to collect bounties for his work. Bounty Hunters tend to be feared, reviled, looked down upon - and in great demand throughout the galaxy. The are expert trackers, brutal combatants, and effective investigators. They tend to prefer skulduggery, stealth, and traps over frontal assaults, but the most respected Bounty Hunters will do whatever it takes to catch their quarries and collect their fees.",
         "force_rating": 0
     },
     "COLONIST": {
@@ -35,6 +36,7 @@
             "POLITICO",
             "SCHOLAR"
         ],
+        "description": "In a way, Colonists are the most out-of-place people in the Outer Rim. They are most often from the Core Worlds, where they were well educated and part of the cultural and professional elite. A Colonist doesn’t tend to have the training to survive in areas of high conflict, and he isn’t particularly adept at physical exploits. What he does possess, however, is a keen grasp of the bigger picture, and he usually has both the knowledge to understand problems and the capacity to get them solved. He probably came to the Outer Rim to create opportunities for himself, or to find a better life than what he left behind, if he cannot find that better life, he’ll apply all of his knowledge to task of creating it, and he’ll use his considerable social skills to gather like-minded allies to his cause.",
         "force_rating": 0
     },
     "CONSULAR": {
@@ -52,6 +54,7 @@
             "NIMAN_DISCIPLE",
             "SAGE"
         ],
+        "description": "The Consular focuses on on the goal or achieving peace and harmony through positive discourse. Followers of this career try to avoid physical conflict whenever possible. Instead, they have faith in the Force to fuel basic compassion in all sentient beings. They believe that is always more effective to have an intelligent discussion about a problem and the solve it through negotiations and other peaceful means than engage in conflict to resolve it. They are opposed to needless violence but know that when confronting true evil, they must be willing to take decisive action. A Consular prides himself in knowing when to words of peace, and when the time for words is over.",
         "force_rating": 1
     },
     "EXPLORER": {
@@ -71,6 +74,7 @@
             "SCOUT",
             "TRADER"
         ],
+        "description": "The Empire is vast, but it is a mere fraction of the galaxy, and the Explorer seeks to uncover the countless mysteries and opportunities the universe contains. Explorers are both vitally important and insidiously dangerous to the New Order; on the one hand, they reveal information, trade routes, and resources that are deeply coveted by the Empire, and on the other hand, they expand the ranges into which rebels, criminals,and iconoclasts can spread out and avoid imperial might.",
         "force_rating": 0
     },
     "GUARIDIAN": {
@@ -88,6 +92,7 @@
             "PROTECTOR",
             "SORESU_DEFENDER"
         ],
+        "description": "Adherents of the Guardian career are driven by a strong sense of responsibility and compassion. They recognize their affinity for the Force gives them the power - and the responsibility - to help the helpless and aid the oppressed. Guardians tend to be blunt and forthright, using the prodigious combat prowess and natural leadership skills to directly intercede where they are most needed.",
         "force_rating": 1
     },
     "HIRED_GUN": {
@@ -107,6 +112,7 @@
             "MARAUDER",
             "MERCENARY_SOLDIER"
         ],
+        "description": "When it comes to fighting, the Hired Gun is at the forefront.  He’s less of an independent operator that the Bounty Hunter, preferring to have a defined mission, an objective to achieve, and some credits to spend when the job is done. Hired guns are muscle and applied force, meant to to defend or attack as the situation requires. They deal damage or protect others for credits, and this makes simple and sometimes refreshingly direct.",
         "force_rating": 0
     },
     "MYSTIC": {
@@ -124,6 +130,7 @@
             "MAKASHI_DUELIST",
             "SEER"
         ],
+        "description": "Characters who follow the Mystic career are typically born to accept this mantle. From the time they first open their eyes, a strong connection to the Force colors their perception of the world surrounding them. They constantly perceive the ebb and flow of tes energies between all living things. To many Mystics the Force is as important a guide and mentor as their family and trusted friends. It teaches them to trust their instincts more than any training or instruction, for those instincts come from the Force.",
         "force_rating": 1
     },
     "SEEKER": {
@@ -141,6 +148,7 @@
             "HUNTER",
             "PATHFINDER"
         ],
+        "description": "It is not uncommon for some Force adepts to feel compelled to travel throughout the galaxy to aid those in need and to oppose those who use the dark side. While some might focus their attentions in cities and and urban centers, the need can be just as great far from the heart of galactic civilization. A force adept who is willing and able to travel and work in these environments can help ease crushing poverty or crippling plagues of hunger and disease. He can also discover new Force techniques, find sensitives in of training, and at times halt dangerous threats that could otherwise fester in isolation. A Seeker must be capable of doing all of these things, while traveling far from any meaningful support network.",
         "force_rating": 1
     },
     "SENTINEL": {
@@ -158,6 +166,7 @@
             "SHADOW",
             "SHIEN_EXPERT"
         ],
+        "description": "Every city has its secrets, and every shining beacon of civilization has its seedy underworld. Within these shadowy depths, miscreants and malcontents prey on the helpless, committing heinous crimes and leaving misery and chaos in their wake. Most law enforcement agencies try to combat criminals without violating the very laws the agencies exist to uphold. Thus, their agents must abide by strict regulations that restrain their behavior. Even institutions that exist to uphold evil laws such as the Empire, have codes of conduct that apply to their enforcers. The Sentinel, however, plays by his own rules.",
         "force_rating": 1
     },
     "SMUGGLER": {
@@ -180,6 +189,7 @@
             "SCOUNDREL",
             "THIEF"
         ],
+        "description": "Though they spend most of their lives struggles to avoid Imperial entanglements, keeping their ships flying, dodging blaster fire, and having enough to eat, Smugglers are often seen as the freest beings in the galaxy. They travel the hyperspace lanes, system to system, planet to planet, bringing what people want a need (and cannot get through legitimate means.",
         "force_rating": 0
     },
     "TECHNICIAN": {
@@ -202,6 +212,7 @@
             "OUTLAW_TECH",
             "SLICER"
         ],
+        "description": "Pretty much anything to with technology or mechanical devices lies within the Technician’s purview. He knows how to operate, maintain, repair, and upgrade just about anything with power or gears/ Most Technicians would rather deal with machines and droids than people; the latter are just unpredictable.",
         "force_rating": 0
     },
     "WARRIOR": {
@@ -219,6 +230,7 @@
             "SHI_CHO_KNIGHT",
             "STARFIGHTER_ACE"
         ],
+        "description": "Though the lightsaber is an iconic weapon for many Force users, some dedicate themselves wholly to becoming paragons of strife. These dangerous individuals are known as Warriors. At their most basic, Warriors are focused combatants who use the Force to augment their prodigious martial prowess. Whether flying in the pilot’s seat of a starfighter, wielding a lightsaber on the field of battle, or blazing away with a blaster pistol, Warriors excel in combat of all types.",
         "force_rating": 1
     }
 }

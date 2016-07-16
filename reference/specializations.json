@@ -14,7 +14,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Not everyone who is skilled in the ways of the Force seeks to hold a position of tremendous authority. In fact, some believe they would find it too easy to abuse their unique abilities if they placed themselves in a position of leadership. Instead, they choose to accept the Advisor’s role to ensure they cannot be corrupted by the lure of power. Others feel their advice too valuable to limit to one planet or region and wander the stars, sowing the guidance of the Force wherever they might go. Socially adept and Force-sensitive characters with either of these philosophies can be excellent fits for the Advisor specialization."
     },
     "AGGRESSOR": {
         "display_name": "Aggressor",
@@ -31,7 +32,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "The Aggressor relies on fear to intimidate his opposition into surrender or retreat. Aggressors tend to be tough and dangerous combatants, able to dish out brutal damage to anyone who fights them, while surviving the same. They use their confident, terrifying attitudes to convey this to their opponents. Some Aggressors hope their enemies back down without a fight, but others fall into the trap of relishing the fear they inspire."
     },
     "ARTISAN": {
         "display_name": "Artisan",
@@ -48,7 +50,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Some Force users have an innate skill with tools and machines. These skilled artificers can use their skill with the Force to enhance their abilities, and even intuitively understand a machine’s form and function. After all, while tools and machines may not be alive, the Force envelopes everything in the galaxy. Artisans feel the Force that surrounds their tools and the items they work on, using this connection to build creations of wondrous beauty and precision. An Artisan does not create scores of the same item for sale or distribution. Instead, each of his creations is individual and iconic, a true work of art."
     },
     "ASSASIN": {
         "display_name": "Assasin",
@@ -75,7 +78,8 @@
                 "prerequisites": ["T2", "ASSASIN_T5", "T7", "T10"],
                 "cost": 10
             }
-        }
+        },
+        "description": "Whereas most Bounty Hunters focus primarily on the capture of quarry, those who specialize as Assassins are generally tasked with the straightforward proposition of terminating their targets."
     },
     "ATARU_STRIKER": {
         "display_name": "Ataru Striker",
@@ -92,7 +96,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "When working alone in a hostile environment, every physical conflict must be resolved quickly and decisively. Frequently, an uncivilized planet completely lack any sort of medical facilities. In fact, at times, an isolated explorer could be the only sentient being on the world. In such a situation, minor injury can be deadly. If a conflict is necessary, it is better to resolve it quickly, taking whatever risks are involved, than to fight more conservatively and prolong the risk of injury. The Ataru Striker embraces this approach, throwing himself into combat with every fiber of his being."
     },
     "BODYGUARD": {
         "display_name": "Bodyguard",
@@ -109,7 +114,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Hired Guns who choose the Bodyguard specialization are excellent choices for defending both people and places. They tend to be highly capable with all kinds of weaponry, extremely tough and savvy in combat, and exactly the right people to get behind when blast fire starts flying."
     },
     "CHARMER": {
         "display_name": "Charmer",
@@ -126,7 +132,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": ""
     },
     "CYBER_TECH": {
         "display_name": "Cyber Tech",
@@ -143,7 +150,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": ""
     },
     "DOCTOR": {
         "display_name": "Doctor",
@@ -160,7 +168,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Of all the types of Colonists who come to the Outer Rim, Doctors probably have the easiest time finding employment. They are in high demand almost anywhere they go. Unfortunately, most of what they are asked to do involves patching up the wounds the worst kinds of beings."
     },
     "DROID_TECH": {
         "display_name": "Droid Tech",
@@ -177,7 +186,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": ""
     },
     "FRINGER": {
         "display_name": "Fringer",
@@ -194,7 +204,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Part negotiator, part astrogator, and savvy in the ways of the galaxy beyond the Core Worlds, the Fringer is a jack-of-all-trades. He focuses on knowing how to find what he needs and how to get where he needs to go. He;s got the gift of gab when it’s time to talk, and the awareness and reflexes to maneuver away when it’s time to run."
     },
     "GADGETEER": {
         "display_name": "Gadgeteer",
@@ -211,7 +222,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Considering how often a single Bounty Hunter finds himself faced with terrible odds (more often than not, an acquisition has friends or employees who hard to protect him), it’s not surprising how many specialize in high-tech gear and weapons. The Gadgeteer excels at presenting himself as a one-person battle force, at least for a short time. Using both the latest tech and his own personally-modified gear, a Bounty Hunter with this specialization can be hard to stop."
     },
     "GAMBLER": {
         "display_name": "Gambler",
@@ -228,7 +240,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": ""
     },
     "GUNSLINGER": {
         "display_name": "Gunslinger",
@@ -245,7 +258,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": ""
     },
     "HEALER": {
         "display_name": "Healer",
@@ -262,7 +276,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Consulars are often drawn to their career by a strong sense of compassion. In many, this is expressed by a desire to mitigate bodily harm and cure the sick. A Healer trains to do so, recognizing that helping the individual can be just as important as helping the entirety of galactic civilization."
     },
     "HUNTER": {
         "display_name": "Hunter",
@@ -279,7 +294,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Far from civilized parts of the galaxy, there are many predators that can endanger sentient life. Some of these are animals that prey upon anything digestible. Others are malicious and twisted individuals who enjoy a savage and bloodthirsty existence. Hunters are Force adepts who are uniquely capable of tracking, confronting, and slaying these creatures, particularly those who hide in the wilds, far from civilization."
     },
     "MAKASHI_DUELIST": {
         "display_name": "Makashi Deulist",
@@ -296,7 +312,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "The presence and showmanship that can come naturally to all Mystics reflects itself in the way of a duelist. For practitioners of Makashi, dominating a combat through one’s presence is just a important as dominating it through martial prowess, and the Makashi Duelist is the ultimate expression of that art."
     },
     "MARAUDER": {
         "display_name": "Marauder",
@@ -313,7 +330,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Marauders don’t necessarily mind shooting opponents, but they would rather get mixed up in a melee, weapons in hand, smashing and slashing their way through. Marauders are tough - probably the toughest combatants in any conflict. The tend to take a great deal of punishment while dealing out far more to any who dare go against them."
     },
     "MECHANIC": {
         "display_name": "Mechanic",
@@ -330,7 +348,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Depending on who is asked, mechanics are either the glue that holds everything together or the grease that makes it all go. Most Mechanics would tell you they do both and then get back to work."
     },
     "MERCENARY_SOLDIER": {
         "display_name": "Mercenary Soldier",
@@ -347,7 +366,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "If the marauder is the melee master, and the Bodyguard is the all-around weapons and gear trooper, the Mercenary Soldier is the warfare expert. An adept of both ranged combat and military tactics, he is a leader of warriors in combat and deadly combatant himself."
     },
     "MODDER": {
         "display_name": "Modder",
@@ -364,7 +384,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": ""
     },
     "NIMAN_DISCIPLE": {
         "display_name": "Niman Disciple",
@@ -381,7 +402,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Even the most accomplished of negotiators can see negotiations fail and come to violence. In the time of the Republic, many Jedi peacemakers trained with the lightsaber to prepare themselves for that eventuality. Today, Consulars who wish to do the same can focus on self-defense and gain a working knowledge of lightsaber combat by following the path of the Niman Disciple."
     },
     "OUTLAW_TECH": {
         "display_name": "Outlaw Tech",
@@ -398,7 +420,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Outlaw Techs are the specialists others call on when the want something out of the ordinary. A blaster that works beyond factory tolerances? No problem. A transponder that identifies a smuggler’s freighter as a religious pilgrimage craft? It’ll cost a few credits, but sure. A protocol droid altered to carry out an assassination? Just how big is that credit line anyway?"
     },
     "PATHFINDER": {
         "display_name": "Pathfinder",
@@ -415,7 +438,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Few are as capable of exploring a planet and discovering its secrets as a Pathfinder. The combination of Pathfinders’ Force talents and their training enables them to quickly and precisely complete a search, even under the most adverse conditions. A Pathfinder can survive in a hostile wilderness for weeks or months, living off the land with minimal supplies and possibly a faithful companion animal. In fact, some Pathfinders are said to be able to bond with their companions through the Force, communicating with them mentally, seeing through their senses, and even directing their actions."
     },
     "PEACEKEEPER": {
         "display_name": "Peacekeeper",
@@ -432,7 +456,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Across the galaxy, there are always tyrants, and those unlucky enough to suffer under their rule. Some Guardians take direct action through military force to attempt to overthrow such despots. Other Guardians see wars ravaging planets and harming the weak and defenseless. They step in to defend those innocents, and enforce peace at the tip of a lightsaber. These Guardians are often known as Peacekeepers."
     },
     "PILOT": {
         "display_name": "Pilot",
@@ -449,7 +474,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Plenty of folks know how to fly a starship, but a Smuggler who specializes as a Pilot develops a relationship with his ship, and it becomes an extension of his wit and his will. He can make a plodding old transport run far above its performance ratings, and given time and some modifications, he can turn it into one of the fleetest and most maneuverable craft to take to the stars"
     },
     "POLITICO": {
         "display_name": "Politco",
@@ -466,7 +492,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "If there is one thing a Politico knows how to do better than anyone else in the galaxy, it’s talking. He can talk to anyone about anything in any necessary way. What other accomplish with might and fear, a talented Politico may well achieve with well-placed words and decent plan."
     },
     "PROTECTOR": {
         "display_name": "Protector",
@@ -483,7 +510,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Guardians are often driven by their compassion for the plight of those who cannot protect themselves. Protectors ensure these innocents never come to harm. Few are tougher that Protector, and even fewer can get through his guard to attack those he defends. Even if his charges do suffer harm, the Protector possesses medical knowledge to heal their wounds."
     },
     "SAGE": {
         "display_name": "Sage",
@@ -500,7 +528,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Many Consulars know the universal truth: knowledge is power, and understanding a situation can give one a decisive advantage. This holds just as true when resolving disputes or negotiations as it does on the battlefield. A Sage focuses on studying the world around him, recognizing that information offers tremendous advantages to himself and his allies. He then uses that power to help change the hearts and minds of others to achieve his goals."
     },
     "SCHOLAR": {
         "display_name": "Scholar",
@@ -517,7 +546,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "At first, the idea of a Scholar wandering with a bunch of ne’er-do-wells in the Outer Rim might seem a bit odd, if not downright ridiculous. However, with all of the dangers and wonders of “a thousand thousand worlds,” having some around who actually knows something more than how to reload a heavy blaster could be exceedingly useful under any number of circumstances. This is especially true when a group is faced with something truly unknown or needs to find something that simple tracking alone cannot locate."
     },
     "SCOUNDREL": {
         "display_name": "Scoundrel",
@@ -534,7 +564,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Part con artist, part gunslinger, and part cantina brawler, the Scoundrel is quick-witted, quick on his feet, and quick to get himself into a great deal of trouble at the drop of a hat. He doesn’t care one whit for for rules or law, except where he can use them to work an angle that either nets him a lot of credits or brings down an enemy. If he’s really lucky - and he tends to have an unshakable faith in his luck - he’ll manage both."
     },
     "SCOUT": {
         "display_name": "Scout",
@@ -551,7 +582,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "There’s finding a planet, and then there’s going down to the planet and seeing what’s what. The Scout is the professional for the task, train to survey and survive, gathering all of the information he can while keeping his head attached to his body. While bravery in combat is one thing, there can be no denying the fearlessness of anyone willing to touch down on a completely unknown planet and trudge with only scanners and his wits to discover its secrets."
     },
     "SEER": {
         "display_name": "Seer",
@@ -568,7 +600,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Some individuals are able to remain constantly aware of the Force’s presence, even as they go about their daily lives. They recognize its influence in the subtlest of ways. For them, minor ripples in the Force reveal deep meanings and forewarn of critical events far in the future. However, this quantity of information - particularly in environments filled with other sentients - can become overwhelming. Because of this, many who follow the path of the Seer choose to live lives of relative isolation, far from crowded towns and cities."
     },
     "SHADOW": {
         "display_name": "Shadow",
@@ -585,7 +618,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "In the ancient days of the Jedi Order, Sentinels worked tirelessly to police the galaxy’s criminal underbelly. However, a small subset of these enforcers focused their attentions on a far greater and more dangerous threat. They trained tirelessly to find and eliminate  those who had fallen to the dark side of the Force and willingly embraced corruption. These Sentinels were called Shadows, and they hunted the Sith. Now with the Jedi Order destroyed and a Dark Lord of the Sith ruling the Galactic Empire, those who would follow the path of the Shadow find their roles reversed. No longer the secret investigators of an established order who searched the shadows of civilization, they are now the ones who who must stay hidden. However, within these dark corners, Shadows still work tirelessly to bring justice to untouchable criminals and dark side Force users alike."
     },
     "SHIEN_EXPERT": {
         "display_name": "Shien Expert",
@@ -602,7 +636,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "A lightsaber is potent weapon. When wielded forcefully, it can even overpower an opponent who has a weapon capable of parrying it. Further, its ability to deflect blaster bolts can make it an effective ranged weapon as well. Those who consider themselves Shien Experts - masters of the Shien lightsaber form - embrace the seeming contradiction between those two uses. They know that true lightsaber masters must possess the cunning to use such weapons to their full potential. It takes clever precision to reflect a ranged attack back toward an adversary, but jsut as much shrewd brilliance to recognize the right time to over-power adversaries through raw force."
     },
     "SHI_CHO_KNIGHT": {
         "display_name": "Shi-Cho Knight",
@@ -619,7 +654,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "The ancient lightsaber fighting style of Shii-Cho is said to be the first lightsaber form taught to the Jedi and their predecessors. It focuses on the essentials of saber fighting and borrows heavily from other sword fighting techniques. Appropriately, the modern practitioners of this form focus on perfecting the core tenants of sword fighting, recognizing the strength of simplicity. Shii-Cho Knights eschew fancy maneuvers, preferring to focus on the fundamentals of block, parry, and strike."
     },
     "SLICER": {
         "display_name": "Slicer",
@@ -636,7 +672,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "For the Slicer, a computer or datapad is just a puzzle to solve with prizes for doing so. “Slicing” is the term used for the invasive efforts to steal or alter data in a system. With practically the entire galaxy wired to computerized systems, Slicers are extremely valuable people to know, and dangerous to cross."
     },
     "SORESU_DEFENDER": {
         "display_name": "Soresu Defender",
@@ -653,7 +690,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Guardians frequently and deliberately put themselves in harm's way in order to aid others. However, just as the Protector is unmatched at keeping other sage the Soresu Defender has mastered the art self defense. With lightsaber in hand, Soresu Defenders can fend off hordes of enemies or stand firm against hails of blaster fire, surviving the the enemy can throw at them."
     },
     "STARFIGHTER_ACE": {
         "display_name": "Starfigher Ace",
@@ -670,7 +708,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Starfighter pilots enthusiastically engage in one of the most dangerous forms of battle imaginable. Their shields and armor - for starfighters that have either - offer virtually no resistance to the weapons of the capital ships they oppose. Instead, they must trust in the Force to protect them as they launch their daring assaults. Those who embrace the risks of space combat may pursue the Starfighter Ace specialization."
     },
     "SURVIVALIST": {
         "display_name": "Survivalist",
@@ -687,7 +726,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Beyond civilization, the farthest reaches of the galaxy, there are places where few (if any) sentients have ever trodden the ground. Place like these are ideal hiding places for those fleeing the law or retribution for their actions. Places like these are where Bounty Hunter who specialize as Survivalists thrive."
     },
     "THIEF": {
         "display_name": "Thief",
@@ -704,7 +744,8 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Where the Scoundrel is a bit flashier, and the Pilot focuses on mastering his ship, the Thief really is a covert operative. His ideal circumstance is to get into places blocked to others, grab things he’s not supposed to have, and get out without anyone ever knowing he was there. If he can sell what he grabbed for a tidy sum, that makes for a perfect day."
     },
     "TRADER": {
         "display_name": "Trader",
@@ -721,6 +762,7 @@
                 "prerequisites":[],
                 "cost": 5
             }
-        }
+        },
+        "description": "Those seeking to take what they discover as they explore the Outer Rim and beyond (and turn a serious profit from it) are Traders. For a Trader, a new planet represents nigh-infinite potential for resource exploitation, while a new culture or hidden community is customer base just begging for his particular talents."
     }
 }
