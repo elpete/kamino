@@ -1,4 +1,19 @@
 {
+    "BESALISK": {
+        "display_name": "Besalisk",
+        "starting_characteristics": {
+            "BRAWN": 3,
+            "AGILITY": 1,
+            "INTELLECT": 2,
+            "CUNNING": 1,
+            "WILLPOWER": 2,
+            "PRESENCE": 2
+        },
+        "base_wound_threshold": 12,
+        "base_strain_threshold": 7,
+        "starting_xp": 85,
+        "special_abilities_text": ""
+    },
     "BOTHAN": {
         "display_name": "Bothan",
         "starting_characteristics": {
@@ -26,6 +41,21 @@
         },
         "base_wound_threshold": 10,
         "base_strain_threshold": 13,
+        "starting_xp": 90,
+        "special_abilities_text": ""
+    },
+    "DUG": {
+        "display_name": "Dug",
+        "starting_characteristics": {
+            "BRAWN": 2,
+            "AGILITY": 3,
+            "INTELLECT": 2,
+            "CUNNING": 2,
+            "WILLPOWER": 2,
+            "PRESENCE": 1 
+        },
+        "base_wound_threshold": 9,
+        "base_strain_threshold": 8,
         "starting_xp": 90,
         "special_abilities_text": ""
     },
@@ -130,6 +160,36 @@
             "PRESENCE": 2
         },
         "base_wound_threshold": 11,
+        "base_strain_threshold": 10,
+        "starting_xp": 100,
+        "special_abilities_text": ""
+    },
+    "MUSTAFARIAN_NORTHERN": {
+        "display_name": "Mustafarian (Northern)",
+        "starting_characteristics": {
+            "BRAWN": 2,
+            "AGILITY": 2,
+            "INTELLECT": 2,
+            "CUNNING": 2,
+            "WILLPOWER": 2,
+            "PRESENCE": 1
+        },
+        "base_wound_threshold": 10,
+        "base_strain_threshold": 10,
+        "starting_xp": 100,
+        "special_abilities_text": ""
+    },
+    "MUSTAFARIAN_SOUTHERN": {
+        "display_name": "Mustafarian (Southern)",
+        "starting_characteristics": {
+            "BRAWN": 2,
+            "AGILITY": 2,
+            "INTELLECT": 2,
+            "CUNNING": 2,
+            "WILLPOWER": 2,
+            "PRESENCE": 1
+        },
+        "base_wound_threshold": 10,
         "base_strain_threshold": 10,
         "starting_xp": 100,
         "special_abilities_text": ""
