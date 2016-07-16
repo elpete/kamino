@@ -195,7 +195,10 @@
             "PILOTING_PLANETARY"
         ],
         "specializations": [
+            "CYBER_TECH",
+            "DROID_TECH",
             "MECHANIC",
+            "MODDER",
             "OUTLAW_TECH",
             "SLICER"
         ],

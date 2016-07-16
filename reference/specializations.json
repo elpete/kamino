@@ -128,6 +128,23 @@
             }
         }
     },
+    "CYBER_TECH": {
+        "display_name": "Cyber Tech",
+        "career": "TECHNICIAN",
+        "career_skills": [
+            "ATHLETICS",
+            "MECHANICS",
+            "MEDICINE",
+            "VIGILANCE"
+        ],
+        "talents": {
+            "{CYBER_TECH_T1": {
+                "talent_key": "CYBERNETICIST",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
     "DOCTOR": {
         "display_name": "Doctor",
         "career": "COLONIST",
@@ -140,6 +157,23 @@
         "talents": {
             "DOCTOR_T1": {
                 "talent_key": "SURGEON",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "DROID_TECH": {
+        "display_name": "Droid Tech",
+        "career": "TECHNICIAN",
+        "career_skills": [
+            "COMPUTERS",
+            "COOL",
+            "MECHANICS",
+            "LEADERSHIP"
+        ],
+        "talents": {
+            "DROID_TECH_T1": {
+                "talent_key": "MACHINE_MENDER",
                 "prerequisites":[],
                 "cost": 5
             }
@@ -310,6 +344,23 @@
         "talents": {
             "{MERCENARY_SOLDIER_T1": {
                 "talent_key": "COMMAND",
+                "prerequisites":[],
+                "cost": 5
+            }
+        }
+    },
+    "MODDER": {
+        "display_name": "Modder",
+        "career": "TECHNICIAN",
+        "career_skills": [
+            "GUNNERY",
+            "MECHANICS",
+            "PILOTING_SPACE",
+            "STREETWISE"
+        ],
+        "talents": {
+            "{MODDER_T1": {
+                "talent_key": "TINKERER",
                 "prerequisites":[],
                 "cost": 5
             }
