@@ -21,7 +21,7 @@ class App extends Component {
                 </div>
                 <div className='collapse navbar-collapse' id='navbar'>
                   <div className='navbar-form navbar-right'>
-                    <Link className='btn btn-primary' to='/'>Back Home</Link>
+                    <Link className='btn btn-default' to='/'>Back Home</Link>
                   </div>
                 </div>
               </div>

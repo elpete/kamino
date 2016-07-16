@@ -10,7 +10,7 @@ class PlayerNameEntry extends Component {
         this.nameInput.focus()
     }
 
-    handleSubmit(e) {
+    toSpecies(e) {
         e.preventDefault();
         this.props.changePlayerName(this.nameInput.value);
         hashHistory.push('/species');
@@ -19,7 +19,7 @@ class PlayerNameEntry extends Component {
     render() {
         return (
             <div className='well'>
-                <form onSubmit={this.handleSubmit.bind(this)}>
+                <form>
                     <div className='form-group'>
                         <label>By what name should we refer to you during your visit to our facilities?</label>
                         <input
@@ -29,7 +29,9 @@ class PlayerNameEntry extends Component {
                             defaultValue={this.props.playerName}
                         />
                     </div>
-                    <button type='submit' className='btn btn-success'>Contine to Species Selection</button>
+                    <button onClick={this.toSpecies.bind(this)} className='btn btn-primary'> 
+                        Continue to Species Selection <span className="glyphicon glyphicon-menu-right"></span>
+                    </button>
                 </form>
             </div>
         )

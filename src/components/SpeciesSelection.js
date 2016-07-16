@@ -17,10 +17,16 @@ class SpeciesSelection extends Component {
         this.props.changeCharacterSpecies(this.speciesSelect.value);
     }
 
-    handleSubmit(e) {
+    toCareer(e) {
         e.preventDefault();
         this.props.changeCharacterSpecies(this.speciesSelect.value);
         hashHistory.push('/career');
+    }
+
+    toUser(e) {
+        e.preventDefault();
+        this.props.changeCharacterSpecies(this.speciesSelect.value);
+        hashHistory.push('/user')
     }
 
     render() {
@@ -35,7 +41,7 @@ class SpeciesSelection extends Component {
         return (
             
             <div className='well'>
-                <form onSubmit={this.handleSubmit.bind(this)}>
+                <form>
                     <div className='form-group'>
                         <label>Please select a Species.</label>
                         <select 
@@ -46,33 +52,63 @@ class SpeciesSelection extends Component {
                                 {speciesOptions}
                         </select>
                     </div>
-                    <div className='form-group'>
-                        <label>Here are the starting characteristics for a {species[currentSpecies].display_name}.</label>
-
-                        <table className='table table-bordered table-condensed'>
-                            <thead>
-                                <tr>
-                                    <td>Brawn</td>
-                                    <td>Agility</td>
-                                    <td>Intellect</td>
-                                    <td>Cunning</td>
-                                    <td>Willpower</td>
-                                    <td>Presence</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>{species[currentSpecies].starting_characteristics.BRAWN}</td>
-                                    <td>{species[currentSpecies].starting_characteristics.AGILITY}</td>
-                                    <td>{species[currentSpecies].starting_characteristics.INTELLECT}</td>
-                                    <td>{species[currentSpecies].starting_characteristics.CUNNING}</td>
-                                    <td>{species[currentSpecies].starting_characteristics.WILLPOWER}</td>
-                                    <td>{species[currentSpecies].starting_characteristics.PRESENCE}</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <label>Here are the starting characteristics for a {species[currentSpecies].display_name}.</label>
+                    <div>
+                        <div className="col-sm-2">
+                            <div className="panel panel-brawn">
+                                <div className="panel-heading">Brawn</div>
+                                    <div className="panel-body">
+                                        {species[currentSpecies].starting_characteristics.BRAWN}
+                                    </div>
+                            </div>
+                        </div>
+                        <div className="col-sm-2">
+                            <div className="panel panel-agility">
+                                <div className="panel-heading">Agility</div>
+                                    <div className="panel-body">
+                                        {species[currentSpecies].starting_characteristics.AGILITY}
+                                    </div>
+                            </div>
+                        </div>
+                        <div className="col-sm-2">
+                            <div className="panel panel-intellect">
+                                <div className="panel-heading">Intellect</div>
+                                    <div className="panel-body">
+                                        {species[currentSpecies].starting_characteristics.INTELLECT}
+                                    </div>
+                            </div>
+                        </div>
+                        <div className="col-sm-2">
+                            <div className="panel panel-cunning">
+                                <div className="panel-heading">Cunning</div>
+                                    <div className="panel-body">
+                                        {species[currentSpecies].starting_characteristics.CUNNING}
+                                    </div>
+                            </div>
+                        </div>
+                        <div className="col-sm-2">
+                            <div className="panel panel-willpower">
+                                <div className="panel-heading">Willpower</div>
+                                    <div className="panel-body">
+                                        {species[currentSpecies].starting_characteristics.WILLPOWER}
+                                    </div>
+                            </div>
+                        </div>
+                        <div className="col-sm-2">
+                            <div className="panel panel-presence">
+                                <div className="panel-heading">Presence</div>
+                                    <div className="panel-body">
+                                        {species[currentSpecies].starting_characteristics.PRESENCE}
+                                    </div>
+                            </div>
+                        </div>
                     </div>
-                    <button type='submit' className='btn btn-success'> Continue to Career Selections</button>
+                    <button onClick={this.toUser.bind(this)} className='btn btn-primary'> 
+                        <span className="glyphicon glyphicon-menu-left"></span> Back to User Name
+                    </button>
+                    <button onClick={this.toCareer.bind(this)} className='btn btn-primary pull-right'> 
+                        Continue to Career Selection <span className="glyphicon glyphicon-menu-right"></span>
+                    </button>
                 </form>
             </div>
         )

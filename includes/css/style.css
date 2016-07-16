@@ -1,0 +1,53 @@
+.panel-heading {
+	border-bottom-left-radius: 25px;
+	padding: 10px 20px 10px 30px;
+	font-size: 15px;
+	color: white;
+}
+
+.panel-body {
+	text-align: center;
+	font-size: 30px;
+}
+
+.panel {
+	border: 2px solid;
+	border-bottom-left-radius: 25px;
+	/*background-color: black;*/
+}
+
+.panel-brawn>.panel-heading {
+	background-color: #8b2d2d;
+
+}
+
+.panel-agility>.panel-heading {
+	background-color: #bd6a02;
+
+}
+
+.panel-intellect>.panel-heading {
+	background-color: #b99d08;
+
+}
+
+.panel-cunning>.panel-heading {
+	background-color: #406244;
+
+}
+
+.panel-willpower>.panel-heading {
+	background-color: #2d488a;
+
+}
+
+.panel-presence>.panel-heading {
+	background-color: #5e3e8a;
+
+}
+
+.btn-primary {
+	background-color: #595959;
+}
+
+
