@@ -133,7 +133,7 @@
                 "cost": 5
             }
         },
-        "description": ""
+        "description": "Confident and elegant, the Charmer employees his wits and wiles with more precision than a laser scalpel. Rather than resorting to uncivilized intimidation tactics or distasteful acts of violence, the Charmer believes the best way to get what he wants is to simply ask for it. A Charmer knows how to talk the talk, possessing natural charisma that makes him irresistible. Struck by the flash of his smile or the wink of his eye, people have a hard time denying anything to the Charmer."
     },
     "CYBER_TECH": {
         "display_name": "Cyber Tech",
@@ -151,7 +151,7 @@
                 "cost": 5
             }
         },
-        "description": ""
+        "description": "Many people think of the body as a machine. After all, it can fulfill complex functions, must be maintained, and wears down over time. When pieces of the body fail or need to be repaired, cybernetics can help restore function and improve the quality of patients’ lives. While many Cyber Techs focus their craft entirely on replacing the lost or damaged body parts of patients, others see no reason not to upgrade and modify bodies just as they would other tools."
     },
     "DOCTOR": {
         "display_name": "Doctor",
@@ -187,7 +187,7 @@
                 "cost": 5
             }
         },
-        "description": ""
+        "description": "Droids are prevalent across the galaxy, from the shining sphere of the score to dingy backwater worlds far from the center’s light. To most inhabitants of the galaxy, droids are little more than particularly complex tools. However, some organic sentients find a kinship with these mechanical beings, seeing a spark of life in them beyond their shells and circuitry. Whether or not they treat the droids around them as mere objects or as sentient beings, Droid Techs possess an unparalleled skill at inventing, repairing, and dealing with droids."
     },
     "FRINGER": {
         "display_name": "Fringer",
@@ -241,7 +241,7 @@
                 "cost": 5
             }
         },
-        "description": ""
+        "description": "When the chips are down, the Gambler holds all the cards. Like the devious Thief, the Gambler loves misleading others and taking big risks to profit. Like the clever Trader, the Gambler has a knack for convincing others to part with their valuables for the next to nothing. The Gambler has a unique variety of tricks up his sleeve to deceive or misdirect opponents, keeping them guessing as to whether he has a winning or losing hand. However, the Gambler knows that there is no such thing as a losing hand; winning is all about knowing how to play the cards that have been dealt."
     },
     "GUNSLINGER": {
         "display_name": "Gunslinger",
@@ -259,7 +259,7 @@
                 "cost": 5
             }
         },
-        "description": ""
+        "description": "The Outer Rim is an immense region of countless worlds, sometimes lawless but always dangerous. Life on the galactic frontier teems with vicious creatures and heartless criminals who would not think twice about gunning down innocent civilians. Bred from conflict and necessity, this is the Galaxy where the Gunslinger lives and breaths. He is the best there is with a blaster, and he won't hesitate to show it. The a Gunslinger knows better than most that making a living in the Outer Rim a Territories is a constant struggle. He needs to be fast on the draw to stay alive. The Gunslinger and his beloved sidearm are inseparable, but he often carries a holdout weapon when stuck in hostile, target-rich environment. To face off with a Gunslinger is a dangerous and foolish proposition."
     },
     "HEALER": {
         "display_name": "Healer",
@@ -385,7 +385,7 @@
                 "cost": 5
             }
         },
-        "description": ""
+        "description": "If someone keeps disassembling and reassembling the rest of the crew’s weapons, armor, and gear without permission, it’s a safe bet that the culprit is the team’s Technician. If those items actually work better afterwards, that Technician might well be a Modder. Modern are chronic tinkerers, and most Modders would rather add features to machines they already have that build new ones. By turning their engineering prowess toward relentlessly repairing, optimizing, testing, calibrating, and re-repairing mechanisms around them, Modders make any piece of technology their own - even it it isn't, strictly speaking, theirs."
     },
     "NIMAN_DISCIPLE": {
         "display_name": "Niman Disciple",
