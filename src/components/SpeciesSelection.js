@@ -31,6 +31,7 @@ class SpeciesSelection extends Component {
 
     render() {
         const currentSpecies = this.props.character.species
+        console.log( currentSpecies );
 
         const speciesOptions = Object.keys(species).map(key => (
             <option value={key} key={key}>

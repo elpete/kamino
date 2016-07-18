@@ -2,18 +2,12 @@ import {combineReducers} from 'redux'
 
 import characteristics, * as fromCharacteristics from './characteristics'
 
-const characteristicReducer = combineReducers({
-	characteristics
-})
-
-export default characteristicReducer
-
 import {CHANGE_CHARACTER_NAME} from '../actions/actions'
 import {CHANGE_CHARACTER_SPECIES} from '../actions/actions'
 
 const initialCharacterState = {
 	name: '',
-	species: '',
+	species: 'HUMAN',
 	characteristics: {}
 }
 
@@ -42,8 +36,8 @@ export function getSpecies(state) {
 	return state.species
 }
 
-// export function getCharacteristics(state) {
-// 	return {
-// 		"brawn": fromCharacteristics.getBrawn(state.characteristics)
-// 	}
-// }
+export function getCharacteristics(state) {
+	return {
+		"brawn": fromCharacteristics.getBrawn(state.characteristics)
+	}
+}
