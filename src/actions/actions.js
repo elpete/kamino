@@ -3,7 +3,11 @@ export const CHANGE_CHARACTER_NAME = 'CHANGE_CHARACTER_NAME'
 export const CHANGE_CHARACTER_SPECIES = 'CHANGE_CHARACTER_SPECIES'
 export const CHANGE_CHARACTER_CHARACTERISTICS = 'CHANGE_CHARACTER_CHARACTERISTICS'
 export const CHANGE_BRAWN = 'CHANGE_BRAWN'
-export const CHAGEN_AGILTY = 'CHANGE_AGILITY'
+export const CHANGE_AGILITY = 'CHANGE_AGILITY'
+export const CHANGE_INTELLECT = 'CHANGE_INTELLECT'
+export const CHANGE_CUNNING = 'CHANGE_CUNNING'
+export const CHANGE_WILLPOWER = 'CHANGE_WILLPOWER'
+export const CHANGE_PRESENCE = 'CHANGE_PRESENCE'
 
 export function changePlayerName(name) {
     return {
@@ -44,5 +48,33 @@ export function changeAgility(agility) {
 	return {
 		type:CHANGE_AGILITY,
 		agility
+	}
+}
+
+export function changeIntellect(intellect) {
+	return {
+		type:CHANGE_INTELLECT,
+		intellect
+	}
+}
+
+export function changeCunning(cunning) {
+	return {
+		type:CHANGE_CUNNING,
+		cunning
+	}
+}
+
+export function changeWillpower(willpower) {
+	return {
+		type:CHANGE_WILLPOWER,
+		willpower
+	}
+}
+
+export function changePresence(presence) {
+	return {
+		type:CHANGE_PRESENCE,
+		presence
 	}
 }

@@ -54,3 +54,19 @@ export function getBrawn( state ) {
 export function getAgility( state ) {
 	return state.agility
 }
+
+export function getIntellect( state ) {
+	return state.intellect
+}
+
+export function getCunning( state ) {
+	return state.cunning
+}
+
+export function getWillpower( state ) {
+	return state.willpower
+}
+
+export function getPresence( state ) {
+	return state.presence
+}
