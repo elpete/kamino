@@ -7,11 +7,10 @@ import {CHANGE_CHARACTER_SPECIES} from '../actions/actions'
 
 const initialCharacterState = {
 	name: '',
-	species: 'HUMAN',
-	characteristics: {}
+	species: 'HUMAN'
 }
 
-function character(state = initialCharacterState, action) {
+function details(state = initialCharacterState, action) {
 	switch (action.type) {
 		case CHANGE_CHARACTER_NAME:
 			return Object.assign({}, state, {
@@ -26,18 +25,21 @@ function character(state = initialCharacterState, action) {
 	}
 }
 
+const character = combineReducers({
+	details,
+	characteristics
+})
+
 export default character
 
 export function getName(state) {
-	return state.name
+	return state.details.name
 }
 
 export function getSpecies(state) {
-	return state.species
+	return state.details.species
 }
 
 export function getCharacteristics(state) {
-	return {
-		"brawn": fromCharacteristics.getBrawn(state.characteristics)
-	}
+	return fromCharacteristics.getCharacteristics( state.characteristics )
 }

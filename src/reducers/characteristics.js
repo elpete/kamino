@@ -1,14 +1,38 @@
-import {CHANGE_BRAWN} from '../actions/actions'
+import {CHANGE_BRAWN, CHANGE_AGILITY, CHANGE_CHARACTER_CHARACTERISTICS} from '../actions/actions'
+
+// INITIAL STATE
 
 const initialCharacteristicState = {
-	brawn: '1'
+	brawn: 2,
+	agility: 2,
+	intellect: 2,
+	cunning: 2,
+	willpower: 2,
+	presence: 2,
 }
 
-function characteristics(state = initialCharacteristicState, action) {
-	switch (action_type) {
+// REDUCERS
+
+function characteristics( state = initialCharacteristicState, action ) {
+	switch (action.type) {
+		case CHANGE_CHARACTER_CHARACTERISTICS:
+			console.log(action)
+			return {
+				...state,
+				brawn:action.characteristics.brawn,
+				agility:action.characteristics.agility,
+				intellect:action.characteristics.intellect,
+				cunning:action.characteristics.cunning,
+				willpower:action.characteristics.willpower,
+				presence:action.characteristics.presence,
+			}
 		case CHANGE_BRAWN:
 			return Object.assign({}, state, {
 				brawn:action.brawn
+			})
+		case CHANGE_AGILITY:
+			return Object.asssin({}, state, {
+				agilty:action.agility
 			})
 		default:
 			return state
@@ -17,6 +41,16 @@ function characteristics(state = initialCharacteristicState, action) {
 
 export default characteristics
 
-export function getBrawn(state) {
+// SELECTORS
+
+export function getCharacteristics( state ) {
+	return state
+}
+
+export function getBrawn( state ) {
 	return state.brawn
+}
+
+export function getAgility( state ) {
+	return state.agility
 }
