@@ -2,13 +2,17 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {hashHistory} from 'react-router'
 
+//reducers
 import {getCharacter} from '../reducers/index'
+
+//actions
 import {changeCharacterSpecies, changeCharacterCharacteristics} from '../actions/actions'
 
+//components
 import Characteristics from './Characteristics'
 
+//references
 import species from '../../reference/species.json'
-
 
 export default class SpeciesSelection extends Component {
     componentDidMount() {
@@ -39,8 +43,8 @@ export default class SpeciesSelection extends Component {
     }
 
     render() {
-        const {brawn, agility, intellect, cunning, willpower, presence} = this.props.character.characteristics
         const currentSpecies = this.props.character.species        
+        const {brawn, agility, intellect, cunning, willpower, presence} = this.props.character.characteristics
         const speciesOptions = Object.keys(species).map(key => (
             <option value={key} key={key}>
                 {species[key].display_name}
@@ -52,16 +56,16 @@ export default class SpeciesSelection extends Component {
             <div className='well'>
                 <form>
                     <div className='form-group'>
-                        <label>Please select a Species.</label>
+                        <label>Select a Species.</label>
                         <select 
                             className='form-control'
-                            ref={select => this.speciesSelect = select}
-                            onChange={this.handleChange.bind(this)} 
+                            ref = { select => this.speciesSelect = select }
+                            onChange = { this.handleChange.bind( this ) } 
                             value={currentSpecies}>
                                 {speciesOptions}
                         </select>
                     </div>
-                    <label>Here are the starting characteristics for a {species[currentSpecies].display_name}.</label>
+                    <label>Starting Characteristics</label>
                     <Characteristics
                         brawn={brawn}
                         agility={agility}
@@ -69,10 +73,14 @@ export default class SpeciesSelection extends Component {
                         cunning={cunning}
                         willpower={willpower}
                         presence={presence} />
-                    <button onClick={this.toUser.bind(this)} className='btn btn-primary'> 
+                    <button 
+                        onClick={ this.toUser.bind( this ) } 
+                        className='btn btn-primary'> 
                         <span className="glyphicon glyphicon-menu-left"></span> Back to User Name
                     </button>
-                    <button onClick={this.toCareer.bind(this)} className='btn btn-primary pull-right'> 
+                    <button 
+                        onClick={ this.toCareer.bind( this ) } 
+                        className='btn btn-primary pull-right'> 
                         Continue to Career Selection <span className="glyphicon glyphicon-menu-right"></span>
                     </button>
                 </form>
@@ -87,4 +95,4 @@ function mapStateToProps(state) {
     };
 }
 
-export default connect(mapStateToProps, { changeCharacterSpecies, changeCharacterCharacteristics })(SpeciesSelection)
+export default connect(mapStateToProps, { changeCharacterSpecies, changeCharacterCharacteristics } )( SpeciesSelection )

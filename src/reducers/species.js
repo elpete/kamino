@@ -11,9 +11,10 @@ const initialSpeciesState = {
 function species( state = initialSpeciesState, action ) {
 	switch (action.type) {
 		case CHANGE_CHARACTER_SPECIES:
-			return Object.assign({}, state, {
+			return {
+				...state,
 				species:action.species
-			})
+			}
 		default:
 			return state
 	}

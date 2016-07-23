@@ -29,7 +29,7 @@ class PlayerNameEntry extends Component {
                             defaultValue={this.props.playerName}
                         />
                     </div>
-                    <button onClick={this.toSpecies.bind(this)} className='btn btn-primary'> 
+                    <button onClick={this.toSpecies.bind(this)} className='btn btn-primary pull-right'> 
                         Continue to Species Selection <span className="glyphicon glyphicon-menu-right"></span>
                     </button>
                 </form>

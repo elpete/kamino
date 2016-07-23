@@ -1,66 +1,103 @@
 import React, {Component} from 'react'
+import {connect} from 'react-redux'
+import {hashHistory} from 'react-router'
 
-import {Link} from 'react-router'
+//reducers
+import {getCharacter} from '../reducers/index'
 
-import CareerView       from '../components/CareerView'
+//actions
+import {changeCharacterCareer} from '../actions/actions'
 
+//components
+
+//references
 import careers from '../../reference/careers.json'
 import specializations from '../../reference/specializations.json'
 import skills from '../../reference/skills.json'
 
 export default class CareerSelection extends Component {
-    
-	constructor(props) {
-	    super(props)
-	    this.state = {
-	        selectedCareer: 'BOUNTY_HUNTER',
-            selectedSpecialization: null
-	    }
+    componentDidMount(){
+        this.careerSelect.focus()
+    }
 
-        this.handleSpecializationChange = this.handleSpecializationChange.bind(this);
-	}
+    handleChange(e){
+        const newCareer = this.careerSelect.value
+        this.props.changeCharacterCareer(newCareer);
+    }
 
-	selectCareer(e) {
-	    this.setState({
-            selectedCareer: e.target.value,
-            selectedSpecialization: null
-        });
-	}
-
-    handleSpecializationChange(selectedSpecialization) {
-        this.setState({ selectedSpecialization });
+    toSpecies(e) {
+        e.preventDefault();
+        hashHistory.push('/species');
     }
 
     render() {
-
-    	const options = Object.keys(careers).map(key => (
+        const currentCareer = this.props.character.career
+    	const careerOptions = Object.keys(careers).map(key => (
     	    <option value={key} key={key}>
     	        {careers[key].display_name}
     	    </option>
     	));
 
         return (
+
             <div className='well'>
                 <form>
                     <div className='form-group'>
                         <label>Select a Career</label>
                         <select 
                             className='form-control'
-                            onChange={this.selectCareer.bind(this)} 
-                            value={this.state.selectedCareer}>
-                                {options}
+                            ref = { select => this.careerSelect = select }
+                            onChange = { this.handleChange.bind( this ) } 
+                            value={currentCareer}>
+                                {careerOptions}
                         </select>
                     </div>
                 </form>
-                <CareerView
-                    id={this.state.selectedCareer}
-                    selectedSpecialization={this.state.selectedSpecialization}
-                    onSpecializationChange={this.handleSpecializationChange}
-                />
+
+                <button 
+                    onClick={this.toSpecies.bind(this)} 
+                    className='btn btn-primary'> 
+                    <span className="glyphicon glyphicon-menu-left"></span> Back to User Name
+                </button>
             </div>
         )
     }
 }
+
+function mapStateToProps(state) {
+    return {
+        character: getCharacter(state)
+    };
+}
+
+export default connect( mapStateToProps, { changeCharacterCareer } )( CareerSelection )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

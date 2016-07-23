@@ -8,6 +8,7 @@ export const CHANGE_INTELLECT = 'CHANGE_INTELLECT'
 export const CHANGE_CUNNING = 'CHANGE_CUNNING'
 export const CHANGE_WILLPOWER = 'CHANGE_WILLPOWER'
 export const CHANGE_PRESENCE = 'CHANGE_PRESENCE'
+export const CHANGE_CHARACTER_CAREER = 'CHANGE_CHARACTER_CAREER'
 
 export function changePlayerName(name) {
     return {
@@ -76,5 +77,12 @@ export function changePresence(presence) {
 	return {
 		type:CHANGE_PRESENCE,
 		presence
+	}
+}
+
+export function changeCharacterCareer(career) {
+	return {
+		type:CHANGE_CHARACTER_CAREER,
+		career
 	}
 }
