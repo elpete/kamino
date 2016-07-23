@@ -57,7 +57,7 @@ export default class CareerSelection extends Component {
                 <button 
                     onClick={this.toSpecies.bind(this)} 
                     className='btn btn-primary'> 
-                    <span className="glyphicon glyphicon-menu-left"></span> Back to User Name
+                    <span className="glyphicon glyphicon-menu-left"></span> Back to Species Selection
                 </button>
             </div>
         )
