@@ -2,18 +2,18 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {hashHistory} from 'react-router'
 
-//reducers
+//REDUCERS
 import {getCharacter} from '../reducers/index'
 
-//actions
+//ACTIONS
 import {changeCharacterCareer} from '../actions/actions'
 
-//components
+//COMPONENTS
+import Career from './Career'
 
-//references
+//REFERENCES
 import careers from '../../reference/careers.json'
 import specializations from '../../reference/specializations.json'
-import skills from '../../reference/skills.json'
 
 export default class CareerSelection extends Component {
     componentDidMount(){
@@ -52,13 +52,13 @@ export default class CareerSelection extends Component {
                                 {careerOptions}
                         </select>
                     </div>
+                    <Career career={currentCareer}/>
+                    <button 
+                        onClick={this.toSpecies.bind(this)} 
+                        className='btn btn-primary'> 
+                        <span className="glyphicon glyphicon-menu-left"></span> Back to Species Selection
+                    </button>
                 </form>
-
-                <button 
-                    onClick={this.toSpecies.bind(this)} 
-                    className='btn btn-primary'> 
-                    <span className="glyphicon glyphicon-menu-left"></span> Back to Species Selection
-                </button>
             </div>
         )
     }

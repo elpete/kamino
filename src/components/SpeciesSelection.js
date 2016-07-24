@@ -2,16 +2,16 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {hashHistory} from 'react-router'
 
-//reducers
+//REDUCERS
 import {getCharacter} from '../reducers/index'
 
-//actions
+//ACTIONS
 import {changeCharacterSpecies, changeCharacterCharacteristics} from '../actions/actions'
 
-//components
+//COMPONENTS
 import Characteristics from './Characteristics'
 
-//references
+//REFERENCES
 import species from '../../reference/species.json'
 
 export default class SpeciesSelection extends Component {

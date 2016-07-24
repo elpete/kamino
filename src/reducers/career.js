@@ -3,7 +3,7 @@ import {CHANGE_CHARACTER_CAREER} from '../actions/actions'
 //INITIAL STATE
 
 const initialCareerState = {
-	career: 'SEEKER'
+	career: 'BOUNTY_HUNTER'
 }
 
 //REDUCERS
