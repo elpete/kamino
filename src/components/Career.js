@@ -1,5 +1,9 @@
 import React, {Component, PropTypes} from 'react'
 
+//COMPONENTS
+import Specializations from './Specializations'
+
+//REFERENCES
 import careers from '../../reference/careers.json'
 import skills from '../../reference/skills.json'
 
@@ -20,8 +24,7 @@ export default class Career extends Component {
         			{careerSkills}
         		</ul>
             	<h5>Specializations</h5>
-
-                
+                <Specializations career={career} />
             </div>
         )
     }

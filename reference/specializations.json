@@ -53,8 +53,8 @@
         },
         "description": "Some Force users have an innate skill with tools and machines. These skilled artificers can use their skill with the Force to enhance their abilities, and even intuitively understand a machine’s form and function. After all, while tools and machines may not be alive, the Force envelopes everything in the galaxy. Artisans feel the Force that surrounds their tools and the items they work on, using this connection to build creations of wondrous beauty and precision. An Artisan does not create scores of the same item for sale or distribution. Instead, each of his creations is individual and iconic, a true work of art."
     },
-    "ASSASIN": {
-        "display_name": "Assasin",
+    "ASSASSIN": {
+        "display_name": "Assassin",
         "career": "BOUNTY_HUNTER",
         "career_skills": [
             "MELEE",

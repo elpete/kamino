@@ -13,7 +13,7 @@ import Career from './Career'
 
 //REFERENCES
 import careers from '../../reference/careers.json'
-import specializations from '../../reference/specializations.json'
+
 
 export default class CareerSelection extends Component {
     componentDidMount(){
