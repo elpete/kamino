@@ -1,19 +1,18 @@
-.panel-heading {
+.panel-characteristic {
+	border: 2px solid;
+	border-bottom-left-radius: 20px;
+	/*background-color: black;*/
+}
+
+.panel-specialization>.panel-heading {
+	text-align:center
+}
+
+.panel-characteristic>.panel-heading {
 	border-bottom-left-radius: 20px;
 	/*padding: 10px 20px 10px 20px;*/
 	font-size: 15px;
 	color: white;
-}
-
-.panel-body {
-	text-align: center;
-	font-size: 30px;
-}
-
-.panel {
-	border: 2px solid;
-	border-bottom-left-radius: 20px;
-	/*background-color: black;*/
 }
 
 .panel-brawn>.panel-heading {
@@ -44,4 +43,9 @@
 .panel-presence>.panel-heading {
 	background-color: #5e3e8a;
 
+}
+
+.panel-characteristic>.panel-body {
+	text-align: center;
+	font-size: 30px;
 }

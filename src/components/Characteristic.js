@@ -10,7 +10,7 @@ export default class Characteristic extends Component {
         const {name, value} = this.props
         return (
             <div className="col-sm-2">
-                <div className={`panel panel-${name.toLowerCase()}`}>
+                <div className={`panel panel-characteristic panel-${name.toLowerCase()}`}>
                     <div className="panel-heading">{name}</div>
                     <div className="panel-body">
                         {value}
