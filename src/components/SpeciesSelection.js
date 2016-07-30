@@ -11,8 +11,9 @@ import {changeCharacterSpecies, changeCharacterCharacteristics} from '../actions
 //COMPONENTS
 import Characteristics from './Characteristics'
 
+
 //REFERENCES
-import species from '../../reference/species.json'
+import speciesRef from '../../reference/species.json'
 
 export default class SpeciesSelection extends Component {
     componentDidMount() {
@@ -23,12 +24,12 @@ export default class SpeciesSelection extends Component {
         const newSpecies = this.speciesSelect.value
         this.props.changeCharacterSpecies(newSpecies);
         this.props.changeCharacterCharacteristics({
-            brawn: species[newSpecies].starting_characteristics.BRAWN,
-            agility: species[newSpecies].starting_characteristics.AGILITY,
-            intellect: species[newSpecies].starting_characteristics.INTELLECT,
-            cunning: species[newSpecies].starting_characteristics.CUNNING,
-            willpower: species[newSpecies].starting_characteristics.WILLPOWER,
-            presence: species[newSpecies].starting_characteristics.PRESENCE,
+            brawn: speciesRef[newSpecies].starting_characteristics.BRAWN,
+            agility: speciesRef[newSpecies].starting_characteristics.AGILITY,
+            intellect: speciesRef[newSpecies].starting_characteristics.INTELLECT,
+            cunning: speciesRef[newSpecies].starting_characteristics.CUNNING,
+            willpower: speciesRef[newSpecies].starting_characteristics.WILLPOWER,
+            presence: speciesRef[newSpecies].starting_characteristics.PRESENCE,
         })
     }
 
@@ -43,11 +44,11 @@ export default class SpeciesSelection extends Component {
     }
 
     render() {
-        const currentSpecies = this.props.character.species        
+        const {species} = this.props.character
         const {brawn, agility, intellect, cunning, willpower, presence} = this.props.character.characteristics
-        const speciesOptions = Object.keys(species).map(key => (
+        const speciesOptions = Object.keys(speciesRef).map(key => (
             <option value={key} key={key}>
-                {species[key].display_name}
+                {speciesRef[key].display_name}
             </option>
         ));
 
@@ -61,11 +62,13 @@ export default class SpeciesSelection extends Component {
                             className='form-control'
                             ref = { select => this.speciesSelect = select }
                             onChange = { this.handleChange.bind( this ) } 
-                            value={currentSpecies}>
+                            value={species}>
                                 {speciesOptions}
                         </select>
                     </div>
-                    <label>Starting Characteristics</label>
+                    <h5>Description</h5>
+                    <p>{speciesRef[species].description}</p>
+                    <h5>Starting Characteristics</h5>
                     <Characteristics
                         brawn={brawn}
                         agility={agility}
