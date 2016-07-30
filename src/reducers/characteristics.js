@@ -9,7 +9,6 @@ import {
 } from '../actions/actions'
 
 // INITIAL STATE
-
 const initialCharacteristicState = {
 	brawn: 2,
 	agility: 2,
@@ -20,7 +19,6 @@ const initialCharacteristicState = {
 }
 
 // REDUCERS
-
 function characteristics( state = initialCharacteristicState, action ) {
 	switch (action.type) {
 		case CHANGE_CHARACTER_CHARACTERISTICS:
@@ -71,7 +69,6 @@ function characteristics( state = initialCharacteristicState, action ) {
 export default characteristics
 
 // SELECTORS
-
 export function getCharacteristics( state ) {
 	return state
 }

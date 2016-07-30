@@ -1,8 +1,10 @@
 import {combineReducers} from 'redux'
 
+//REDUCERS
 import characteristics, * as fromCharacteristics from './characteristics'
 import species, * as fromSpecies from './species'
 import career, * as fromCareer from './career'
+import specialization, * as fromSpecialization from './specialization'
 
 import {CHANGE_CHARACTER_NAME} from '../actions/actions'
 
@@ -25,7 +27,8 @@ const character = combineReducers({
 	name,
 	species,
 	characteristics,
-	career
+	career,
+	specialization
 })
 
 export default character
@@ -44,4 +47,8 @@ export function getCharacteristics( state ) {
 
 export function getCareer( state ) {
 	return fromCareer.getCareer( state.career )
+}
+
+export function getSpecialization( state ) {
+	return fromSpecialization.getSpecialization( state.specialization )
 }
