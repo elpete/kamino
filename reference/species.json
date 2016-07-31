@@ -12,7 +12,10 @@
         "base_wound_threshold": 12,
         "base_strain_threshold": 7,
         "starting_xp": 85,
-        "special_abilities_text": "",
+        "special_abilities": {
+            "active": ["Atest1","Atest2"],
+            "passive": [""]
+        },
         "description": "This is a description of a Besalisk"
     },
     "BOTHAN": {
@@ -28,7 +31,10 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 11,
         "starting_xp": 100,
-        "special_abilities_text": "",
+        "special_abilities": {
+            "active": [""],
+            "passive": [""]
+        },
         "description": "This is a description of a Bothan"
     },
     "CEREAN": {
@@ -44,7 +50,10 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 13,
         "starting_xp": 90,
-        "special_abilities_text": "",
+        "special_abilities": {
+            "active": [""],
+            "passive": [""]
+        },
         "description": "This is a description of a Cerean"
     },
     "DUG": {
@@ -60,7 +69,10 @@
         "base_wound_threshold": 9,
         "base_strain_threshold": 8,
         "starting_xp": 90,
-        "special_abilities_text": "",
+        "special_abilities": {
+            "active": [""],
+            "passive": [""]
+        },
         "description": "This is a description of a Dug"
     },
     "DROID": {
@@ -76,7 +88,10 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 10,
         "starting_xp": 175,
-        "special_abilities_text": "",
+        "special_abilities": {
+            "active": [""],
+            "passive": [""]
+        },
         "description": "This is a description of a Droid"
     },
     "FALLEEN": {
@@ -92,7 +107,10 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 12,
         "starting_xp": 90,
-        "special_abilities_text": "",
+        "special_abilities": {
+            "active": [""],
+            "passive": [""]
+        },
         "description": "This is a description of a Falleen"
     },
     "GAND": {
@@ -108,7 +126,10 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 10,
         "starting_xp": 100,
-        "special_abilities_text": "",
+        "special_abilities": {
+            "active": [""],
+            "passive": [""]
+        },
         "description": "This is a description of a Gand"
     },
     "GOTAL": {
@@ -124,7 +145,10 @@
         "base_wound_threshold": 9,
         "base_strain_threshold": 8,
         "starting_xp": 100,
-        "special_abilities_text": "",
+        "special_abilities": {
+            "active": [""],
+            "passive": [""]
+        },
         "description": "This is a description of a Gotal"
     },
     "HUMAN": {
@@ -140,7 +164,10 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 10,
         "starting_xp": 110,
-        "special_abilities_text": "",
+        "special_abilities": {
+            "active": [""],
+            "passive": [""]
+        },
         "description": "This is a description of a Human"
     },
     "KEL_DOR": {
@@ -156,7 +183,10 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 10,
         "starting_xp": 100,
-        "special_abilities_text": "",
+        "special_abilities": {
+            "active": [""],
+            "passive": [""]
+        },
         "description": "This is a description of a Dor"
     },
     "MIRIALAN": {
@@ -172,7 +202,10 @@
         "base_wound_threshold": 11,
         "base_strain_threshold": 10,
         "starting_xp": 100,
-        "special_abilities_text": "",
+        "special_abilities": {
+            "active": [""],
+            "passive": [""]
+        },
         "description": "This is a description of a Mirialan"
     },
     "MUSTAFARIAN_NORTHERN": {
@@ -188,7 +221,10 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 10,
         "starting_xp": 100,
-        "special_abilities_text": "",
+        "special_abilities": {
+            "active": [""],
+            "passive": [""]
+        },
         "description": "This is a description of a Mustafarian (Northern)"
     },
     "MUSTAFARIAN_SOUTHERN": {
@@ -204,7 +240,10 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 10,
         "starting_xp": 100,
-        "special_abilities_text": "",
+        "special_abilities": {
+            "active": [""],
+            "passive": [""]
+        },
         "description": "This is a description of a Mustafarian (Southern)"
     },
     "NAUTOLAN": {
@@ -220,7 +259,10 @@
         "base_wound_threshold": 11,
         "base_strain_threshold": 9,
         "starting_xp": 100,
-        "special_abilities_text": "",
+        "special_abilities": {
+            "active": [""],
+            "passive": [""]
+        },
         "description": "This is a description of a Nautolan"
     },
     "QUARREN": {
@@ -236,7 +278,10 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 8,
         "starting_xp": 95,
-        "special_abilities_text": "",
+        "special_abilities": {
+            "active": [""],
+            "passive": [""]
+        },
         "description": "This is a description of a Quarren"
     },
     "RODIAN": {
@@ -252,7 +297,10 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 10,
         "starting_xp": 100,
-        "special_abilities_text": "",
+        "special_abilities": {
+            "active": [""],
+            "passive": [""]
+        },
         "description": "This is a description of a Rodian"
     },
     "TOGRUTA": {
@@ -268,7 +316,10 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 10,
         "starting_xp": 100,
-        "special_abilities_text": "",
+        "special_abilities": {
+            "active": [""],
+            "passive": [""]
+        },
         "description": "This is a description of a Togruta"
     },
     "TRANDOSHAN": {
@@ -284,7 +335,10 @@
         "base_wound_threshold": 12,
         "base_strain_threshold": 9,
         "starting_xp": 90,
-        "special_abilities_text": "",
+        "special_abilities": {
+            "active": [""],
+            "passive": [""]
+        },
         "description": "This is a description of a Trandoshan"
     },
     "TWILEK": {
@@ -300,7 +354,10 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 11,
         "starting_xp": 100,
-        "special_abilities_text": "",
+        "special_abilities": {
+            "active": [""],
+            "passive": [""]
+        },
         "description": "This is a description of a lek"
     },
     "WOOKIE": {
@@ -316,7 +373,10 @@
         "base_wound_threshold": 14,
         "base_strain_threshold": 8,
         "starting_xp": 90,
-        "special_abilities_text": "",
+        "special_abilities": {
+            "active": [""],
+            "passive": [""]
+        },
         "description": "This is a description of a Wookie"
     },
     "ZABRAK": {
@@ -332,7 +392,10 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 10,
         "starting_xp": 100,
-        "special_abilities_text": "",
+        "special_abilities": {
+            "active": [""],
+            "passive": [""]
+        },
         "description": "This is a description of a Zabrak"
     }
 }

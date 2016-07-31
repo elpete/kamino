@@ -52,12 +52,20 @@ export default class SpeciesSelection extends Component {
             </option>
         ));
 
+        console.log( Object.keys(speciesRef['BESALISK'].special_abilities.active));
+
+        const activeAbilities = Object.keys(speciesRef['BESALISK'].special_abilities.active).map(activeKey => (
+            <li value = {activeKey} key = {activeKey}>
+                {activeKey}
+            </li>
+        ));
+
         return (
             
             <div className='well'>
                 <form>
                     <div className='form-group'>
-                        <label>Select a Species.</label>
+                        <label>Select a Species</label>
                         <select 
                             className='form-control'
                             ref = { select => this.speciesSelect = select }
@@ -76,6 +84,12 @@ export default class SpeciesSelection extends Component {
                         cunning={cunning}
                         willpower={willpower}
                         presence={presence} />
+                    <h5>Active Abilities</h5>
+                    <ul>
+                        {activeAbilities}
+                    </ul>
+                    <h5>Passive Abilities</h5>
+                    <p>Passive</p>
                     <button 
                         onClick={ this.toUser.bind( this ) } 
                         className='btn btn-primary'> 
