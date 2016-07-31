@@ -13,8 +13,13 @@
         "base_strain_threshold": 7,
         "starting_xp": 85,
         "special_abilities": {
-            "active": ["Atest1","Atest2"],
-            "passive": [""]
+            "active": [
+                "This is an Active Ability",
+                "This is another Active Ability"
+            ],
+            "passive": [
+                "This is a Passive Ability",
+                "This is another Passive Ability"]
         },
         "description": "This is a description of a Besalisk"
     },
@@ -32,8 +37,8 @@
         "base_strain_threshold": 11,
         "starting_xp": 100,
         "special_abilities": {
-            "active": [""],
-            "passive": [""]
+            "active": [],
+            "passive": []
         },
         "description": "This is a description of a Bothan"
     },
@@ -51,8 +56,8 @@
         "base_strain_threshold": 13,
         "starting_xp": 90,
         "special_abilities": {
-            "active": [""],
-            "passive": [""]
+            "active": [],
+            "passive": []
         },
         "description": "This is a description of a Cerean"
     },
@@ -70,8 +75,8 @@
         "base_strain_threshold": 8,
         "starting_xp": 90,
         "special_abilities": {
-            "active": [""],
-            "passive": [""]
+            "active": [],
+            "passive": []
         },
         "description": "This is a description of a Dug"
     },
@@ -89,8 +94,8 @@
         "base_strain_threshold": 10,
         "starting_xp": 175,
         "special_abilities": {
-            "active": [""],
-            "passive": [""]
+            "active": [],
+            "passive": []
         },
         "description": "This is a description of a Droid"
     },
@@ -108,8 +113,8 @@
         "base_strain_threshold": 12,
         "starting_xp": 90,
         "special_abilities": {
-            "active": [""],
-            "passive": [""]
+            "active": [],
+            "passive": []
         },
         "description": "This is a description of a Falleen"
     },
@@ -127,8 +132,8 @@
         "base_strain_threshold": 10,
         "starting_xp": 100,
         "special_abilities": {
-            "active": [""],
-            "passive": [""]
+            "active": [],
+            "passive": []
         },
         "description": "This is a description of a Gand"
     },
@@ -146,8 +151,8 @@
         "base_strain_threshold": 8,
         "starting_xp": 100,
         "special_abilities": {
-            "active": [""],
-            "passive": [""]
+            "active": [],
+            "passive": []
         },
         "description": "This is a description of a Gotal"
     },
@@ -165,8 +170,13 @@
         "base_strain_threshold": 10,
         "starting_xp": 110,
         "special_abilities": {
-            "active": [""],
-            "passive": [""]
+            "active": [
+                "This is an Active Ability",
+                "This is another Active Ability"
+            ],
+            "passive": [
+                "This is a Passive Ability",
+                "This is another Passive Ability"]
         },
         "description": "This is a description of a Human"
     },
@@ -184,8 +194,8 @@
         "base_strain_threshold": 10,
         "starting_xp": 100,
         "special_abilities": {
-            "active": [""],
-            "passive": [""]
+            "active": [],
+            "passive": []
         },
         "description": "This is a description of a Dor"
     },
@@ -203,8 +213,8 @@
         "base_strain_threshold": 10,
         "starting_xp": 100,
         "special_abilities": {
-            "active": [""],
-            "passive": [""]
+            "active": [],
+            "passive": []
         },
         "description": "This is a description of a Mirialan"
     },
@@ -222,8 +232,8 @@
         "base_strain_threshold": 10,
         "starting_xp": 100,
         "special_abilities": {
-            "active": [""],
-            "passive": [""]
+            "active": [],
+            "passive": []
         },
         "description": "This is a description of a Mustafarian (Northern)"
     },
@@ -241,8 +251,8 @@
         "base_strain_threshold": 10,
         "starting_xp": 100,
         "special_abilities": {
-            "active": [""],
-            "passive": [""]
+            "active": [],
+            "passive": []
         },
         "description": "This is a description of a Mustafarian (Southern)"
     },
@@ -260,8 +270,8 @@
         "base_strain_threshold": 9,
         "starting_xp": 100,
         "special_abilities": {
-            "active": [""],
-            "passive": [""]
+            "active": [],
+            "passive": []
         },
         "description": "This is a description of a Nautolan"
     },
@@ -279,8 +289,8 @@
         "base_strain_threshold": 8,
         "starting_xp": 95,
         "special_abilities": {
-            "active": [""],
-            "passive": [""]
+            "active": [],
+            "passive": []
         },
         "description": "This is a description of a Quarren"
     },
@@ -298,8 +308,8 @@
         "base_strain_threshold": 10,
         "starting_xp": 100,
         "special_abilities": {
-            "active": [""],
-            "passive": [""]
+            "active": [],
+            "passive": []
         },
         "description": "This is a description of a Rodian"
     },
@@ -317,8 +327,8 @@
         "base_strain_threshold": 10,
         "starting_xp": 100,
         "special_abilities": {
-            "active": [""],
-            "passive": [""]
+            "active": [],
+            "passive": []
         },
         "description": "This is a description of a Togruta"
     },
@@ -336,8 +346,8 @@
         "base_strain_threshold": 9,
         "starting_xp": 90,
         "special_abilities": {
-            "active": [""],
-            "passive": [""]
+            "active": [],
+            "passive": []
         },
         "description": "This is a description of a Trandoshan"
     },
@@ -355,8 +365,8 @@
         "base_strain_threshold": 11,
         "starting_xp": 100,
         "special_abilities": {
-            "active": [""],
-            "passive": [""]
+            "active": [],
+            "passive": []
         },
         "description": "This is a description of a lek"
     },
@@ -374,8 +384,8 @@
         "base_strain_threshold": 8,
         "starting_xp": 90,
         "special_abilities": {
-            "active": [""],
-            "passive": [""]
+            "active": [],
+            "passive": []
         },
         "description": "This is a description of a Wookie"
     },
@@ -393,8 +403,8 @@
         "base_strain_threshold": 10,
         "starting_xp": 100,
         "special_abilities": {
-            "active": [""],
-            "passive": [""]
+            "active": [],
+            "passive": []
         },
         "description": "This is a description of a Zabrak"
     }

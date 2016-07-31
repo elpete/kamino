@@ -14,6 +14,7 @@ import Characteristics from './Characteristics'
 
 //REFERENCES
 import speciesRef from '../../reference/species.json'
+import careerRef from '../../reference/careers.json'
 
 export default class SpeciesSelection extends Component {
     componentDidMount() {
@@ -52,11 +53,15 @@ export default class SpeciesSelection extends Component {
             </option>
         ));
 
-        console.log( Object.keys(speciesRef['BESALISK'].special_abilities.active));
+        const activeAbilities = (speciesRef[species].special_abilities.active).map(key => (
+            <li value={key} key={key}>
+                {key}
+            </li>
+        ));
 
-        const activeAbilities = Object.keys(speciesRef['BESALISK'].special_abilities.active).map(activeKey => (
-            <li value = {activeKey} key = {activeKey}>
-                {activeKey}
+        const passiveAbilities = (speciesRef[species].special_abilities.passive).map(key => (
+            <li value={key} key={key}>
+                {key}
             </li>
         ));
 
@@ -89,7 +94,9 @@ export default class SpeciesSelection extends Component {
                         {activeAbilities}
                     </ul>
                     <h5>Passive Abilities</h5>
-                    <p>Passive</p>
+                    <ul>
+                        {passiveAbilities}
+                    </ul>
                     <button 
                         onClick={ this.toUser.bind( this ) } 
                         className='btn btn-primary'> 
