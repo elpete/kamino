@@ -320,8 +320,8 @@
             "AGILITY": 2,
             "INTELLECT": 2,
             "CUNNING": 3,
-            "WILLPOWER": 3,
-            "PRESENCE": 3
+            "WILLPOWER": 2,
+            "PRESENCE": 2
         },
         "base_wound_threshold": 10,
         "base_strain_threshold": 10,
