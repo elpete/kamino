@@ -57,9 +57,12 @@
         "starting_xp": 90,
         "special_abilities": {
             "active": [],
-            "passive": []
+            "passive": [
+                "Treat all Knowledge skills as career skills.",
+                "Begin the game with one rank in Vigilance."
+            ]
         },
-        "description": "This is a description of a Cerean"
+        "description": "Cereans are a distinctive species. Though they are similiar in appearance to humans, their one noticeable difference comprises theor extended, almost cone-like skulls, which house large, binary brains (in essence, two brains closely linked together). Becasue of their binary brains, members of this humanoid species can have extraordinary mental aptitude. The species is also known for attention to detail as well as a cultural tendancy toward extended contemplation."
     },
     "DUG": {
         "display_name": "Dug",
@@ -113,10 +116,14 @@
         "base_strain_threshold": 12,
         "starting_xp": 90,
         "special_abilities": {
-            "active": [],
-            "passive": []
+            "active": [
+                "By emitting pheromones and altering their skin color, Falleen can affect emotional states of other sentients. Once per check as an incidental, a Falleen may suffer 2 strain to upgrade the ability of a Charm, Deception, or Negotiation check against a living sentient being within short range once. This ability has no effect on targets wearing breath masks or without respiratory systems."
+            ],
+            "passive": [
+                "Begin with one rank in Charm."
+            ]
         },
-        "description": "This is a description of a Falleen"
+        "description": "Beneath the glamorous reptilian features and serene facade of the mysterious Falleen lies a shrewd mind and cold-blooded precision. A Falleen uses wiles and unique pheromones, ontoxicating to most species, to achieve great things and manipulare members of other species with ease."
     },
     "GAND": {
         "display_name": "Gand",
@@ -170,15 +177,12 @@
         "base_strain_threshold": 10,
         "starting_xp": 110,
         "special_abilities": {
-            "active": [
-                "This is an Active Ability",
-                "This is another Active Ability"
-            ],
+            "active": [],
             "passive": [
-                "This is a Passive Ability",
-                "This is another Passive Ability"]
+                "Start with one rank each in two different non-career skills."
+            ]
         },
-        "description": "This is a description of a Human"
+        "description": "Humans are the most common form of sentient life in the galaxy. Characterized by an exceptional degree of adaptability, they have come to reside on most of the galaxy's habitable worlds. Human cultures have explored much of the galaxy and established many colonies."
     },
     "KEL_DOR": {
         "display_name": "Kel Dor",
@@ -194,10 +198,14 @@
         "base_strain_threshold": 10,
         "starting_xp": 100,
         "special_abilities": {
-            "active": [],
-            "passive": []
+            "active": [
+                "When making skill checks, remove up to 2 Setbacks imposed due to darkness."
+            ],
+            "passive": [
+                "Begin with one rank in Knowledge(Education)."
+            ]
         },
-        "description": "This is a description of a Dor"
+        "description": "Best known as a kindly and soft-spoken species, Kel Dors are most easily identified by the protective eye-wear and rebreather masks that they must wear when outside of their native environmemts. In spite of Kel Dors' gentle natures, they are renowned for their sense of justice and willingness to enforce it great prejudice."
     },
     "MIRIALAN": {
         "display_name": "Mirialan",
@@ -214,9 +222,11 @@
         "starting_xp": 100,
         "special_abilities": {
             "active": [],
-            "passive": []
+            "passive": [
+                "Begin with one rank in Discipline and one rank in Cool."
+            ]
         },
-        "description": "This is a description of a Mirialan"
+        "description": "Mirialans are a near-human species from the planet Mirial. their culture is characterized by a deep-seated faith and respect for an individual's destiny. Mirialans undergo ritual tatooing to represent the ways that they have overcome the obstacles that fate placed before them."
     },
     "MUSTAFARIAN_NORTHERN": {
         "display_name": "Mustafarian (Northern)",
@@ -270,10 +280,14 @@
         "base_strain_threshold": 9,
         "starting_xp": 100,
         "special_abilities": {
-            "active": [],
-            "passive": []
+            "active": [
+                "Nautolans may breathe underwater without penalty and never sufer movement penalties for traveling through water."
+            ],
+            "passive": [
+                "Begin with one rank in Athletics."
+            ]
         },
-        "description": "This is a description of a Nautolan"
+        "description": "Nautolans are an amphibious species native to Glee Anselm. They are renowned for empathetic and cheerul natures and for enjoying everyday activities. Though generally peaceful, they are also tough and strong."
     },
     "QUARREN": {
         "display_name": "Quarren",
@@ -327,10 +341,13 @@
         "base_strain_threshold": 10,
         "starting_xp": 100,
         "special_abilities": {
-            "active": [],
-            "passive": []
+            "active": [
+                "When performing the assist maneuver, Togrutas grant 2 Boosts instead of 1 Boost."],
+            "passive": [
+                "Bein with one rank in Perception."
+            ]
         },
-        "description": "This is a description of a Togruta"
+        "description": "A carnivorous humanoid species from the planet Shili, Togrutas are easily recognized by the combination of their head-tails and hornlike montrals. Only Togrutas who are independant-minded - a relatively rare trait for them - travel off world."
     },
     "TRANDOSHAN": {
         "display_name": "Trandoshan",
@@ -365,10 +382,14 @@
         "base_strain_threshold": 11,
         "starting_xp": 100,
         "special_abilities": {
-            "active": [],
-            "passive": []
+            "active": [
+                "When making skill checks, Twi'leks may remove 1 Setback imposed due to arid or hot environmental conditions."
+            ],
+            "passive": [
+                "Begin with one rank in either Charm or Deception."
+            ]
         },
-        "description": "This is a description of a lek"
+        "description": "Twi'leks are a common sight throughout the galaxy, particularly within less reputable locales. This is largely because the species has sold their young into slavery for many millennia. they are easily recognized by their twin head-tails, also known as lekku or tchun-tchin."
     },
     "WOOKIE": {
         "display_name": "Wookie",
@@ -403,9 +424,11 @@
         "base_strain_threshold": 10,
         "starting_xp": 100,
         "special_abilities": {
-            "active": [],
-            "passive": []
+            "active": ["Zabrak add automatic Advantage to all Coercion checks they make."],
+            "passive": [
+                "Begin with one rank in Survival."
+            ]
         },
-        "description": "This is a description of a Zabrak"
+        "description": "Zabrak resemble humans in skin tone and physique, but they are easlity distinguished by their vestigial horns. They are renowned for both their ingerent confidence and their martial prowess."
     }
 }
