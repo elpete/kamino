@@ -35,6 +35,11 @@ export default class CareerSelection extends Component {
         hashHistory.push('/species');
     }
 
+    toInitialSkills( e ) {
+        e.preventDefault();
+        hashHistory.push('/initialSkills');
+    }
+
     render() {
         const currentCareer = this.props.character.career
         const careerOptions = Object.keys(careersRef).map(key => (
@@ -61,6 +66,11 @@ export default class CareerSelection extends Component {
                         onClick={this.toSpecies.bind(this)} 
                         className='btn btn-primary'> 
                         <span className="glyphicon glyphicon-menu-left"></span> Back to Species Selection
+                    </button>
+                    <button 
+                        onClick={this.toInitialSkills.bind(this)} 
+                        className='btn btn-primary pull-right'> 
+                        Continue to Initial Skill Selection <span className="glyphicon glyphicon-menu-right"></span>
                     </button>
                 </form>
             </div>
