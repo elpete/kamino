@@ -53,6 +53,11 @@ export default class SpeciesSelection extends Component {
             </option>
         ));
 
+        const base_wound = speciesRef[species].base_wound_threshold;
+        const base_strain = speciesRef[species].base_strain_threshold;
+        const starting_xp = speciesRef[species].starting_xp;
+
+
         const activeAbilities = (speciesRef[species].special_abilities.active).map(key => (
             <li value={key} key={key}>
                 {key}
@@ -89,14 +94,36 @@ export default class SpeciesSelection extends Component {
                         cunning={cunning}
                         willpower={willpower}
                         presence={presence} />
-                    <h5>Active Abilities</h5>
-                    <ul>
-                        {activeAbilities}
-                    </ul>
-                    <h5>Passive Abilities</h5>
-                    <ul>
-                        {passiveAbilities}
-                    </ul>
+
+                    <div className='row'>
+                        <div className='col-md-4'>
+                            <h5>Wound Threshold</h5>
+                            <p>{base_wound} + Brawn</p>
+                        </div>
+                        <div  className='col-md-4'>
+                            <h5>Strain Threshold</h5>
+                            <p>{base_strain} + Willpower</p>
+                        </div>
+                        <div  className='col-md-4'>
+                            <h5>Starting XP</h5>
+                            <p>{starting_xp}</p>
+                        </div>
+                    </div>
+
+                    <div className='row'>
+                        <h5>Active Abilities</h5>
+                        <ul>
+                            {activeAbilities}
+                        </ul>
+                    </div>
+
+                   <div className='row'>
+                        <h5>Passive Abilities</h5>
+                        <ul>
+                           {passiveAbilities}
+                        </ul>
+                   </div>
+
                     <button 
                         onClick={ this.toUser.bind( this ) } 
                         className='btn btn-primary'> 
