@@ -6,6 +6,7 @@ import Home 			from '../components/Home'
 import PlayerNameEntry 	from '../components/PlayerNameEntry'
 import SpeciesSelection	from '../components/SpeciesSelection'
 import CareerSelection 	from '../components/CareerSelection'
+import InitialSkillSelection from '../components/InitialSkillSelection'
 
 const routes = (
     <Router history={hashHistory}>
@@ -14,6 +15,7 @@ const routes = (
             <Route path="/user" component={PlayerNameEntry} />
             <Route path="/species" component={SpeciesSelection} />
             <Route path="/career" component={CareerSelection} />
+            <Route path="/initialSkills" component={InitialSkillSelection} />
         </Route>
     </Router>
 )
