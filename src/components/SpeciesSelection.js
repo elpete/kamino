@@ -84,45 +84,47 @@ export default class SpeciesSelection extends Component {
                                 {speciesOptions}
                         </select>
                     </div>
-                    <h5>Description</h5>
-                    <p>{speciesRef[species].description}</p>
-                    <h5>Starting Characteristics</h5>
-                    <Characteristics
-                        brawn={brawn}
-                        agility={agility}
-                        intellect={intellect}
-                        cunning={cunning}
-                        willpower={willpower}
-                        presence={presence} />
-
-                    <div className='row'>
-                        <div className='col-md-4'>
-                            <h5>Wound Threshold</h5>
-                            <p>{base_wound} + Brawn</p>
+                    <div className="well">
+                        <h5>Description</h5>
+                        <p>{speciesRef[species].description}</p>
+                        <h5>Starting Characteristics</h5>
+                        <Characteristics
+                            brawn={brawn}
+                            agility={agility}
+                            intellect={intellect}
+                            cunning={cunning}
+                            willpower={willpower}
+                            presence={presence} />
+                        
+                        <div className='row'>
+                            <div className='col-md-4'>
+                                <h5>Wound Threshold</h5>
+                                <p>{base_wound} + Brawn</p>
+                            </div>
+                            <div  className='col-md-4'>
+                                <h5>Strain Threshold</h5>
+                                <p>{base_strain} + Willpower</p>
+                            </div>
+                            <div  className='col-md-4'>
+                                <h5>Starting XP</h5>
+                                <p>{starting_xp}</p>
+                            </div>
                         </div>
-                        <div  className='col-md-4'>
-                            <h5>Strain Threshold</h5>
-                            <p>{base_strain} + Willpower</p>
+                        
+                        <div className='row'>
+                            <h5>Active Abilities</h5>
+                            <ul>
+                                {activeAbilities}
+                            </ul>
                         </div>
-                        <div  className='col-md-4'>
-                            <h5>Starting XP</h5>
-                            <p>{starting_xp}</p>
-                        </div>
+                        
+                                           <div className='row'>
+                            <h5>Passive Abilities</h5>
+                            <ul>
+                               {passiveAbilities}
+                            </ul>
+                                           </div>
                     </div>
-
-                    <div className='row'>
-                        <h5>Active Abilities</h5>
-                        <ul>
-                            {activeAbilities}
-                        </ul>
-                    </div>
-
-                   <div className='row'>
-                        <h5>Passive Abilities</h5>
-                        <ul>
-                           {passiveAbilities}
-                        </ul>
-                   </div>
 
                     <button 
                         onClick={ this.toUser.bind( this ) } 
