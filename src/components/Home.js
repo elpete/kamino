@@ -19,6 +19,11 @@ export default class Home extends Component {
         hashHistory.push('/career');
     }
 
+    toInitialSkills( e ) {
+        e.preventDefault();
+        hashHistory.push('/initialSkills');
+    }
+
     render() {
         return (
             <div className = 'well' style={{'textAlign':'center'}}>
@@ -27,7 +32,7 @@ export default class Home extends Component {
                         <button 
                             onClick={ this.toUser.bind( this ) } 
                             className='btn btn-success btn-lg btn-block'> 
-                            Begin the Cloning Process <span className="glyphicon"></span>
+                            Begin the Cloning Process <span className="glyphicon glyphicon-th"></span>
                         </button>
                     </div>
 
@@ -36,12 +41,17 @@ export default class Home extends Component {
                               <button 
                                 onClick={ this.toSpecies.bind( this ) } 
                                 className='btn btn-primary btn-sm'> 
-                                <span className="glyphicon"></span> Jump to Species Selection
+                                 Jump to Species Selection <span className="glyphicon glyphicon-fast-forward"></span>
                             </button>
                             <button 
                                 onClick={ this.toCareer.bind( this ) } 
                                 className='btn btn-primary btn-sm'> 
-                                Jump to Career Selection <span className="glyphicon"></span>
+                                Jump to Career Selection <span className="glyphicon glyphicon-fast-forward"></span>
+                            </button>
+                            <button 
+                                onClick={ this.toInitialSkills.bind( this ) } 
+                                className='btn btn-primary btn-sm'> 
+                                Jump to Initial Skills Selection <span className="glyphicon glyphicon-fast-forward"></span>
                             </button>
                         </div>
                     </div>
