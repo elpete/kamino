@@ -97,33 +97,30 @@ export default class SpeciesSelection extends Component {
                             presence={presence} />
                         
                         <div className='row'>
-                            <div className='col-md-4'>
+                            <div className='col-sm-4'>
                                 <h5>Wound Threshold</h5>
                                 <p>{base_wound} + Brawn</p>
                             </div>
-                            <div  className='col-md-4'>
+                            <div  className='col-sm-4'>
                                 <h5>Strain Threshold</h5>
                                 <p>{base_strain} + Willpower</p>
                             </div>
-                            <div  className='col-md-4'>
+                            <div  className='col-sm-4'>
                                 <h5>Starting XP</h5>
                                 <p>{starting_xp}</p>
                             </div>
                         </div>
                         
-                        <div className='row'>
-                            <h5>Active Abilities</h5>
-                            <ul>
-                                {activeAbilities}
-                            </ul>
-                        </div>
                         
-                                           <div className='row'>
-                            <h5>Passive Abilities</h5>
-                            <ul>
-                               {passiveAbilities}
-                            </ul>
-                                           </div>
+                        <h5>Active Abilities</h5>
+                        <ul>
+                            {activeAbilities}
+                        </ul>
+                        
+                        <h5>Passive Abilities</h5>
+                        <ul>
+                           {passiveAbilities}
+                        </ul>
                     </div>
 
                     <button 
