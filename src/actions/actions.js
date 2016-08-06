@@ -11,6 +11,7 @@ export const CHANGE_PRESENCE = 'CHANGE_PRESENCE'
 export const CHANGE_CHARACTER_CAREER = 'CHANGE_CHARACTER_CAREER'
 export const CHANGE_CHARACTER_SPECIALIZATION = 'CHANGE_CHARACTER_SPECIALIZATION'
 
+
 export function changePlayerName( name ) {
     return {
         type: CHANGE_PLAYER_NAME,
@@ -94,3 +95,4 @@ export function changeCharacterSpecializtion( specialization ) {
 		specialization
 	}
 }
+

@@ -5,6 +5,8 @@ import characteristics, * as fromCharacteristics from './characteristics'
 import species, * as fromSpecies from './species'
 import career, * as fromCareer from './career'
 import specialization, * as fromSpecialization from './specialization'
+import skills, * as fromSkills from './skills'
+
 
 import {CHANGE_CHARACTER_NAME} from '../actions/actions'
 
@@ -28,7 +30,8 @@ const character = combineReducers({
 	species,
 	characteristics,
 	career,
-	specialization
+	specialization,
+	skills
 })
 
 export default character
@@ -51,4 +54,8 @@ export function getCareer( state ) {
 
 export function getSpecialization( state ) {
 	return fromSpecialization.getSpecialization( state.specialization )
+}
+
+export function getSkills( state ) {
+	return fromSkills.getSkills( state.skills )
 }

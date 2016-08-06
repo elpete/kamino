@@ -20,6 +20,7 @@ export function getCharacter(state){
 		"species":fromCharacter.getSpecies(state.character),
 		"characteristics": fromCharacter.getCharacteristics(state.character),
 		"career": fromCharacter.getCareer(state.character),
-		"specialization": fromCharacter.getSpecialization(state.character)
+		"specialization": fromCharacter.getSpecialization(state.character),
+		"skills": fromCharacter.getSkills(state.character)
 	}
 }
