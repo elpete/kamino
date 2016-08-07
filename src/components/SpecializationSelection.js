@@ -29,10 +29,12 @@ export default class SpecializationSelection extends Component {
     	const {career} = this.props
         const {specialization} = this.props.character
         const specializations = careersRef[career].specializations.map( spec => <SpecializationButton
-            key={spec}
-            specKey={spec}
-            specName={specializationsRef[spec].display_name}
-            handleClick={this.handleChange} /> )
+                key={spec}
+                specKey={spec}
+                specName={specializationsRef[spec].display_name}
+                specialization={specialization}
+                handleClick={this.handleChange} 
+            /> )
 
         return (
 
@@ -59,7 +61,12 @@ class SpecializationButton extends Component {
     }
 
     render() {
-        const {specKey, specName} = this.props
+        const {
+            specKey, 
+            specName,
+            specialization
+        } = this.props
+
         return (
             <div 
                 className = "btn-group"
@@ -67,7 +74,7 @@ class SpecializationButton extends Component {
                 >
                 <button
                     type="button"
-                    className="btn btn-info"
+                    className = { (specKey == specialization) ? "btn btn-success" : "btn btn-info" }
                     name = {specKey}
                     onClick = {this.handleButtonClick}
                     value = {specKey} 
