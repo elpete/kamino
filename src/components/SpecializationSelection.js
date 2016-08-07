@@ -6,6 +6,10 @@ import {getCharacter} from '../reducers/index'
 
 //ACTIONS
 import {changeCharacterSpecializtion} from '../actions/actions'
+import {
+    changeInitialCareerSkills, 
+    changeInitialSpecializationSkills
+} from '../actions/skillActions'
 
 //COMPONENTS
 import Specialization from './Specialization'
@@ -23,6 +27,8 @@ export default class SpecializationSelection extends Component {
 
     handleChange( spec ) {
         this.props.changeCharacterSpecializtion(spec);
+        this.props.changeInitialCareerSkills([]);
+        this.props.changeInitialSpecializationSkills([]);
     }
 
     render() {
@@ -93,4 +99,7 @@ function mapStateToProps( state ) {
 }
 
 export default connect (mapStateToProps, {
-    changeCharacterSpecializtion } )( SpecializationSelection )
+    changeCharacterSpecializtion,
+    changeInitialCareerSkills,
+    changeInitialSpecializationSkills
+    } )( SpecializationSelection )
