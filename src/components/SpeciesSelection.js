@@ -145,4 +145,7 @@ function mapStateToProps(state) {
     };
 }
 
-export default connect(mapStateToProps, { changeCharacterSpecies, changeCharacterCharacteristics } )( SpeciesSelection )
+export default connect(mapStateToProps, { 
+    changeCharacterSpecies, 
+    changeCharacterCharacteristics 
+    } )( SpeciesSelection )
