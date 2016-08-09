@@ -10,7 +10,6 @@
 
 .panel-characteristic>.panel-heading {
 	border-bottom-left-radius: 20px;
-	/*padding: 10px 20px 10px 20px;*/
 	font-size: 15px;
 	color: white;
 }
@@ -49,3 +48,5 @@
 	text-align: center;
 	font-size: 30px;
 }
+
+
