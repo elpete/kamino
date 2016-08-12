@@ -11,6 +11,7 @@
             "STREETWISE",
             "VIGILANCE"
         ],
+        "allowance": 4,
         "specializations": [
             "ASSASSIN",
             "GADGETEER",
@@ -31,6 +32,7 @@
             "NEGOTIATION",
             "STREETWISE"
         ],
+        "allowance": 4,
         "specializations": [
             "DOCTOR",
             "POLITICO",
@@ -49,6 +51,7 @@
             "LEADERSHIP",
             "NEGOTIATION"
         ],
+        "allowance": 3,
         "specializations": [
             "HEALER",
             "NIMAN_DISCIPLE",
@@ -69,6 +72,7 @@
             "PILOTING_SPACE",
             "SURVIVAL"
         ],
+        "allowance": 4,
         "specializations": [
             "FRINGER",
             "SCOUT",
@@ -87,6 +91,7 @@
             "RESILIENCE",
             "VIGILANCE"
         ],
+        "allowance": 3,
         "specializations": [
             "PEACEKEEPER",
             "PROTECTOR",
@@ -107,6 +112,7 @@
             "RESILIENCE",
             "VIGILANCE"
         ],
+        "allowance": 4,
         "specializations": [
             "BODYGUARD",
             "MARAUDER",
@@ -125,6 +131,7 @@
             "PERCEPTION",
             "VIGILANCE"
         ],
+        "allowance": 3,
         "specializations": [
             "ADVISOR",
             "MAKASHI_DUELIST",
@@ -143,6 +150,7 @@
             "SURVIVAL",
             "VIGILANCE"
         ],
+        "allowance": 3,
         "specializations": [
             "ATARU_STRIKER",
             "HUNTER",
@@ -161,6 +169,7 @@
             "SKULLDUGGERY",
             "STEALTH"
         ],
+        "allowance": 3,
         "specializations": [
             "ARTISAN",
             "SHADOW",
@@ -181,6 +190,7 @@
             "STREETWISE",
             "VIGILANCE"
         ],
+        "allowance": 4,
         "specializations": [
             "CHARMER",
             "GAMBLER",
@@ -204,6 +214,7 @@
             "PERCEPTION",
             "PILOTING_PLANETARY"
         ],
+        "allowance": 4,
         "specializations": [
             "CYBER_TECH",
             "DROID_TECH",
@@ -225,6 +236,7 @@
             "PERCEPTION",
             "SURVIVAL"
         ],
+        "allowance": 3,
         "specializations": [
             "AGGRESSOR",
             "SHI_CHO_KNIGHT",
