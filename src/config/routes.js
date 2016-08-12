@@ -7,7 +7,7 @@ import PlayerNameEntry from '../components/PlayerNameEntry'
 import SpeciesSelection from '../components/SpeciesSelection'
 import CareerSelection from '../components/CareerSelection'
 import InitialSkillSelection from '../components/InitialSkillSelection'
-import SpendXP from '../components/SpendXP'
+import InitialSpendXP from '../components/InitialSpendXP'
 
 const routes = (
     <Router history = {hashHistory}>
@@ -17,7 +17,7 @@ const routes = (
             <Route path = "/species" component = {SpeciesSelection} />
             <Route path = "/career" component = {CareerSelection} />
             <Route path = "/initialSkills" component = {InitialSkillSelection} />
-            <route path = "/spendXP" component = {SpendXP} />
+            <route path = "/initialSpendXP" component = {InitialSpendXP} />
         </Route>
     </Router>
 )

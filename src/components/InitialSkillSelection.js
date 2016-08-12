@@ -72,9 +72,9 @@ export default class InitialSkillSelection extends Component {
         hashHistory.push('/career');
     }
 
-    toSpendXP(e) {
+    toInitialSpendXP(e) {
         e.preventDefault();
-        hashHistory.push('/spendXP');
+        hashHistory.push('/initialSpendXP');
     }
 
 	render() {
@@ -143,9 +143,9 @@ export default class InitialSkillSelection extends Component {
 				</button>
 
 				<button 
-				    onClick={ this.toSpendXP.bind( this ) } 
+				    onClick={ this.toInitialSpendXP.bind( this ) } 
 				    className='btn btn-primary pull-right'> 
-				    Continue to Spend XP <span className="glyphicon glyphicon-menu-right"></span>
+				    Continue to Initial Spend XP <span className="glyphicon glyphicon-menu-right"></span>
 				</button>
 
 			</div>

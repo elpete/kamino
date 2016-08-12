@@ -24,9 +24,9 @@ export default class Home extends Component {
         hashHistory.push('/initialSkills');
     }
 
-    toSpendXP( e ) {
+    toInitialSpendXP( e ) {
         e.preventDefault();
-        hashHistory.push('/spendXP');
+        hashHistory.push('/initialSpendXP');
     }
 
     render() {
@@ -59,7 +59,7 @@ export default class Home extends Component {
                                 Jump to Initial Skills Selection <span className="glyphicon glyphicon-fast-forward"></span>
                             </button>
                             <button 
-                                onClick={ this.toSpendXP.bind( this ) } 
+                                onClick={ this.toInitialSpendXP.bind( this ) } 
                                 className='btn btn-primary btn-sm'> 
                                 Jump to Spend XP <span className="glyphicon glyphicon-fast-forward"></span>
                             </button>
