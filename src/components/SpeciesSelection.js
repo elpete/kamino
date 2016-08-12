@@ -70,7 +70,7 @@ export default class SpeciesSelection extends Component {
         return (
             
             <div className = "well">
-                <div className = "row form-group">
+                <div className = "row form-group form-group-lg">
                     <h3 className = "text-center">Select a Species</h3>
                     <div className = "col-sm-offset-3 col-sm-6">
                         <select 

@@ -13,20 +13,16 @@ export default class Specialization extends Component {
 			</li>
     	));
         return (
-
-            <div>
-                <div className="panel panel-info panel-specialization">
-                  <div className="panel-heading">
-                    <h3 className="panel-title">{specRef[specialization].display_name}</h3>
-                  </div>
-                  <div className="panel-body">
-                  	<h5>Description</h5>
+            <div className = "row">
+                <div className = "col-sm-6 text-center">
+                    <h4>Description</h4>
                     <p>{specRef[specialization].description}</p>
-                    <h5>Specialization Skills</h5>
+                </div>
+                <div className = "col-sm-6">
+                    <h4 className = "text-center" >Specialization Skills</h4>
                     <ul>
-                    	{ specializationSkills }
+                    { specializationSkills }
                     </ul>
-                  </div>
                 </div>
             </div>
         )

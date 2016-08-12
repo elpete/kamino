@@ -32,47 +32,47 @@ export default class CareerSelection extends Component {
 
     toSpecies( e ) {
         e.preventDefault();
-        hashHistory.push('/species');
+        hashHistory.push( '/species' );
     }
 
     toInitialSkills( e ) {
         e.preventDefault();
-        hashHistory.push('/initialSkills');
+        hashHistory.push( '/initialSkills' );
     }
 
     render() {
         const currentCareer = this.props.character.career
         const careerOptions = Object.keys(careersRef).map(key => (
-            <option value={key} key={key}>
-                {careersRef[key].display_name}
+            <option value={ key } key={ key }>
+                { careersRef[key].display_name }
             </option>
         ));
 
         return (
-            <div className='well'>
-                <form>
-                    <div className='form-group'>
-                        <label>Select a Career</label>
+            <div className = "well">
+                <div className = "row form-group form-group-lg">
+                    <h3 className = "text-center">Select a Career</h3>
+                    <div className = "col-sm-offset-3 col-sm-6">
                         <select 
-                            className='form-control'
+                            className = "form-control"
                             ref = { select => this.careerSelect = select }
                             onChange = { this.handleCareerChange.bind( this ) } 
-                            value={currentCareer}>
-                                {careerOptions}
+                            value = { currentCareer }>
+                                { careerOptions }
                         </select>
                     </div>
-                    <Career career={currentCareer}/>
-                    <button 
-                        onClick={this.toSpecies.bind(this)} 
-                        className='btn btn-primary'> 
-                        <span className="glyphicon glyphicon-menu-left"></span> Back to Species Selection
-                    </button>
-                    <button 
-                        onClick={this.toInitialSkills.bind(this)} 
-                        className='btn btn-primary pull-right'> 
-                        Continue to Initial Skill Selection <span className="glyphicon glyphicon-menu-right"></span>
-                    </button>
-                </form>
+                </div>
+                <Career career = { currentCareer }/>
+                <button 
+                    onClick = { this.toSpecies.bind(this) } 
+                    className = "btn btn-primary"> 
+                    <span className = "glyphicon glyphicon-menu-left"></span> Back to Species Selection
+                </button>
+                <button 
+                    onClick = { this.toInitialSkills.bind(this) } 
+                    className = "btn btn-primary pull-right"> 
+                    Continue to Initial Skill Selection <span className = "glyphicon glyphicon-menu-right"></span>
+                </button>
             </div>
         )
     }

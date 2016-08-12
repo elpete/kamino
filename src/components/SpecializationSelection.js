@@ -80,7 +80,7 @@ class SpecializationButton extends Component {
                 >
                 <button
                     type="button"
-                    className = { (specKey == specialization) ? "btn btn-success" : "btn btn-info" }
+                    className = { (specKey == specialization) ? "btn btn-primary" : "btn btn-info" }
                     name = {specKey}
                     onClick = {this.handleButtonClick}
                     value = {specKey} 

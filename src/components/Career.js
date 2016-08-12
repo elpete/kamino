@@ -17,14 +17,23 @@ export default class Career extends Component {
     	));
         return (
             <div className = 'well'>
-            	<h5>Description</h5>
-            	<p>{ careersRef[career].description }</p>
-            	<h5>Career Skills</h5>
-        		<ul>
-        			{ careerSkills }
-        		</ul>
-                <h5>Specializations</h5>
-                <SpecializationSelection career = { career }/>
+                <div className = "row ">
+                    <div className = "col-sm-6 text-center">
+                        <h4>Description</h4>
+                        <p>{ careersRef[career].description }</p>
+                    </div>
+                    <div className = "col-sm-6">
+                        <h4 className = "text-center" >Career Skills</h4>
+                            <ul>
+                                { careerSkills }
+                            </ul>
+                    </div>
+                </div>
+                <div className = "row">
+                    <h4 className = "text-center">Specializations</h4>
+                    <SpecializationSelection career = { career }/>
+                    
+                </div>
             </div>
         )
     }
