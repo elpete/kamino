@@ -27,7 +27,7 @@ export default class InitialSkillSelection extends Component {
     	this.handleSpecializationSkillChange = this.handleSpecializationSkillChange.bind(this);
     }
 
-    handleCareerSkillChange ( skillKey, initialCareerSkills ) {
+    handleCareerSkillChange ( skillKey, initialCareerSkills, allowance ) {
 
 		if (initialCareerSkills.includes(skillKey)) {
 
@@ -35,7 +35,7 @@ export default class InitialSkillSelection extends Component {
 
 		} else {
 
-			if ( initialCareerSkills.length < 4 ) {
+			if ( initialCareerSkills.length < allowance ) {
 				initialCareerSkills.push(skillKey)
 			}
 
@@ -47,7 +47,7 @@ export default class InitialSkillSelection extends Component {
 
     }
 
-    handleSpecializationSkillChange ( skillKey, initialSpecializationSkills ) {
+    handleSpecializationSkillChange ( skillKey, initialSpecializationSkills, allowance ) {
 
 		if (initialSpecializationSkills.includes(skillKey)) {
 
@@ -55,7 +55,7 @@ export default class InitialSkillSelection extends Component {
 
 		} else {
 
-			if ( initialSpecializationSkills.length < 2 ) {
+			if ( initialSpecializationSkills.length < allowance ) {
 				initialSpecializationSkills.push(skillKey)
 			}
 
@@ -83,13 +83,16 @@ export default class InitialSkillSelection extends Component {
 			initialSpecializationSkills
 		} = this.props.character.skills
 
-		console
+		const careerAllowance = careerRef[career].allowance
+		const specializationAllowance = specializationRef[specialization].allowance
+
 		const careerSkillButtons = careerRef[career].career_skills.map( skillKey => 
 			<CareerSkillButton
 				key = { skillKey }
 				skillKey = { skillKey }
 				skillName = { skillsRef[skillKey].display_name}
 				initialCareerSkills = { initialCareerSkills }
+				allowance = { careerAllowance }
 				handleClick = { this.handleCareerSkillChange } 
 			/>
 		)
@@ -100,6 +103,7 @@ export default class InitialSkillSelection extends Component {
 				skillKey = { skillKey }
 				skillName = { skillsRef[skillKey].display_name}
 				initialSpecializationSkills = { initialSpecializationSkills }
+				allowance = { specializationAllowance }
 				handleClick = { this.handleSpecializationSkillChange } 
 			/>
 		)
@@ -112,14 +116,14 @@ export default class InitialSkillSelection extends Component {
 						<h5> Select Initial Skills </h5>
 						<div  className='col-sm-6'>
 							<h5> Career: {careerRef[career].display_name} </h5>
-							<h5> {initialCareerSkills.length} out of 4 </h5>
+							<h5> {initialCareerSkills.length} out of {careerAllowance} </h5>
 							<div className="btn-group-vertical" role="group">
 								{careerSkillButtons}
 							</div>
 						</div>
 						<div  className='col-sm-6'>
 							<h5> Specialization: {specializationRef[specialization].display_name} </h5>
-							<h5> {initialSpecializationSkills.length} out of 2 </h5>
+							<h5> {initialSpecializationSkills.length} out of {specializationAllowance} </h5>
 							<div className="btn-group-vertical" role="group">
 								{specializationSkillButtons}
 							</div>
@@ -145,14 +149,15 @@ class CareerSkillButton extends Component {
 	}
 
 	handleButtonClick() {
-		this.props.handleClick( this.props.skillKey, this.props.initialCareerSkills )	
+		this.props.handleClick( this.props.skillKey, this.props.initialCareerSkills, this.props.allowance )	
 	}
 
 	render() {
 		const {
 			skillKey, 
 			skillName, 
-			initialCareerSkills
+			initialCareerSkills,
+			allowance
 		} = this.props
 
 		return (
@@ -176,14 +181,15 @@ class SpecializationSkillButton extends Component {
 	}
 
 	handleButtonClick() {
-		this.props.handleClick( this.props.skillKey, this.props.initialSpecializationSkills )	
+		this.props.handleClick( this.props.skillKey, this.props.initialSpecializationSkills, this.props.allowance )	
 	}
 
 	render() {
 		const {
 			skillKey, 
 			skillName, 
-			initialSpecializationSkills
+			initialSpecializationSkills,
+			allowance
 		} = this.props
 
 		return (
