@@ -14,7 +14,9 @@ export default class Career extends Component {
 			<li value = {key} key = {key}>
 				{ skillsRef[key].display_name } <sup>[{ skillsRef[key].characteristic }]</sup>
 			</li>
-    	));
+    	))
+        const forceRating = careersRef[career].force_rating
+
         return (
             <div className = 'well'>
                 <div className = "row ">
@@ -23,10 +25,16 @@ export default class Career extends Component {
                         <p>{ careersRef[career].description }</p>
                     </div>
                     <div className = "col-sm-6">
-                        <h4 className = "text-center" >Career Skills</h4>
+                        <div className ="row">
+                            <h4 className = "text-center" >Career Skills</h4>
                             <ul>
                                 { careerSkills }
                             </ul>
+                        </div>
+                        <div className = "row text-center">
+                            <h4 className = "text-center" >Force Rating</h4>
+                            <h4> <span className = "label label-default">{ forceRating }</span></h4>
+                        </div>
                     </div>
                 </div>
                 <div className = "row">

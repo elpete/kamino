@@ -110,15 +110,15 @@ export default class SpeciesSelection extends Component {
 
                     <div className = "row text-center">
                         <div className = "col-sm-4">
-                            <h5>Wound Threshold</h5>
+                            <h4>Wound Threshold</h4>
                             <h4> <span className = "label label-default">{ base_wound } + Brawn</span></h4>
                         </div>
                         <div  className = 'col-sm-4'>
-                            <h5>Strain Threshold</h5>
+                            <h4>Strain Threshold</h4>
                             <h4><span className = "label label-default">{ base_strain } + Willpower</span></h4>
                         </div>
                         <div  className = 'col-sm-4'>
-                            <h5>Starting XP</h5>
+                            <h4>Starting XP</h4>
                             <h4><span className = "label label-default">{ starting_xp }</span></h4>
                         </div>
                     </div>
