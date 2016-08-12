@@ -11,6 +11,11 @@ import {
     changeCharacterSpecializtion
 } from '../actions/actions'
 
+import {
+    changeInitialCareerSkills, 
+    changeInitialSpecializationSkills
+} from '../actions/skillActions'
+
 //COMPONENTS
 import Career from './Career'
 
@@ -28,6 +33,8 @@ export default class CareerSelection extends Component {
         const defaultCareerSpec = careersRef[selectedCareer].specializations[0];
         this.props.changeCharacterCareer(selectedCareer);
         this.props.changeCharacterSpecializtion(defaultCareerSpec);
+        this.props.changeInitialCareerSkills([]);
+        this.props.changeInitialSpecializationSkills([]);
     }
 
     toSpecies( e ) {
@@ -84,4 +91,8 @@ function mapStateToProps(state) {
     };
 }
 
-export default connect( mapStateToProps, { changeCharacterCareer, changeCharacterSpecializtion } )( CareerSelection )
+export default connect( mapStateToProps, { 
+    changeCharacterCareer, 
+    changeCharacterSpecializtion,
+    changeInitialCareerSkills,
+    changeInitialSpecializationSkills } )( CareerSelection )
