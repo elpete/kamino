@@ -72,6 +72,11 @@ export default class InitialSkillSelection extends Component {
         hashHistory.push('/career');
     }
 
+    toSpendXP(e) {
+        e.preventDefault();
+        hashHistory.push('/spendXP');
+    }
+
 	render() {
 		const {
 			career, 
@@ -112,17 +117,17 @@ export default class InitialSkillSelection extends Component {
 			<div className="well">
 
 				<div className='well'>
-					<div className="row">
-						<h5> Select Initial Skills </h5>
-						<div  className='col-sm-6'>
-							<h5> Career: {careerRef[career].display_name} </h5>
+					<div className="row text-center">
+						<h3> Select Initial Skills </h3>
+						<div  className='col-sm-6 text-center'>
+							<h4> Career: {careerRef[career].display_name} </h4>
 							<h5> {initialCareerSkills.length} out of {careerAllowance} </h5>
 							<div className="btn-group-vertical" role="group">
 								{careerSkillButtons}
 							</div>
 						</div>
-						<div  className='col-sm-6'>
-							<h5> Specialization: {specializationRef[specialization].display_name} </h5>
+						<div  className='col-sm-6 text-center'>
+							<h4> Specialization: {specializationRef[specialization].display_name} </h4>
 							<h5> {initialSpecializationSkills.length} out of {specializationAllowance} </h5>
 							<div className="btn-group-vertical" role="group">
 								{specializationSkillButtons}
@@ -135,6 +140,12 @@ export default class InitialSkillSelection extends Component {
 				    onClick={ this.toCareer.bind( this ) } 
 				    className='btn btn-primary'> 
 				    <span className="glyphicon glyphicon-menu-left"></span> Back to Career Selection
+				</button>
+
+				<button 
+				    onClick={ this.toSpendXP.bind( this ) } 
+				    className='btn btn-primary pull-right'> 
+				    Continue to Spend XP <span className="glyphicon glyphicon-menu-right"></span>
 				</button>
 
 			</div>
@@ -163,7 +174,7 @@ class CareerSkillButton extends Component {
 		return (
 			<button
 				type = "button"
-				className = {initialCareerSkills.includes(skillKey) ? "btn btn-success" : "btn btn-info"}
+				className = {initialCareerSkills.includes(skillKey) ? "btn btn-primary" : "btn btn-info"}
 				name = { skillKey }
 				value = { skillKey }
 				onClick = { this.handleButtonClick }
@@ -195,7 +206,7 @@ class SpecializationSkillButton extends Component {
 		return (
 			<button
 				type = "button"
-				className = {initialSpecializationSkills.includes(skillKey) ? "btn btn-success" : "btn btn-info"}
+				className = {initialSpecializationSkills.includes(skillKey) ? "btn btn-primary" : "btn btn-info"}
 				name = { skillKey }
 				value = { skillKey }
 				onClick = { this.handleButtonClick }
