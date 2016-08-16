@@ -8,8 +8,10 @@ import {getCharacter} from '../reducers/index'
 //ACTIONS
 
 //COMPONENTS
+import SkillRankInput from './SkillRankInput'
 
 //REFERENCES
+import skillsRef from '../../reference/skills.json'
 
 
 export default class SpendXP extends Component {
@@ -24,9 +26,21 @@ export default class SpendXP extends Component {
 
     render() {
 
+ 		const skillRankInputs = Object.keys(skillsRef).map( skillKey =>
+
+ 			<SkillRankInput
+ 				key = { skillKey }
+ 				skillKey = { skillKey }
+ 				skillName = { skillsRef[skillKey].display_name }
+ 				skillCharacteristic = { skillsRef[skillKey].characteristic }
+ 			/>
+
+ 		)
+
         return (
             <div className = "well">
             	<div className = "row">
+            		{skillRankInputs}
             	</div>
                 <button 
                     onClick = { this.toInitialSkills.bind(this) } 
