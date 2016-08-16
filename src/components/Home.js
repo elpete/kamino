@@ -61,7 +61,7 @@ export default class Home extends Component {
                             <button 
                                 onClick={ this.toInitialSpendXP.bind( this ) } 
                                 className='btn btn-primary btn-sm'> 
-                                Jump to Spend XP <span className="glyphicon glyphicon-fast-forward"></span>
+                                Jump to Initial XP Spend <span className="glyphicon glyphicon-fast-forward"></span>
                             </button>
                         </div>
                     </div>
