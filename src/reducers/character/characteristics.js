@@ -6,7 +6,7 @@ import {
 	CHANGE_PRESENCE,
 	CHANGE_WILLPOWER,
 	CHANGE_CHARACTER_CHARACTERISTICS
-} from '../actions/actions'
+} from '../../actions/actions'
 
 // INITIAL STATE
 const initialCharacteristicState = {

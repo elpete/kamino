@@ -1,4 +1,4 @@
-import { CHANGE_CHARACTER_SPECIALIZATION } from '../actions/actions'
+import { CHANGE_CHARACTER_SPECIALIZATION } from '../../actions/actions'
 
 //INITIAL STATE
 const initialSpecializationState = {

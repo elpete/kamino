@@ -1,7 +1,7 @@
 import {combineReducers} from 'redux'
 
 import player, * as fromPlayer from './player'
-import character, * as fromCharacter from './character'
+import character, * as fromCharacter from './character/index'
 
 const rootReducer = combineReducers({
     player,
@@ -21,6 +21,8 @@ export function getCharacter(state){
 		"characteristics": fromCharacter.getCharacteristics(state.character),
 		"career": fromCharacter.getCareer(state.character),
 		"specialization": fromCharacter.getSpecialization(state.character),
-		"skills": fromCharacter.getSkills(state.character)
+		"skills": fromCharacter.getSkills(state.character),
+		"xp": fromCharacter.getXP(state.character),
+		"name": fromCharacter.getName(state.character)
 	}
 }

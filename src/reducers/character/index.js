@@ -6,35 +6,19 @@ import species, * as fromSpecies from './species'
 import career, * as fromCareer from './career'
 import specialization, * as fromSpecialization from './specialization'
 import skills, * as fromSkills from './skills'
+import xp, * as fromXP from './xp'
+import name, * as fromName from './name'
 
 
-import {CHANGE_CHARACTER_NAME} from '../actions/actions'
-
-const initialCharacterState = {
-	name: ''
-}
-
-function name(state = initialCharacterState, action) {
-	switch (action.type) {
-		case CHANGE_CHARACTER_NAME:
-			return Object.assign({}, state, {
-				name:action.name
-			})
-		default:
-			return state
-	}
-}
-
-const character = combineReducers({
+export default combineReducers({
 	name,
 	species,
 	characteristics,
 	career,
 	specialization,
-	skills
+	skills,
+	xp
 })
-
-export default character
 
 export function getName( state ) {
 	return state.name.name
@@ -58,4 +42,12 @@ export function getSpecialization( state ) {
 
 export function getSkills( state ) {
 	return fromSkills.getSkills( state.skills )
+}
+
+export function getXP( state ) {
+	return fromXP.getXP( state.xp )
+}
+
+export function getName( state ) {
+	return fromName.getName( state.name )
 }

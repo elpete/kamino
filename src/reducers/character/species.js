@@ -1,4 +1,4 @@
-import {CHANGE_CHARACTER_SPECIES} from '../actions/actions'
+import {CHANGE_CHARACTER_SPECIES} from '../../actions/actions'
 
 // INITIAL STATE
 

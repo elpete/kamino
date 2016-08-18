@@ -3,7 +3,7 @@ import {
 	CHANGE_INITIAL_CAREER_SKILLS,
 	CHANGE_INITIAL_SPECIALIZATION_SKILLS,
 	CHANGE_LIGHTSABER_SKILL
-} from '../actions/skillActions'
+} from '../../actions/skillActions'
 
 //INITIAL STATE
 const initialSkillsState = {

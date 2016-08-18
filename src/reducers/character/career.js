@@ -1,4 +1,4 @@
-import { CHANGE_CHARACTER_CAREER } from '../actions/actions'
+import { CHANGE_CHARACTER_CAREER } from '../../actions/actions'
 
 //INITIAL STATE
 const initialCareerState = {
