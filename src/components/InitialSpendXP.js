@@ -12,6 +12,21 @@ import SkillRankInput from './SkillRankInput'
 
 //REFERENCES
 import skillsRef from '../../reference/skills.json'
+import careersRef from '../../reference/careers.json'
+import specializationsRef from '../../reference/specializations.json'
+
+function isCareerSkill( character, skillKey ) {
+    const careerSkills = careersRef[ character.career ].career_skills
+
+    if ( careerSkills.indexOf( skillKey ) > -1 ) {
+        return true
+    }
+
+
+    const specializationSkills = specializationsRef[ character.specialization ].career_skills
+
+    return specializationSkills.indexOf( skillKey ) > -1
+} 
 
 
 export default class SpendXP extends Component {
@@ -26,16 +41,27 @@ export default class SpendXP extends Component {
 
     render() {
 
- 		const skillRankInputs = Object.keys(skillsRef).map( skillKey =>
+        const availableExperience = this.props.character.xp.available;
+        const skillRankInputs = Object.keys(skillsRef).map( skillKey => {
 
- 			<SkillRankInput
- 				key = { skillKey }
- 				skillKey = { skillKey }
- 				skillName = { skillsRef[skillKey].display_name }
- 				skillCharacteristic = { skillsRef[skillKey].characteristic }
- 			/>
+            const currentRank = this.props.character.skills[skillKey] || 0
+            const nextCost = ( currentRank + 1 ) * 5 + ( isCareerSkill( this.props.character, skillKey ) ? 0 : 5 );
+            const canPurchaseNextRank = currentRank < 5 && nextCost <= availableExperience;
 
- 		)
+ 			return (
+                <SkillRankInput
+                    key = { skillKey }
+                    skillKey = { skillKey }
+                    skillName = { skillsRef[skillKey].display_name }
+                    skillCharacteristic = { skillsRef[skillKey].characteristic }
+                    currentRank = { currentRank }
+                    nextCost = { nextCost }
+                    canPurchaseNextRank = { canPurchaseNextRank }
+                />
+            )
+            
+
+ 		} )
 
         return (
             <div>

@@ -1,10 +1,5 @@
 import React, {Component, PropTypes} from 'react'
 
-//COMPONENTS
-
-//REFERENCES
-import skillsRef from '../../reference/skills.json'
-
 export default class SkillRankInput extends Component {
 	constructor( props ) {
 		super(props)
@@ -12,13 +7,17 @@ export default class SkillRankInput extends Component {
 
 	render() {
 
-
 		const { 
 			skillKey, 
 			skillName, 
-			skillCharacteristic
+			skillCharacteristic,
+			currentRank,
+			nextCost,
+			canPurchaseNextRank
 		} = this.props
 
+		console.log( nextCost, "canPurchaseNextRank", canPurchaseNextRank );
+		
 		return (
 			<div>
 				<form className = "form-horizontal col-sm-6">

@@ -44,7 +44,7 @@ export default class SpecializationSelection extends Component {
 
         return (
 
-            <div>
+            <div className = "row">
                 <div className="btn-group btn-group-justified" role="group">
                     {specializations}
                 </div>

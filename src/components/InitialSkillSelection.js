@@ -8,8 +8,7 @@ import {getCharacter} from '../reducers/index'
 //ACTIONS
 import {
 	changeInitialCareerSkills,
-	changeInitialSpecializationSkills,
-	changeLightsaberSkill
+	changeInitialSpecializationSkills
 } from '../actions/skillActions'
 
 //COMPONENTS

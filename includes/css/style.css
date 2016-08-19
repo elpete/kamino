@@ -14,32 +14,32 @@
 	color: white;
 }
 
-.panel-brawn>.panel-heading {
+.panel-brawn>.panel-heading, .brawn {
 	background-color: #8b2d2d;
 
 }
 
-.panel-agility>.panel-heading {
+.panel-agility>.panel-heading, .agility{
 	background-color: #bd6a02;
 
 }
 
-.panel-intellect>.panel-heading {
+.panel-intellect>.panel-heading, .intellect {
 	background-color: #b99d08;
 
 }
 
-.panel-cunning>.panel-heading {
+.panel-cunning>.panel-heading, .cunning {
 	background-color: #406244;
 
 }
 
-.panel-willpower>.panel-heading {
+.panel-willpower>.panel-heading, .willpower {
 	background-color: #2d488a;
 
 }
 
-.panel-presence>.panel-heading {
+.panel-presence>.panel-heading, .presence {
 	background-color: #5e3e8a;
 
 }
@@ -48,5 +48,10 @@
 	text-align: center;
 	font-size: 30px;
 }
+
+.label {
+	width: 100px;
+}
+
 
 
