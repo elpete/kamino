@@ -208,5 +208,11 @@
         "characteristic": "CUNNING",
         "type": "CUSTOM",
         "rules_text": ""
+    },
+    "MY_CUSTOM_SKILL_2": {
+        "display_name": "My 2nd Custom Skill",
+        "characteristic": "BRAWN",
+        "type": "CUSTOM",
+        "rules_text": ""
     }
 }
