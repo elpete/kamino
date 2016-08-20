@@ -48,7 +48,11 @@ export default class SpeciesSelection extends Component {
     }
 
     render() {
+
         const {species} = this.props.character
+
+        console.log(speciesRef[species].abilities);
+
         const {
             brawn, 
             agility, 
@@ -57,10 +61,17 @@ export default class SpeciesSelection extends Component {
             willpower, 
             presence
         } = this.props.character.characteristics
+
         const speciesOptions = Object.keys(speciesRef).map(key => (
             <option value={key} key={key}>
                 {speciesRef[key].display_name}
             </option>
+        ));
+
+        const abilities = Object.keys(speciesRef[species].abilities).map(key => (
+            <p key = {key}>{speciesRef[species].abilities[key].description}
+                <sup>[{speciesRef[species].abilities[key].type}]</sup>
+            </p>
         ));
 
         const base_wound = speciesRef[species].base_wound_threshold;
@@ -92,7 +103,9 @@ export default class SpeciesSelection extends Component {
                         </div>
                         <div className = "col-sm-6">
                             <h4>Abilities</h4>
-                            <p><em>Coming Soon...</em></p>
+                            <div>
+                                {abilities}
+                            </div>
                         </div>
                     </div>
 

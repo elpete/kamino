@@ -12,14 +12,15 @@
         "base_wound_threshold": 12,
         "base_strain_threshold": 7,
         "starting_xp": 85,
-        "special_abilities": {
-            "active": [
-                "This is an Active Ability",
-                "This is another Active Ability"
-            ],
-            "passive": [
-                "This is a Passive Ability",
-                "This is another Passive Ability"]
+        "abilities": {
+            "BESALISK_A1": {
+                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
+                "type": "Active" 
+            },
+            "BESALISK_A2": {
+                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+                "type": "Passive"
+            } 
         },
         "description": "This is a description of a Besalisk"
     },
@@ -36,9 +37,15 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 11,
         "starting_xp": 100,
-        "special_abilities": {
-            "active": [],
-            "passive": []
+        "abilities": {
+            "BOTHAN_A1": {
+                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
+                "type": "Active" 
+            },
+            "BOTHAN_A2": {
+                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+                "type": "Passive"
+            } 
         },
         "description": "This is a description of a Bothan"
     },
@@ -55,12 +62,15 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 13,
         "starting_xp": 90,
-        "special_abilities": {
-            "active": [],
-            "passive": [
-                "Treat all Knowledge skills as career skills.",
-                "Begin the game with one rank in Vigilance."
-            ]
+        "abilities": {
+            "CEREAN_A1": {
+                "description": "Treat all Knowledge skills as career skills.",
+                "type": "Passive" 
+            },
+            "CEREAN_A2": {
+                "description": "Begin the game with one rank in Vigilance.",
+                "type": "Passive"
+            } 
         },
         "description": "Cereans are a distinctive species. Though they are similiar in appearance to humans, their one noticeable difference comprises theor extended, almost cone-like skulls, which house large, binary brains (in essence, two brains closely linked together). Becasue of their binary brains, members of this humanoid species can have extraordinary mental aptitude. The species is also known for attention to detail as well as a cultural tendancy toward extended contemplation."
     },
@@ -77,9 +87,15 @@
         "base_wound_threshold": 9,
         "base_strain_threshold": 8,
         "starting_xp": 90,
-        "special_abilities": {
-            "active": [],
-            "passive": []
+        "abilities": {
+            "DUG_A1": {
+                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
+                "type": "Active" 
+            },
+            "DUG_A2": {
+                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+                "type": "Passive"
+            } 
         },
         "description": "This is a description of a Dug"
     },
@@ -96,9 +112,15 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 10,
         "starting_xp": 175,
-        "special_abilities": {
-            "active": [],
-            "passive": []
+        "abilities": {
+            "DROID_A1": {
+                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
+                "type": "Active" 
+            },
+            "DROID_A2": {
+                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+                "type": "Passive"
+            } 
         },
         "description": "This is a description of a Droid"
     },
@@ -115,13 +137,15 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 12,
         "starting_xp": 90,
-        "special_abilities": {
-            "active": [
-                "By emitting pheromones and altering their skin color, Falleen can affect emotional states of other sentients. Once per check as an incidental, a Falleen may suffer 2 strain to upgrade the ability of a Charm, Deception, or Negotiation check against a living sentient being within short range once. This ability has no effect on targets wearing breath masks or without respiratory systems."
-            ],
-            "passive": [
-                "Begin with one rank in Charm."
-            ]
+        "abilities": {
+            "FALLEEN_A1": {
+                "description": "By emitting pheromones and altering their skin color, Falleen can affect emotional states of other sentients. Once per check as an incidental, a Falleen may suffer 2 strain to upgrade the ability of a Charm, Deception, or Negotiation check against a living sentient being within short range once. This ability has no effect on targets wearing breath masks or without respiratory systems.",
+                "type": "Active" 
+            },
+            "FALLEEN_A2": {
+                "description": "Begin with one rank in Charm.",
+                "type": "Passive"
+            } 
         },
         "description": "Beneath the glamorous reptilian features and serene facade of the mysterious Falleen lies a shrewd mind and cold-blooded precision. A Falleen uses wiles and unique pheromones, ontoxicating to most species, to achieve great things and manipulare members of other species with ease."
     },
@@ -138,9 +162,15 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 10,
         "starting_xp": 100,
-        "special_abilities": {
-            "active": [],
-            "passive": []
+        "abilities": {
+            "GAND_A1": {
+                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
+                "type": "Active" 
+            },
+            "GAND_A2": {
+                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+                "type": "Passive"
+            } 
         },
         "description": "This is a description of a Gand"
     },
@@ -157,9 +187,15 @@
         "base_wound_threshold": 9,
         "base_strain_threshold": 8,
         "starting_xp": 100,
-        "special_abilities": {
-            "active": [],
-            "passive": []
+        "abilities": {
+            "GOTAL_A1": {
+                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
+                "type": "Active" 
+            },
+            "GOTAL_A2": {
+                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+                "type": "Passive"
+            } 
         },
         "description": "This is a description of a Gotal"
     },
@@ -176,11 +212,11 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 10,
         "starting_xp": 110,
-        "special_abilities": {
-            "active": [],
-            "passive": [
-                "Start with one rank each in two different non-career skills."
-            ]
+        "abilities": {
+            "HUMAN_A1": {
+                "description": "Start with one rank each in two different non-career skills.",
+                "type": "Passive"
+            } 
         },
         "description": "Humans are the most common form of sentient life in the galaxy. Characterized by an exceptional degree of adaptability, they have come to reside on most of the galaxy's habitable worlds. Human cultures have explored much of the galaxy and established many colonies."
     },
@@ -197,13 +233,15 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 10,
         "starting_xp": 100,
-        "special_abilities": {
-            "active": [
-                "When making skill checks, remove up to 2 Setbacks imposed due to darkness."
-            ],
-            "passive": [
-                "Begin with one rank in Knowledge(Education)."
-            ]
+        "abilities": {
+            "KEL_DOR_A1": {
+                "description": "When making skill checks, remove up to 2 Setbacks imposed due to darkness.",
+                "type": "Active" 
+            },
+            "KEL_DOR_A2": {
+                "description": "Begin with one rank in Knowledge(Education).",
+                "type": "Passive"
+            } 
         },
         "description": "Best known as a kindly and soft-spoken species, Kel Dors are most easily identified by the protective eye-wear and rebreather masks that they must wear when outside of their native environmemts. In spite of Kel Dors' gentle natures, they are renowned for their sense of justice and willingness to enforce it great prejudice."
     },
@@ -220,11 +258,11 @@
         "base_wound_threshold": 11,
         "base_strain_threshold": 10,
         "starting_xp": 100,
-        "special_abilities": {
-            "active": [],
-            "passive": [
-                "Begin with one rank in Discipline and one rank in Cool."
-            ]
+        "abilities": {
+            "MIRIALAN_A1": {
+                "description": "Begin with one rank in Discipline and one rank in Cool.",
+                "type": "Passive"
+            } 
         },
         "description": "Mirialans are a near-human species from the planet Mirial. their culture is characterized by a deep-seated faith and respect for an individual's destiny. Mirialans undergo ritual tatooing to represent the ways that they have overcome the obstacles that fate placed before them."
     },
@@ -241,9 +279,15 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 10,
         "starting_xp": 100,
-        "special_abilities": {
-            "active": [],
-            "passive": []
+        "abilities": {
+            "MUSTAFARIAN_NORTHERN_A1": {
+                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
+                "type": "Active" 
+            },
+            "MUSTAFARIAN_NORTHERN_A2": {
+                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+                "type": "Passive"
+            } 
         },
         "description": "This is a description of a Mustafarian (Northern)"
     },
@@ -260,9 +304,15 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 10,
         "starting_xp": 100,
-        "special_abilities": {
-            "active": [],
-            "passive": []
+        "abilities": {
+            "MUSTAFARIAN_SOUTHERN_A1": {
+                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
+                "type": "Active" 
+            },
+            "MUSTAFARIAN_SOUTHERN_A2": {
+                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+                "type": "Passive"
+            } 
         },
         "description": "This is a description of a Mustafarian (Southern)"
     },
@@ -279,13 +329,15 @@
         "base_wound_threshold": 11,
         "base_strain_threshold": 9,
         "starting_xp": 100,
-        "special_abilities": {
-            "active": [
-                "Nautolans may breathe underwater without penalty and never sufer movement penalties for traveling through water."
-            ],
-            "passive": [
-                "Begin with one rank in Athletics."
-            ]
+        "abilities": {
+            "MUSTAFARIAN_NORTHERN_A1": {
+                "description": "Nautolans may breathe underwater without penalty and never sufer movement penalties for traveling through water.",
+                "type": "Active" 
+            },
+            "MUSTAFARIAN_NORTHERN_A2": {
+                "description": "Begin with one rank in Athletics.",
+                "type": "Passive"
+            } 
         },
         "description": "Nautolans are an amphibious species native to Glee Anselm. They are renowned for empathetic and cheerul natures and for enjoying everyday activities. Though generally peaceful, they are also tough and strong."
     },
@@ -302,9 +354,15 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 8,
         "starting_xp": 95,
-        "special_abilities": {
-            "active": [],
-            "passive": []
+        "abilities": {
+            "QUARREN_A1": {
+                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
+                "type": "Active" 
+            },
+            "QUARREN_A2": {
+                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+                "type": "Passive"
+            } 
         },
         "description": "This is a description of a Quarren"
     },
@@ -321,9 +379,15 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 10,
         "starting_xp": 100,
-        "special_abilities": {
-            "active": [],
-            "passive": []
+        "abilities": {
+            "RODIAN_A1": {
+                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
+                "type": "Active" 
+            },
+            "RODIAN_A2": {
+                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+                "type": "Passive"
+            } 
         },
         "description": "This is a description of a Rodian"
     },
@@ -340,12 +404,15 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 10,
         "starting_xp": 100,
-        "special_abilities": {
-            "active": [
-                "When performing the assist maneuver, Togrutas grant 2 Boosts instead of 1 Boost."],
-            "passive": [
-                "Bein with one rank in Perception."
-            ]
+        "abilities": {
+            "TOGRUTA_A1": {
+                "description": "When performing the assist maneuver, Togrutas grant 2 Boosts instead of 1 Boost.",
+                "type": "Active" 
+            },
+            "TOGRUTA_A2": {
+                "description": "Bein with one rank in Perception.",
+                "type": "Passive"
+            } 
         },
         "description": "A carnivorous humanoid species from the planet Shili, Togrutas are easily recognized by the combination of their head-tails and hornlike montrals. Only Togrutas who are independant-minded - a relatively rare trait for them - travel off world."
     },
@@ -362,9 +429,15 @@
         "base_wound_threshold": 12,
         "base_strain_threshold": 9,
         "starting_xp": 90,
-        "special_abilities": {
-            "active": [],
-            "passive": []
+        "abilities": {
+            "TRANDOSHAN_A1": {
+                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
+                "type": "Active" 
+            },
+            "TRANDOSHAN_A2": {
+                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+                "type": "Passive"
+            } 
         },
         "description": "This is a description of a Trandoshan"
     },
@@ -381,13 +454,15 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 11,
         "starting_xp": 100,
-        "special_abilities": {
-            "active": [
-                "When making skill checks, Twi'leks may remove 1 Setback imposed due to arid or hot environmental conditions."
-            ],
-            "passive": [
-                "Begin with one rank in either Charm or Deception."
-            ]
+        "abilities": {
+            "TWILEK_A1": {
+                "description": "When making skill checks, Twi'leks may remove 1 Setback imposed due to arid or hot environmental conditions.",
+                "type": "Active" 
+            },
+            "TWILEK_A2": {
+                "description": "Begin with one rank in either Charm or Deception.",
+                "type": "Passive"
+            } 
         },
         "description": "Twi'leks are a common sight throughout the galaxy, particularly within less reputable locales. This is largely because the species has sold their young into slavery for many millennia. they are easily recognized by their twin head-tails, also known as lekku or tchun-tchin."
     },
@@ -404,9 +479,15 @@
         "base_wound_threshold": 14,
         "base_strain_threshold": 8,
         "starting_xp": 90,
-        "special_abilities": {
-            "active": [],
-            "passive": []
+        "abilities": {
+            "WOOKIE_A1": {
+                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
+                "type": "Active" 
+            },
+            "WOOKIE_A2": {
+                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+                "type": "Passive"
+            } 
         },
         "description": "This is a description of a Wookie"
     },
@@ -423,11 +504,15 @@
         "base_wound_threshold": 10,
         "base_strain_threshold": 10,
         "starting_xp": 100,
-        "special_abilities": {
-            "active": ["Zabrak add automatic Advantage to all Coercion checks they make."],
-            "passive": [
-                "Begin with one rank in Survival."
-            ]
+        "abilities": {
+            "ZABRAK_A1": {
+                "description": "Zabrak add automatic Advantage to all Coercion checks they make.",
+                "type": "Active" 
+            },
+            "ZABRAK_A2": {
+                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+                "type": "Begin with one rank in Survival."
+            } 
         },
         "description": "Zabrak resemble humans in skin tone and physique, but they are easlity distinguished by their vestigial horns. They are renowned for both their ingerent confidence and their martial prowess."
     }
