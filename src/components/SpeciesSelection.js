@@ -137,16 +137,18 @@ export default class SpeciesSelection extends Component {
                     </div>
                 </div>
 
-                <button 
-                    onClick = { this.toUser.bind( this ) } 
-                    className = "btn btn-primary btn-nav"> 
-                    <span className = "glyphicon glyphicon-menu-left"></span> Back to User Name
-                </button>
-                <button 
-                    onClick={ this.toCareer.bind( this ) } 
-                    className = "btn btn-primary btn-nav pull-right"> 
-                    Continue to Career Selection <span className = "glyphicon glyphicon-menu-right"></span>
-                </button>
+                <div className = "row">
+                    <button 
+                        onClick = { this.toUser.bind( this ) } 
+                        className = "btn btn-primary btn-nav"> 
+                        <span className = "glyphicon glyphicon-menu-left"></span> Back to User Name
+                    </button>
+                    <button 
+                        onClick={ this.toCareer.bind( this ) } 
+                        className = "btn btn-primary btn-nav pull-right"> 
+                        Continue to Career Selection <span className = "glyphicon glyphicon-menu-right"></span>
+                    </button>
+                </div>
             </div>
         )
     }

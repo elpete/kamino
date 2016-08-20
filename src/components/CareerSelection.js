@@ -70,7 +70,7 @@ export default class CareerSelection extends Component {
                     </div>
                 </div>
                 <Career career = { currentCareer }/>
-                <div>
+                <div className = "row">
                     <button 
                         onClick = { this.toSpecies.bind(this) } 
                         className = "btn btn-primary btn-nav"> 

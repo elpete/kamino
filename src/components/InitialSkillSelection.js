@@ -131,17 +131,19 @@ export default class InitialSkillSelection extends Component {
 						</div>
 					</div>
 				</div>
-				<button 
-				    onClick={ this.toCareer.bind( this ) } 
-				    className='btn btn-primary btn-nav'> 
-				    <span className="glyphicon glyphicon-menu-left"></span> Back to Career Selection
-				</button>
-
-				<button 
-				    onClick={ this.toInitialSpendXP.bind( this ) } 
-				    className='btn btn-primary btn-nav pull-right'> 
-				    Continue to Initial Spend XP <span className="glyphicon glyphicon-menu-right"></span>
-				</button>
+				<div className = "row">
+					<button 
+					    onClick={ this.toCareer.bind( this ) } 
+					    className='btn btn-primary btn-nav'> 
+					    <span className="glyphicon glyphicon-menu-left"></span> Back to Career Selection
+					</button>
+					
+					<button 
+					    onClick={ this.toInitialSpendXP.bind( this ) } 
+					    className='btn btn-primary btn-nav pull-right'> 
+					    Continue to Initial Spend XP <span className="glyphicon glyphicon-menu-right"></span>
+					</button>
+				</div>
 
 			</div>
 		)

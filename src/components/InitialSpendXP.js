@@ -69,11 +69,13 @@ export default class SpendXP extends Component {
                 <div className = "row">
                     {skillRankInputs}
                 </div>
-                <button 
-                    onClick = { this.toInitialSkills.bind(this) } 
-                    className = "btn btn-primary btn-nav"> 
-                    <span className = "glyphicon glyphicon-menu-left"></span>Back to Initial Skill Selection
-                </button>
+                <div className = "row">
+                    <button 
+                        onClick = { this.toInitialSkills.bind(this) } 
+                        className = "btn btn-primary btn-nav"> 
+                        <span className = "glyphicon glyphicon-menu-left"></span>Back to Initial Skill Selection
+                    </button>
+                </div>
             </div>
         )
     }
