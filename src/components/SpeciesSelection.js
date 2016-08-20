@@ -94,7 +94,7 @@ export default class SpeciesSelection extends Component {
                         </select>
                     </div>
                 </div>
-                <div className = "well">
+                <div>
 
                     <div className = "row text-center">
                         <div className = "col-sm-6">
@@ -139,12 +139,12 @@ export default class SpeciesSelection extends Component {
 
                 <button 
                     onClick = { this.toUser.bind( this ) } 
-                    className = "btn btn-primary"> 
+                    className = "btn btn-primary btn-nav"> 
                     <span className = "glyphicon glyphicon-menu-left"></span> Back to User Name
                 </button>
                 <button 
                     onClick={ this.toCareer.bind( this ) } 
-                    className = "btn btn-primary pull-right"> 
+                    className = "btn btn-primary btn-nav pull-right"> 
                     Continue to Career Selection <span className = "glyphicon glyphicon-menu-right"></span>
                 </button>
             </div>

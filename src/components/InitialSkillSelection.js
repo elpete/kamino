@@ -114,36 +114,32 @@ export default class InitialSkillSelection extends Component {
 
 		return (
 			<div className="well">
-
-				<div className='well'>
-					<div className="row text-center">
-						<h3> Select Initial Skills </h3>
-						<div  className='col-sm-6 text-center'>
-							<h4> Career: {careerRef[career].display_name} </h4>
-							<h5> {initialCareerSkills.length} out of {careerAllowance} </h5>
-							<div className="btn-group-vertical" role="group">
-								{careerSkillButtons}
-							</div>
+				<div className="row text-center">
+					<h3> Select Initial Skills </h3>
+					<div  className='col-sm-6 text-center'>
+						<h4> Career: {careerRef[career].display_name} </h4>
+						<h5> {initialCareerSkills.length} out of {careerAllowance} </h5>
+						<div className="btn-group-vertical" role="group">
+							{careerSkillButtons}
 						</div>
-						<div  className='col-sm-6 text-center'>
-							<h4> Specialization: {specializationRef[specialization].display_name} </h4>
-							<h5> {initialSpecializationSkills.length} out of {specializationAllowance} </h5>
-							<div className="btn-group-vertical" role="group">
-								{specializationSkillButtons}
-							</div>
+					</div>
+					<div  className='col-sm-6 text-center'>
+						<h4> Specialization: {specializationRef[specialization].display_name} </h4>
+						<h5> {initialSpecializationSkills.length} out of {specializationAllowance} </h5>
+						<div className="btn-group-vertical" role="group">
+							{specializationSkillButtons}
 						</div>
 					</div>
 				</div>
-
 				<button 
 				    onClick={ this.toCareer.bind( this ) } 
-				    className='btn btn-primary'> 
+				    className='btn btn-primary btn-nav'> 
 				    <span className="glyphicon glyphicon-menu-left"></span> Back to Career Selection
 				</button>
 
 				<button 
 				    onClick={ this.toInitialSpendXP.bind( this ) } 
-				    className='btn btn-primary pull-right'> 
+				    className='btn btn-primary btn-nav pull-right'> 
 				    Continue to Initial Spend XP <span className="glyphicon glyphicon-menu-right"></span>
 				</button>
 
