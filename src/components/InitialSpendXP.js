@@ -64,18 +64,16 @@ export default class SpendXP extends Component {
  		} )
 
         return (
-            <div>
+            <div  className = "well">
                 <div className="alert alert-success">Available XP: {this.props.character.xp.available}</div>
-                <div className = "well">
-                    <div className = "row">
-                        {skillRankInputs}
-                    </div>
-                    <button 
-                        onClick = { this.toInitialSkills.bind(this) } 
-                        className = "btn btn-primary"> 
-                        <span className = "glyphicon glyphicon-menu-left"></span>Back to Initial Skill Selection
-                    </button>
+                <div className = "row">
+                    {skillRankInputs}
                 </div>
+                <button 
+                    onClick = { this.toInitialSkills.bind(this) } 
+                    className = "btn btn-primary btn-nav"> 
+                    <span className = "glyphicon glyphicon-menu-left"></span>Back to Initial Skill Selection
+                </button>
             </div>
         )
     }
