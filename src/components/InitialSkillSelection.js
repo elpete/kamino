@@ -152,6 +152,8 @@ export default class InitialSkillSelection extends Component {
 	}
 }
 
+//Change buttons to look more like the badges on Career page, maybe inverted coloring for unselected.
+
 class CareerSkillButton extends Component {
 	constructor( props ) {
 		super(props)
@@ -173,7 +175,7 @@ class CareerSkillButton extends Component {
 		return (
 			<button
 				type = "button"
-				className = {initialCareerSkills.includes(skillKey) ? "btn btn-primary" : "btn btn-info"}
+				className = {initialCareerSkills.includes(skillKey) ? "btn btn-primary" : "btn btn-default"}
 				name = { skillKey }
 				value = { skillKey }
 				onClick = { this.handleButtonClick }
@@ -205,7 +207,7 @@ class SpecializationSkillButton extends Component {
 		return (
 			<button
 				type = "button"
-				className = {initialSpecializationSkills.includes(skillKey) ? "btn btn-primary" : "btn btn-info"}
+				className = {initialSpecializationSkills.includes(skillKey) ? "btn btn-primary" : "btn btn-default"}
 				name = { skillKey }
 				value = { skillKey }
 				onClick = { this.handleButtonClick }
