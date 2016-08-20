@@ -70,16 +70,18 @@ export default class CareerSelection extends Component {
                     </div>
                 </div>
                 <Career career = { currentCareer }/>
-                <button 
-                    onClick = { this.toSpecies.bind(this) } 
-                    className = "btn btn-primary"> 
-                    <span className = "glyphicon glyphicon-menu-left"></span> Back to Species Selection
-                </button>
-                <button 
-                    onClick = { this.toInitialSkills.bind(this) } 
-                    className = "btn btn-primary pull-right"> 
-                    Continue to Initial Skill Selection <span className = "glyphicon glyphicon-menu-right"></span>
-                </button>
+                <div>
+                    <button 
+                        onClick = { this.toSpecies.bind(this) } 
+                        className = "btn btn-primary btn-nav"> 
+                        <span className = "glyphicon glyphicon-menu-left"></span> Back to Species Selection
+                    </button>
+                    <button 
+                        onClick = { this.toInitialSkills.bind(this) } 
+                        className = "btn btn-primary btn-nav pull-right"> 
+                        Continue to Initial Skill Selection <span className = "glyphicon glyphicon-menu-right"></span>
+                    </button>
+                </div>
             </div>
         )
     }

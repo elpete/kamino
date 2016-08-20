@@ -20,15 +20,16 @@ export default class Specialization extends Component {
                 skillCharacteristic = {skillsRef[key].characteristic}
             />
         ))
+        
         return (
-            <div className = "row">
+            <div>
                 <div className = "col-sm-6">
                     <h4>Description</h4>
                     <p>{specRef[specialization].description}</p>
                 </div>
                 <div className = "col-sm-6">
                     <h4>Specialization Skills</h4>
-                    { specializationSkills }
+                    <div className="Skills">{ specializationSkills }</div>
                 </div>
             </div>
         )

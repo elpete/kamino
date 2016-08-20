@@ -18,12 +18,10 @@ export default class CareerSkillLabel extends Component {
             skillCharacteristic
         } = this.props
 
-        const badge = "label " + skillCharacteristic.toLowerCase()
+        const badge = "Skills__skill badge " + skillCharacteristic.toLowerCase()
 
         return (
-            <h4>
-                <span className = {badge}>{ skillName } </span>
-            </h4>
+            <span className = {badge}>{ skillName } </span>
         )
     }
 }

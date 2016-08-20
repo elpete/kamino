@@ -53,5 +53,27 @@
 	width: 100px;
 }
 
+.badge-md {
+	font-size: medium;
+}
+
+.Skills {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.Skills__skill {
+	margin: 5px;
+	padding: 10px;
+	width: 25%;
+}
+
+.btn-nav {
+margin-top: 50px;
+}
+
+
+
 
 

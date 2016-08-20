@@ -44,11 +44,11 @@ export default class SpecializationSelection extends Component {
 
         return (
 
-            <div className = "row">
-                <div className="btn-group btn-group-justified" role="group">
-                    {specializations}
+            <div>
+                <div className="btn-group btn-group-justified" role="group"> {specializations} </div>
+                <div>
+                    <Specialization specialization = {specialization}/>
                 </div>
-                <Specialization specialization = {specialization}/>
             </div>
 
         )
@@ -74,13 +74,10 @@ class SpecializationButton extends Component {
         } = this.props
 
         return (
-            <div 
-                className = "btn-group"
-                role="group"
-                >
+            <div className = "btn-group" role="group">
                 <button
                     type="button"
-                    className = { (specKey == specialization) ? "btn btn-primary" : "btn btn-info" }
+                    className = { (specKey == specialization) ? "btn btn-primary" : "btn btn-default" }
                     name = {specKey}
                     onClick = {this.handleButtonClick}
                     value = {specKey} 

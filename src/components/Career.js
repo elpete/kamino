@@ -25,28 +25,19 @@ export default class Career extends Component {
         const forceRating = careersRef[career].force_rating
 
         return (
-            <div className = "well text-center">
-                <div className = "row">
-                    <div className = "col-sm-6">
-                        <h4>Description</h4>
-                        <p>{ careersRef[career].description }</p>
-                    </div>
-                    <div className = "col-sm-6">
-                        <div className ="row ">
-                            <h4>Career Skills</h4>
-                            { careerSkills }
-                        </div>
-                        <div className = "row">
-                            <h4 >Force Rating</h4>
-                            <h4> <span className = "label label-default">{ forceRating }</span></h4>
-                        </div>
-                    </div>
+            <div className = "text-center">
+                <div className = "col-sm-6">
+                    <h4>Description</h4>
+                    <p>{ careersRef[career].description }</p>
                 </div>
-                <div className = "row">
-                    <h4 className = "text-center">Specializations</h4>
-                    <SpecializationSelection career = { career }/>
-                    
+                <div className = "col-sm-6">
+                    <h4>Career Skills</h4>
+                    <div className="Skills">{ careerSkills }</div>
+                    <h4 >Force Rating</h4>
+                    <h4> <span className = "label label-default">{ forceRating }</span></h4>
                 </div>
+                <h3>Specializations</h3>
+                <SpecializationSelection career = { career }/>
             </div>
         )
     }
