@@ -1,6 +1,7 @@
 {
     "BESALISK": {
         "display_name": "Besalisk",
+        "description": "The four-armed Besalisks are one the larger species galactic travelers are likely to encounter on a semi-regular basis. Towering over and standing considerably wider at the shoulder than most humasn. Besalisks tend to make an impression, Though their massive forms can seem threatening at first, many Besalisks are quick to laugh and slow to anger, at least compared to humans. Besalisks are clever and motivated in their selected line of work. They make for natural machinists, and also succeed in other task-oriented professions. However, Besalisks can be found in almost any line of work. In fact, they will often jump at the chance to pursue theor own dreams or take advantage of a lucrative opportunity to work for themselves, and are even known to abandon their position merely because they have grown bored.",
         "starting_characteristics": {
             "BRAWN": 3,
             "AGILITY": 1,
@@ -14,18 +15,20 @@
         "starting_xp": 85,
         "abilities": {
             "BESALISK_A1": {
-                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
+                "display_name":"Additional Limbs",
+                "description": "Besalisks have multiple sets of arms. As a result, they gain an additional free maneuver per turn, though still may not perform more than two maneuvers per turn.",
                 "type": "Active" 
             },
             "BESALISK_A2": {
-                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+                "display_name":"Resilence",
+                "description": "Begin with one rank in Resilence.",
                 "type": "Passive"
             } 
-        },
-        "description": "This is a description of a Besalisk"
+        }
     },
     "BOTHAN": {
         "display_name": "Bothan",
+        "description": "Bothans are the galaxy's information brokers. Adept at picking up on secrets or seeing things other species ignore, Bothans can be valuable assets in any endeavor - or untrustworthy partners.",
         "starting_characteristics": {
             "BRAWN": 1,
             "AGILITY": 2,
@@ -39,18 +42,20 @@
         "starting_xp": 100,
         "abilities": {
             "BOTHAN_A1": {
-                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
-                "type": "Active" 
+                "display_name": "Streetwise",
+                "description": "Begin the game with one rank in Streetwise skill.",
+                "type": "Passive" 
             },
             "BOTHAN_A2": {
-                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+                "display_name": "Convincing Demeanor",
+                "description": "Begin the game with one rank in Convincing Demeanor talent.",
                 "type": "Passive"
             } 
-        },
-        "description": "This is a description of a Bothan"
+        }
     },
     "CEREAN": {
         "display_name": "Cerean",
+        "description": "Cereans are a distinctive species. Though they are similiar in appearance to humans, their one noticeable difference comprises theor extended, almost cone-like skulls, which house large, binary brains (in essence, two brains closely linked together). Becasue of their binary brains, members of this humanoid species can have extraordinary mental aptitude. The species is also known for attention to detail as well as a cultural tendancy toward extended contemplation.",
         "starting_characteristics": {
             "BRAWN": 2,
             "AGILITY": 1,
@@ -64,18 +69,20 @@
         "starting_xp": 90,
         "abilities": {
             "CEREAN_A1": {
+                "display_name":"Binary Processing",
                 "description": "Treat all Knowledge skills as career skills.",
                 "type": "Passive" 
             },
             "CEREAN_A2": {
-                "description": "Begin the game with one rank in Vigilance.",
+                "display_name":"Vigilance",
+                "description": "Begin the game with one rank in Vigilance skill.",
                 "type": "Passive"
             } 
-        },
-        "description": "Cereans are a distinctive species. Though they are similiar in appearance to humans, their one noticeable difference comprises theor extended, almost cone-like skulls, which house large, binary brains (in essence, two brains closely linked together). Becasue of their binary brains, members of this humanoid species can have extraordinary mental aptitude. The species is also known for attention to detail as well as a cultural tendancy toward extended contemplation."
+        }
     },
     "DUG": {
         "display_name": "Dug",
+        "description": "On many worlds across the galaxy, Dugs have reputation as mean-spirited brutes with an outsized inferiority complex. While this stereotype is not particularly fair, ut has proven difficult for the Dugs to shake, in large part becasue of their ongoing conflicts with the Gran colonists on their homeworld of Malastare. Despite their short stature, most Dugs are quite strong, as is apparent from their muscular arms and legs. Dug culture has a decidedly stubborn and militaristic bent, and many Dugs believe that the potential greatness of their species is repressed by the Republic, then the Empire, and most especially by the Grans.",
         "starting_characteristics": {
             "BRAWN": 2,
             "AGILITY": 3,
@@ -89,18 +96,20 @@
         "starting_xp": 90,
         "abilities": {
             "DUG_A1": {
-                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
-                "type": "Active" 
+                "display_name":"Born to Ride",
+                "description": "Begin the Game with one rank of Defensive Driving talent.",
+                "type": "Passive" 
             },
             "DUG_A2": {
-                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+                "display_name":"Brawl",
+                "description": "Begin with one rank in Brawl skill.",
                 "type": "Passive"
             } 
-        },
-        "description": "This is a description of a Dug"
+        }
     },
     "DROID": {
         "display_name": "Droid",
+        "description": "Droids serve a variety of roles, including security and conflict resolution, surgery and medicine, mechanical repairs, construction astrogation and piloting, and machanical laboe. While many of these droids have only rudimentary intelligence, some are capable of independant thought.",
         "starting_characteristics": {
             "BRAWN": 1,
             "AGILITY": 1,
@@ -114,18 +123,25 @@
         "starting_xp": 175,
         "abilities": {
             "DROID_A1": {
-                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
-                "type": "Active" 
+                "display_name": "Cybernetics",
+                "description": "Cybetic implant cap of 6 instead of Brawn rating.",
+                "type": "Active"
             },
             "DROID_A2": {
-                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
-                "type": "Passive"
+                "display_name": "Inorganic",
+                "description": "Do not need to eat, sleep, or breathe, and they are unaffected by toxins or posions.",
+                "type": "Active" 
+            },
+            "DROID_A3": {
+                "display_name": "Additional Skills",
+                "description": "Train one rank in two additional career skills and one rank in one additional Specialization Skill.",
+                "type:" "Active"
             } 
-        },
-        "description": "This is a description of a Droid"
+        }
     },
     "FALLEEN": {
         "display_name": "Falleen",
+        "description": "Beneath the glamorous reptilian features and serene facade of the mysterious Falleen lies a shrewd mind and cold-blooded precision. A Falleen uses wiles and unique pheromones, ontoxicating to most species, to achieve great things and manipulare members of other species with ease.",
         "starting_characteristics": {
             "BRAWN": 1,
             "AGILITY": 2,
@@ -139,18 +155,20 @@
         "starting_xp": 90,
         "abilities": {
             "FALLEEN_A1": {
+                "display_name": "Beguiling Pheromones",
                 "description": "By emitting pheromones and altering their skin color, Falleen can affect emotional states of other sentients. Once per check as an incidental, a Falleen may suffer 2 strain to upgrade the ability of a Charm, Deception, or Negotiation check against a living sentient being within short range once. This ability has no effect on targets wearing breath masks or without respiratory systems.",
                 "type": "Active" 
             },
             "FALLEEN_A2": {
+                "display_name": "Charm",
                 "description": "Begin with one rank in Charm.",
                 "type": "Passive"
             } 
-        },
-        "description": "Beneath the glamorous reptilian features and serene facade of the mysterious Falleen lies a shrewd mind and cold-blooded precision. A Falleen uses wiles and unique pheromones, ontoxicating to most species, to achieve great things and manipulare members of other species with ease."
+        }
     },
     "GAND": {
         "display_name": "Gand",
+        "description": "Gands are a mysterious insectoid species whose 'findsmen' treat tracking quarry as a religious duty. They are exceptionally good at divining the location of individuals through ritualistic methods that offworlders might consider backward and barbaric.",
         "starting_characteristics": {
             "BRAWN": 2,
             "AGILITY": 2,
@@ -164,18 +182,20 @@
         "starting_xp": 100,
         "abilities": {
             "GAND_A1": {
-                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
-                "type": "Active" 
-            },
+                "display_name": "Ammonia Breathers",
+                "description": "Select between two Gand sub-species: with lungs or without. Gands without lungs are immune to suffocation. Gands with lungs state with an ammonia respirator and treats oxygen as a dangerous atmosphere with Rating 8; however, he gains + 10 starting XP.",
+                "type": "Active"
+            }, 
             "GAND_A2": {
-                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
-                "type": "Passive"
-            } 
-        },
-        "description": "This is a description of a Gand"
+                "display_name": "Discipline",
+                "description": "Begin with one rank in Discipline skill.",
+                "type": "Passive" 
+            }
+        }
     },
     "GOTAL": {
         "display_name": "Gotal",
+        "description": "The shaggy-haired Gotals are an empathic race of many telents and a benevolent nature. They possess the extraordinary ability to detect and interpret almost every manner energy feild, which allows them to sense the moods and well-being of nearby living beings.",
         "starting_characteristics": {
             "BRAWN": 2,
             "AGILITY": 2,
@@ -189,18 +209,20 @@
         "starting_xp": 100,
         "abilities": {
             "GOTAL_A1": {
-                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
+                "display_name": "Energy Sensitivity",
+                "description": "The head cones of a Gotal are finely tuned sensory organs used to detect almost the entirety of the electromagnetic spectrum. Once per encounter as a maneuver, a Gotal may sense the presence and current emotional states of all living things within short range of himself.",
                 "type": "Active" 
             },
             "GOTAL_A2": {
-                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+                "display_name": "Perception",
+                "description": "Begin with one rank in Perception skill.",
                 "type": "Passive"
             } 
-        },
-        "description": "This is a description of a Gotal"
+        }
     },
     "HUMAN": {
         "display_name": "Human",
+        "description": "Humans are the most common form of sentient life in the galaxy. Characterized by an exceptional degree of adaptability, they have come to reside on most of the galaxy's habitable worlds. Human cultures have explored much of the galaxy and established many colonies.",
         "starting_characteristics": {
             "BRAWN": 2,
             "AGILITY": 2,
@@ -214,14 +236,15 @@
         "starting_xp": 110,
         "abilities": {
             "HUMAN_A1": {
+                "display_name": "Well Rounded",
                 "description": "Start with one rank each in two different non-career skills.",
                 "type": "Passive"
             } 
-        },
-        "description": "Humans are the most common form of sentient life in the galaxy. Characterized by an exceptional degree of adaptability, they have come to reside on most of the galaxy's habitable worlds. Human cultures have explored much of the galaxy and established many colonies."
+        }
     },
     "KEL_DOR": {
         "display_name": "Kel Dor",
+        "description": "Best known as a kindly and soft-spoken species, Kel Dors are most easily identified by the protective eye-wear and rebreather masks that they must wear when outside of their native environmemts. In spite of Kel Dors' gentle natures, they are renowned for their sense of justice and willingness to enforce it great prejudice.",
         "starting_characteristics": {
             "BRAWN": 1,
             "AGILITY": 2,
@@ -235,18 +258,25 @@
         "starting_xp": 100,
         "abilities": {
             "KEL_DOR_A1": {
+                "display_name":"Dark Vision",
                 "description": "When making skill checks, remove up to 2 Setbacks imposed due to darkness.",
                 "type": "Active" 
             },
             "KEL_DOR_A2": {
+                "display_name":"Atmospheric Requirements",
+                "description": "Kel Dors must wear a specialized mask to breathe and see outside of their native atmosphere. A Kel Dor starts with an antitox breath mask and treats oxygen as gangerous atmosphere with Rating 8. However, Kel Dors may survice in vacuum for up to five minutes before suffering its effects.",
+                "type": "Active"
+            },
+            "KEL_DOR_A3": {
+                "display_name":"Education",
                 "description": "Begin with one rank in Knowledge(Education).",
                 "type": "Passive"
             } 
-        },
-        "description": "Best known as a kindly and soft-spoken species, Kel Dors are most easily identified by the protective eye-wear and rebreather masks that they must wear when outside of their native environmemts. In spite of Kel Dors' gentle natures, they are renowned for their sense of justice and willingness to enforce it great prejudice."
+        }
     },
     "MIRIALAN": {
         "display_name": "Mirialan",
+        "description": "Mirialans are a near-human species from the planet Mirial. their culture is characterized by a deep-seated faith and respect for an individual's destiny. Mirialans undergo ritual tatooing to represent the ways that they have overcome the obstacles that fate placed before them.",
         "starting_characteristics": {
             "BRAWN": 2,
             "AGILITY": 3,
@@ -260,14 +290,20 @@
         "starting_xp": 100,
         "abilities": {
             "MIRIALAN_A1": {
-                "description": "Begin with one rank in Discipline and one rank in Cool.",
+                "display_name":"Discipline",
+                "description": "Begin with one rank in Discipline skill.",
+                "type": "Passive"
+            },
+            "MIRIALAN_A2": {
+                "display_name":"Cool",
+                "description": "Begin with one rank in Cool skill.",
                 "type": "Passive"
             } 
         },
-        "description": "Mirialans are a near-human species from the planet Mirial. their culture is characterized by a deep-seated faith and respect for an individual's destiny. Mirialans undergo ritual tatooing to represent the ways that they have overcome the obstacles that fate placed before them."
     },
     "MUSTAFARIAN_NORTHERN": {
         "display_name": "Mustafarian (Northern)",
+        "description": "The perpetually volcanic, burning world of Mustafar seems an unlikely place for anything to thrive, let alone a sentient species. Mustafar once teemed with life, like so many terrestrial worlds, until the planet's orbit changed dramatically. This epic cataclysm sent Mustafar into an unusual and gravitationally crushing alignment between gas giants Lefranu and Jestefad. Very few species survived the resulting volcanic cataclysm. Forced to areas in the north and near the equatorial regions of the world, the remaining Mustafarians adapted and evolved to their new realities. The northern Mustafarians became tall and thin, while the near the equator became shorter, but stronger and stouter.the Mustafarians themselves aren't overly aggressive, so instead of allowing pointless tribalism to rule, the two groups usually work together to harvest their world's meager resources.",
         "starting_characteristics": {
             "BRAWN": 2,
             "AGILITY": 2,
@@ -281,18 +317,20 @@
         "starting_xp": 100,
         "abilities": {
             "MUSTAFARIAN_NORTHERN_A1": {
-                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
+                "display_name": "Volcanic Homeworld",
+                "description": "Northern Mustafarians may remove 2 Setbacks from checks to resist arid or hot environmental conditions.",
                 "type": "Active" 
             },
             "MUSTAFARIAN_NORTHERN_A2": {
-                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+                "display_name": "Eye for Detail",
+                "description": "Begin with one rank in eye for Detail talent.",
                 "type": "Passive"
             } 
-        },
-        "description": "This is a description of a Mustafarian (Northern)"
+        }
     },
     "MUSTAFARIAN_SOUTHERN": {
         "display_name": "Mustafarian (Southern)",
+        "description": "he perpetually volcanic, burning world of Mustafar seems an unlikely place for anything to thrive, let alone a sentient species. Mustafar once teemed with life, like so many terrestrial worlds, until the planet's orbit changed dramatically. This epic cataclysm sent Mustafar into an unusual and gravitationally crushing alignment between gas giants Lefranu and Jestefad. Very few species survived the resulting volcanic cataclysm. Forced to areas in the north and near the equatorial regions of the world, the remaining Mustafarians adapted and evolved to their new realities. The northern Mustafarians became tall and thin, while the near the equator became shorter, but stronger and stouter.the Mustafarians themselves aren't overly aggressive, so instead of allowing pointless tribalism to rule, the two groups usually work together to harvest their world's meager resources.",
         "starting_characteristics": {
             "BRAWN": 2,
             "AGILITY": 2,
@@ -306,18 +344,20 @@
         "starting_xp": 100,
         "abilities": {
             "MUSTAFARIAN_SOUTHERN_A1": {
-                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
+                "display_name": "Volcanic Homeworld",
+                "description": "Northern Mustafarians may remove 2 Setbacks from checks to resist arid or hot environmental conditions.",
                 "type": "Active" 
             },
             "MUSTAFARIAN_SOUTHERN_A2": {
-                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+                "display_name":"Enduring",
+                "description": "Begin with one rank in Enduring talent.",
                 "type": "Passive"
             } 
-        },
-        "description": "This is a description of a Mustafarian (Southern)"
+        }
     },
     "NAUTOLAN": {
         "display_name": "Nautolan",
+        "description": "Nautolans are an amphibious species native to Glee Anselm. They are renowned for empathetic and cheerul natures and for enjoying everyday activities. Though generally peaceful, they are also tough and strong.",
         "starting_characteristics": {
             "BRAWN": 3,
             "AGILITY": 2,
@@ -330,19 +370,21 @@
         "base_strain_threshold": 9,
         "starting_xp": 100,
         "abilities": {
-            "MUSTAFARIAN_NORTHERN_A1": {
+            "NAUTOLAN_A1": {
+                "display_name":"Amphibious",
                 "description": "Nautolans may breathe underwater without penalty and never sufer movement penalties for traveling through water.",
                 "type": "Active" 
             },
-            "MUSTAFARIAN_NORTHERN_A2": {
+            "NAUTOLAN_A2": {
+                "display_name":"Athletics",
                 "description": "Begin with one rank in Athletics.",
                 "type": "Passive"
             } 
-        },
-        "description": "Nautolans are an amphibious species native to Glee Anselm. They are renowned for empathetic and cheerul natures and for enjoying everyday activities. Though generally peaceful, they are also tough and strong."
+        }
     },
     "QUARREN": {
         "display_name": "Quarren",
+        "description": "persistent and proud, the Quarren are deep-sea dwellers of the oceanic planet Mon Cala, or 'Dac' as it is called in the native Quarren tongue. The distrusting and often paranoid nature of these stubborn aquatic humanoids makes them successful in a wide range of business, political, and underworld professions.",
         "starting_characteristics": {
             "BRAWN": 2,
             "AGILITY": 2,
@@ -356,18 +398,25 @@
         "starting_xp": 95,
         "abilities": {
             "QUARREN_A1": {
-                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
+                "display_name": "Ink Spray",
+                "description": "Quarren can spit ink from a specialized sac within their gills that disperses in water, creating a breif murk used to confuse foes or escape predators. This ability can be used on land as well, though it is considerably less effective because it must be sprayed directly on the target. Once per encounter, as an out-of-turn incidental, a Quarren may suffer 2 strain to add 1 Setback to combat check made by a character within short range (under water, it adds 3 Setbacks to the combat check instead).",
                 "type": "Active" 
             },
             "QUARREN_A2": {
-                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+                "display_name": "Amphibious",
+                "description": "Quarren can breathe underwater without penalty and never suffer movement penalties for traveling through water.",
+                "type": "Active"
+            },
+            "QUARREN_A3": {
+                "display_name": "Negotiation",
+                "description": "Begin the game with one rank in Negotiation skill.",
                 "type": "Passive"
             } 
-        },
-        "description": "This is a description of a Quarren"
+        }
     },
     "RODIAN": {
         "display_name": "Rodian",
+        "description": "Rodians are born to hunt, coming from a hostile world that breeds killer instincts. For those with a price on their on heads, a glimpse of a tapered green snout or an unmistakably putrid odor means a Rodian bounty hunter is on their tail.",
         "starting_characteristics": {
             "BRAWN": 2,
             "AGILITY": 3,
@@ -381,18 +430,20 @@
         "starting_xp": 100,
         "abilities": {
             "RODIAN_A1": {
-                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
-                "type": "Active" 
+                "display_name": "Survival",
+                "description": "Begin with one rank in Survival skill.",
+                "type": "Passive" 
             },
             "RODIAN_A2": {
-                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+                "display_name": "Expert Tracker",
+                "description": "Begin with one rank in the Expert Tracker talent.",
                 "type": "Passive"
             } 
-        },
-        "description": "This is a description of a Rodian"
+        }
     },
     "TOGRUTA": {
         "display_name": "Togruta",
+        "description": "A carnivorous humanoid species from the planet Shili, Togrutas are easily recognized by the combination of their head-tails and hornlike montrals. Only Togrutas who are independant-minded - a relatively rare trait for them - travel off world.",
         "starting_characteristics": {
             "BRAWN": 1,
             "AGILITY": 2,
@@ -406,18 +457,20 @@
         "starting_xp": 100,
         "abilities": {
             "TOGRUTA_A1": {
+                "display_name":"Pack Instincts",
                 "description": "When performing the assist maneuver, Togrutas grant 2 Boosts instead of 1 Boost.",
                 "type": "Active" 
             },
             "TOGRUTA_A2": {
+                "display_name":"Perception",
                 "description": "Bein with one rank in Perception.",
                 "type": "Passive"
             } 
-        },
-        "description": "A carnivorous humanoid species from the planet Shili, Togrutas are easily recognized by the combination of their head-tails and hornlike montrals. Only Togrutas who are independant-minded - a relatively rare trait for them - travel off world."
+        }
     },
     "TRANDOSHAN": {
         "display_name": "Trandoshan",
+        "description": "Trandoshans are elligerent, lizard-like humanoids who have an avowed hatred of Wookies. They can be found wherever a strong hand or a big gun is desired.",
         "starting_characteristics": {
             "BRAWN": 3,
             "AGILITY": 1,
@@ -431,18 +484,25 @@
         "starting_xp": 90,
         "abilities": {
             "TRANDOSHAN_A1": {
-                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
+                "display_name": "Regeneration",
+                "description": "Recover one additional wound when recovering wounds from natural rest or recuperation in a Bacta Tank (This does not apply wounds recovered by medical treatment or stimpacks). Trandoshans can also regrow lost limbs as well, though it usually takes a least a month before the limb is usable.",
                 "type": "Active" 
             },
             "TRANDOSHAN_A2": {
-                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+                "display_name": "Claws",
+                "description": "When making a Brawl check to deal damage to an opponent, he deal +1 damage and has a Critical Rating of 3.",
+                "type": "Active"
+            },
+            "TRANDOSHAN_A3": {
+                "display_name": "Perception",
+                "description": "Begin with one rank in Perception skill.",
                 "type": "Passive"
             } 
-        },
-        "description": "This is a description of a Trandoshan"
+        }
     },
     "TWILEK": {
         "display_name": "Twi'lek",
+        "description": "Twi'leks are a common sight throughout the galaxy, particularly within less reputable locales. This is largely because the species has sold their young into slavery for many millennia. they are easily recognized by their twin head-tails, also known as lekku or tchun-tchin. They are expert bargainers, sly at reading other species and using cunning to get what they want.",
         "starting_characteristics": {
             "BRAWN": 1,
             "AGILITY": 2,
@@ -456,18 +516,20 @@
         "starting_xp": 100,
         "abilities": {
             "TWILEK_A1": {
+                "display_name": "Desert Swellers",
                 "description": "When making skill checks, Twi'leks may remove 1 Setback imposed due to arid or hot environmental conditions.",
                 "type": "Active" 
             },
             "TWILEK_A2": {
+                "display_name": "Charm or Deception",
                 "description": "Begin with one rank in either Charm or Deception.",
                 "type": "Passive"
             } 
-        },
-        "description": "Twi'leks are a common sight throughout the galaxy, particularly within less reputable locales. This is largely because the species has sold their young into slavery for many millennia. they are easily recognized by their twin head-tails, also known as lekku or tchun-tchin."
+        }
     },
-    "WOOKIE": {
-        "display_name": "Wookie",
+    "WOOKIEE": {
+        "display_name": "Wookiee",
+        "description": "Strong, intelligent, and fierce in battle, Wookies make the best of friends for those to whom they are loyal - and the worst of enemies for anyone to whom they are not. Unfortunately, Wookiees have virtually disappeared from the population at large and are becoming a faded mempry of the Old Republic.",
         "starting_characteristics": {
             "BRAWN": 3,
             "AGILITY": 2,
@@ -480,19 +542,21 @@
         "base_strain_threshold": 8,
         "starting_xp": 90,
         "abilities": {
-            "WOOKIE_A1": {
-                "description": "This is an example of a Active Skill. The player will need to remember this ability and apply it to gameplay when applicable.",
+            "WOOKIEE_A1": {
+                "display_name":"Wookie Rage",
+                "description": "When a Wookiee has suffered any wounds, he deals +1 damage to Brawl and Melee attacks. When a Wookiee is Critically Injured, he instead deals +2 damage to Brawl and Melee attacks.",
                 "type": "Active" 
             },
-            "WOOKIE_A2": {
-                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
+            "WOOKIEE_A2": {
+                "display_name":"Brawl",
+                "description": "Begin with one rank in Brawl skill.",
                 "type": "Passive"
             } 
         },
-        "description": "This is a description of a Wookie"
     },
     "ZABRAK": {
         "display_name": "Zabrak",
+        "description": "Zabrak resemble humans in skin tone and physique, but they are easlity distinguished by their vestigial horns. They are renowned for both their ingerent confidence and their martial prowess.",
         "starting_characteristics": {
             "BRAWN": 2,
             "AGILITY": 2,
@@ -506,14 +570,15 @@
         "starting_xp": 100,
         "abilities": {
             "ZABRAK_A1": {
+                "display_name":"Fearsome Countenance",
                 "description": "Zabrak add automatic Advantage to all Coercion checks they make.",
                 "type": "Active" 
             },
             "ZABRAK_A2": {
-                "description": "This is an example of a Passive Skill. The application will automatically apply the ability to the character and no further action is needed.",
-                "type": "Begin with one rank in Survival."
+                "display_name":"Survival",
+                "description": "Begin with one rank in Survival.",
+                "type": "Passive"
             } 
-        },
-        "description": "Zabrak resemble humans in skin tone and physique, but they are easlity distinguished by their vestigial horns. They are renowned for both their ingerent confidence and their martial prowess."
+        }
     }
 }
