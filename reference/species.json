@@ -516,7 +516,7 @@
         "starting_xp": 100,
         "abilities": {
             "TWILEK_A1": {
-                "display_name": "Desert Swellers",
+                "display_name": "Desert Dwellers",
                 "description": "When making skill checks, Twi'leks may remove 1 Setback imposed due to arid or hot environmental conditions.",
                 "type": "Active" 
             },

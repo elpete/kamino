@@ -69,7 +69,8 @@ export default class SpeciesSelection extends Component {
         ));
 
         const abilities = Object.keys(speciesRef[species].abilities).map(key => (
-            <p key = {key}>{speciesRef[species].abilities[key].description}
+            <p key = {key}>
+                <b>{speciesRef[species].abilities[key].display_name}: </b> {speciesRef[species].abilities[key].description}
                 <sup>[{speciesRef[species].abilities[key].type}]</sup>
             </p>
         ));
