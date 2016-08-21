@@ -15,12 +15,12 @@
         "starting_xp": 85,
         "abilities": {
             "BESALISK_A1": {
-                "display_name":"Additional Limbs",
+                "display_name": "Additional Limbs",
                 "description": "Besalisks have multiple sets of arms. As a result, they gain an additional free maneuver per turn, though still may not perform more than two maneuvers per turn.",
                 "type": "Active" 
             },
             "BESALISK_A2": {
-                "display_name":"Resilence",
+                "display_name": "Resilence",
                 "description": "Begin with one rank in Resilence.",
                 "type": "Passive"
             } 
@@ -80,6 +80,38 @@
             } 
         }
     },
+    "DROID": {
+        "display_name": "Droid",
+        "description": "Droids serve a variety of roles, including security and conflict resolution, surgery and medicine, mechanical repairs, construction astrogation and piloting, and machanical labor. While many of these droids have only rudimentary intelligence, some are capable of independant thought.",
+        "starting_characteristics": {
+            "BRAWN": 1,
+            "AGILITY": 1,
+            "INTELLECT": 1,
+            "CUNNING": 1,
+            "WILLPOWER": 1,
+            "PRESENCE": 1
+        },
+        "base_wound_threshold": 10,
+        "base_strain_threshold": 10,
+        "starting_xp": 175,
+        "abilities": {
+            "DROID_A1": {
+                "display_name": "Cybernetics",
+                "description": "Cybetic implant cap of 6 instead of Brawn rating.",
+                "type": "Active"
+            },
+            "DROID_A2": {
+                "display_name": "Inorganic",
+                "description": "Droids do not need to eat, sleep, or breathe, and they are unaffected by toxins or posions.",
+                "type": "Active" 
+            },
+            "DROID_A3": {
+                "display_name": "Additional Skills",
+                "description": "Train one rank in two additional career skills and one additional Specialization Skill.",
+                "type": "Active" 
+            }
+        }
+    },
     "DUG": {
         "display_name": "Dug",
         "description": "On many worlds across the galaxy, Dugs have reputation as mean-spirited brutes with an outsized inferiority complex. While this stereotype is not particularly fair, ut has proven difficult for the Dugs to shake, in large part becasue of their ongoing conflicts with the Gran colonists on their homeworld of Malastare. Despite their short stature, most Dugs are quite strong, as is apparent from their muscular arms and legs. Dug culture has a decidedly stubborn and militaristic bent, and many Dugs believe that the potential greatness of their species is repressed by the Republic, then the Empire, and most especially by the Grans.",
@@ -107,38 +139,6 @@
             } 
         }
     },
-    "DROID": {
-        "display_name": "Droid",
-        "description": "Droids serve a variety of roles, including security and conflict resolution, surgery and medicine, mechanical repairs, construction astrogation and piloting, and machanical laboe. While many of these droids have only rudimentary intelligence, some are capable of independant thought.",
-        "starting_characteristics": {
-            "BRAWN": 1,
-            "AGILITY": 1,
-            "INTELLECT": 1,
-            "CUNNING": 1,
-            "WILLPOWER": 1,
-            "PRESENCE": 1
-        },
-        "base_wound_threshold": 10,
-        "base_strain_threshold": 10,
-        "starting_xp": 175,
-        "abilities": {
-            "DROID_A1": {
-                "display_name": "Cybernetics",
-                "description": "Cybetic implant cap of 6 instead of Brawn rating.",
-                "type": "Active"
-            },
-            "DROID_A2": {
-                "display_name": "Inorganic",
-                "description": "Do not need to eat, sleep, or breathe, and they are unaffected by toxins or posions.",
-                "type": "Active" 
-            },
-            "DROID_A3": {
-                "display_name": "Additional Skills",
-                "description": "Train one rank in two additional career skills and one rank in one additional Specialization Skill.",
-                "type:" "Active"
-            } 
-        }
-    },
     "FALLEEN": {
         "display_name": "Falleen",
         "description": "Beneath the glamorous reptilian features and serene facade of the mysterious Falleen lies a shrewd mind and cold-blooded precision. A Falleen uses wiles and unique pheromones, ontoxicating to most species, to achieve great things and manipulare members of other species with ease.",
@@ -162,6 +162,28 @@
             "FALLEEN_A2": {
                 "display_name": "Charm",
                 "description": "Begin with one rank in Charm.",
+                "type": "Passive"
+            } 
+        }
+    },
+    "HUMAN": {
+        "display_name": "Human",
+        "description": "Humans are the most common form of sentient life in the galaxy. Characterized by an exceptional degree of adaptability, they have come to reside on most of the galaxy's habitable worlds. Human cultures have explored much of the galaxy and established many colonies.",
+        "starting_characteristics": {
+            "BRAWN": 2,
+            "AGILITY": 2,
+            "INTELLECT": 2,
+            "CUNNING": 2,
+            "WILLPOWER": 2,
+            "PRESENCE": 2
+        },
+        "base_wound_threshold": 10,
+        "base_strain_threshold": 10,
+        "starting_xp": 110,
+        "abilities": {
+            "HUMAN_A1": {
+                "display_name": "Well Rounded",
+                "description": "Start with one rank each in two different non-career skills.",
                 "type": "Passive"
             } 
         }
@@ -216,28 +238,6 @@
             "GOTAL_A2": {
                 "display_name": "Perception",
                 "description": "Begin with one rank in Perception skill.",
-                "type": "Passive"
-            } 
-        }
-    },
-    "HUMAN": {
-        "display_name": "Human",
-        "description": "Humans are the most common form of sentient life in the galaxy. Characterized by an exceptional degree of adaptability, they have come to reside on most of the galaxy's habitable worlds. Human cultures have explored much of the galaxy and established many colonies.",
-        "starting_characteristics": {
-            "BRAWN": 2,
-            "AGILITY": 2,
-            "INTELLECT": 2,
-            "CUNNING": 2,
-            "WILLPOWER": 2,
-            "PRESENCE": 2
-        },
-        "base_wound_threshold": 10,
-        "base_strain_threshold": 10,
-        "starting_xp": 110,
-        "abilities": {
-            "HUMAN_A1": {
-                "display_name": "Well Rounded",
-                "description": "Start with one rank each in two different non-career skills.",
                 "type": "Passive"
             } 
         }
@@ -299,7 +299,7 @@
                 "description": "Begin with one rank in Cool skill.",
                 "type": "Passive"
             } 
-        },
+        }
     },
     "MUSTAFARIAN_NORTHERN": {
         "display_name": "Mustafarian (Northern)",
@@ -552,7 +552,7 @@
                 "description": "Begin with one rank in Brawl skill.",
                 "type": "Passive"
             } 
-        },
+        }
     },
     "ZABRAK": {
         "display_name": "Zabrak",
