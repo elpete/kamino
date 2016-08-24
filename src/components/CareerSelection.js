@@ -57,6 +57,7 @@ export default class CareerSelection extends Component {
 
         return (
             <div className = "well">
+
                 <div className = "row form-group form-group-lg">
                     <h3 className = "text-center">Select a Career</h3>
                     <div className = "col-sm-offset-3 col-sm-6">
@@ -69,7 +70,11 @@ export default class CareerSelection extends Component {
                         </select>
                     </div>
                 </div>
-                <Career career = { currentCareer }/>
+
+                <div className = "row col-sm-offset-1 col-sm-10">
+                    <Career career = { currentCareer }/>
+                </div>
+
                 <div className = "row">
                     <button 
                         onClick = { this.toSpecies.bind(this) } 
@@ -82,6 +87,7 @@ export default class CareerSelection extends Component {
                         Continue to Initial Skill Selection <span className = "glyphicon glyphicon-menu-right"></span>
                     </button>
                 </div>
+
             </div>
         )
     }
